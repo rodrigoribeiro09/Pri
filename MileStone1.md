@@ -1,9 +1,22 @@
+
+
+
+# 1º Milestone
+## Abstract
+Music information is an important area in modern information systems, with applications ranging from recommendation engines to lyric-based search platforms. In this project, we present Tunix, a text-based search system inspired by Shazam, but designed to work without audio input. Instead, Tunix allows users to search for songs by typing lyrics, retrieving corresponding tracks, artists, and descriptive metadata.
+
+The final system aims to provide efficient lyric-based search functionality, offering accurate results along with artist descriptions and related attributes, thereby improving music discovery through text queries.
+
+## Introduction
+Music retrieval systems such as Shazam have transformed how users interact with music, but they are primarily based on audio fingerprinting. In many cases, users may remember a fragment of lyrics rather than the melody. This project addresses this gap by creating Tunix, a system that retrieves songs, artists, and related information based on text queries derived from lyrics.
+
+Tunix will integrate datasets containing tracks, artists, lyrics, and metadata into a unified and searchable database. The system is designed to return not only the matching track but also relevant contextual information such as artist biography and related metadata. This project contributes to the field of Information Retrieval by developing a structured pipeline for music data collection and preparation, enabling efficient and accurate text-based search functionalities.
+
+
+
 #  Data Preparation
-## Idea:
-- The main idea of this project is to develop an information retrieval system for a music dataset, where users can search for songs and explore relationships with their artists and other important attributes.
-- In this context, the main unstructured attributes are the song lyrics and the artist descriptions.
-- Our approach is to find a rich music dataset that contains a large collection of songs from different artists, with the lyrics included as an attribute, and then combine it with another dataset that provides detailed artist descriptions.
-- Alternatively, we plan to retrieve the artist descriptions from the Wikipedia API to enrich the dataset.
+
+
 ## search repositories for datasets
 
 | Dataset URL | Attributes | Pros | Cons | Database Type |
@@ -24,17 +37,3 @@
 | Wikidata | SPARQL queries on Wikidata endpoint | Very structured; easy to link with other datasets via QIDs; can extract multiple attributes | Not all artists have detailed biographies; abstracts are shorter than Wikipedia; requires SPARQL knowledge |
 | Last.fm API | Queries the `artist.getInfo` endpoint to get `bio.content` | Easy to use; provides textual content ready for NLP | Low rate limiting (but manageable if calls are distributed) |
 | Genius API | Queries the `/search` endpoint and retrieves the artist page `/artists/:id` | Focused on artist bios; very rich content | Low rate limiting; requires an API key |
-
-
-
-# 1º Milestone
-## Abstract
-Music information is an important area in modern information systems, with applications ranging from recommendation engines to lyric-based search platforms. In this project, we present Tunix, a text-based search system inspired by Shazam, but designed to work without audio input. Instead, Tunix allows users to search for songs by typing lyrics, retrieving corresponding tracks, artists, and descriptive metadata.
-
-The final system aims to provide efficient lyric-based search functionality, offering accurate results along with artist descriptions and related attributes, thereby improving music discovery through text queries.
-
-## Introduction
-Music retrieval systems such as Shazam have transformed how users interact with music, but they are primarily based on audio fingerprinting. In many cases, users may remember a fragment of lyrics rather than the melody. This project addresses this gap by creating Tunix, a system that retrieves songs, artists, and related information based on text queries derived from lyrics.
-
-Tunix will integrate datasets containing tracks, artists, lyrics, and metadata into a unified and searchable database. The system is designed to return not only the matching track but also relevant contextual information such as artist biography and related metadata. This project contributes to the field of Information Retrieval by developing a structured pipeline for music data collection and preparation, enabling efficient and accurate text-based search functionalities.
-
