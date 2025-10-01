@@ -87,7 +87,21 @@ def get_music_info(musicId):
     albumName=data["response"]["song"]["album"]["name"]
     return plain_text,realease_date,albumId,albumName
   
+
+#Working but not doing nothing the txt is just to check the json atributes
+def get_album_info(albumId):
+    # get musicDescription,realease_date,albumId,albumName
+    headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
+    response = requests.get(f"{BASE_URL}/albums/{albumId}", headers=headers)
+    if response.status_code != 200:
+        print("Error:", response.status_code, response.text)
+        return None
+    data = response.json()
+    save_json_to_txt(data,"album")
+  
+
 if __name__ == "__main__":
+    
     song_id,artist_id = get_artist_song_id("Hello", "Adele")
     plain_text,followers,artistName=get_artist_info(artist_id)
     print(plain_text,followers,artistName)
