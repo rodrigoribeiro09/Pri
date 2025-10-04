@@ -38,8 +38,8 @@ def extract_text(dom):
         return "".join(extract_text(item) for item in dom)
     return ""
 
-
-def safe_request(url, params=None, retries=3, delay=2):
+#needed because the genius api block some of the requests
+def safe_request(url, params=None, retries=3, delay=0):
     """Request with timeout and retry"""
     headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
     for attempt in range(retries):
@@ -102,7 +102,7 @@ def get_music_info(musicId):
     plain_text = extract_text(description.get("dom", []))
   
     print(f"plain_text,{plain_text}")
-    release_date = song.get("release_date", None)
+    release_date = song.get("release_date", "None")
 
     album = song.get("album", {})
 
@@ -129,7 +129,7 @@ def load_progress():
 def getNewProcessData(csv_path,index=0,artist_dict=None):
     print(f"index values {index}")
     os.makedirs("processData", exist_ok=True)
-    
+    batch_size=20 # write 20 by 20
     artist_csv = os.path.join("processData", "artist.csv")
     song_csv = os.path.join("processData", "song.csv")
     
@@ -144,6 +144,10 @@ def getNewProcessData(csv_path,index=0,artist_dict=None):
     
     artists = artist_dict if artist_dict is not None else {}
     artist_id = len(artists)
+
+    artist_buffer = []
+    song_buffer = []
+
     for _, row in df.iloc[index:].iterrows():
         artist = row['artist']
         song = row['song']
@@ -166,9 +170,9 @@ def getNewProcessData(csv_path,index=0,artist_dict=None):
                     c += 1
                     continue
                 plain_textArtist, followers, artistName = info
-                pd.DataFrame([[artist_id,realArtistId, artistName,plain_textArtist,followers]], columns=["id","api_id" "artist_name","artist_bio","followers"]).to_csv(
-                    artist_csv, mode='a', header=False, index=False
-                )
+               
+                artist_buffer.append([artist_id, realArtistId, artistName, plain_textArtist, followers])
+
                 artist_id+=1
                 print(artist_id)
             fakeArtistid=artists[realArtistId]
@@ -178,11 +182,25 @@ def getNewProcessData(csv_path,index=0,artist_dict=None):
                 c += 1
                 continue
             plain_textMusic, realease_date, albumId, albumName = music
-            pd.DataFrame([[c, realSongId,fakeArtistid,text,plain_textMusic,albumName,realease_date]], columns=["id","api_id", "artist_id","lyrics","music_description","album_Name","realease_date"]).to_csv(
-                    song_csv, mode='a', header=False, index=False
-                )
+            song_buffer.append([c, realSongId, fakeArtistid, text, plain_textMusic, albumName, realease_date])
+
+            
             
             c+=1
+
+            if len(artist_buffer) >= batch_size:
+                pd.DataFrame(artist_buffer, columns=["id", "api_id", "artist_name", "artist_bio", "followers"]).to_csv(
+                    artist_csv, mode='a', header=False, index=False
+                )
+                artist_buffer.clear()
+
+            if len(song_buffer) >= batch_size:
+                pd.DataFrame(song_buffer, columns=["id", "api_id", "artist_id", "lyrics", "music_description", "album_Name", "release_date"]).to_csv(
+                    song_csv, mode='a', header=False, index=False
+                )
+                song_buffer.clear()
+
+            save_progress(c, artists)
             save_progress(c, artists)
 
         except Exception as e:
