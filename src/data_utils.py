@@ -11,9 +11,13 @@ def load_data():
     return csv_songs
 
 
-import pandas as pd
+def load_process_data():
+    csv_songs = pd.read_csv('processData/song.csv')
+    csv_artist = pd.read_csv('processData/artist.csv')
+    print("data loaded")
 
-import pandas as pd
+    return csv_songs, csv_artist
+
 
 
 def averaNSongPerArtist(df):
@@ -117,6 +121,101 @@ def plot_column_frequency(df, col, top_n=20):
     plt.title(f"Top {top_n} Most Frequent Values in '{col}'")
     plt.xlabel(col)
     plt.ylabel("Frequency")
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.show()
+
+
+
+def dataProcessAnalysis(df):
+    """
+    Perform basic exploratory data analysis on a DataFrame.
+    Prints dataset overview, missing values, duplicates, basic stats, and sample distributions.
+    """
+    
+    print("===== DATAFRAME SHAPE =====")
+    print(f"Rows: {df.shape[0]}, Columns: {df.shape[1]}\n")
+    
+    print("===== COLUMN NAMES AND DATA TYPES =====")
+    print(df.dtypes, "\n")
+    
+
+    print("===== MISSING VALUES =====")
+    missing = df.isnull().sum()
+    print(missing[missing > 0] if missing.sum() > 0 else "No missing values\n")
+    
+    print("===== DUPLICATE ROWS =====")
+    dup_rows = df[df.duplicated()]
+    print(f"Number of duplicate rows: {dup_rows.shape[0]}\n")
+    
+    
+    print("===== UNIQUE VALUES PER COLUMN =====")
+    for col in df.columns:
+        print(f"{col}: {df[col].nunique()} unique values")
+    print()
+
+    print("===== MOST FREQUENT VALUES FOR CATEGORICAL COLUMNS =====")
+    cat_cols = df.select_dtypes(include='object')
+    for col in cat_cols:
+        top = df[col].value_counts().head(5)
+        print(f"{col}:\n{top}\n")
+
+    
+
+
+
+def count_short_values(df: pd.DataFrame, column: str) -> int:
+  
+    return df[column].astype(str).apply(len).lt(4).sum()
+
+
+def plot_short_string_values(df: pd.DataFrame, column: str, min_len: int = 4):
+    """
+    Mostra um gráfico de barras com a frequência de strings 
+    com comprimento menor que 'min_len' numa dada coluna.
+
+    Args:
+        df (pd.DataFrame): DataFrame a analisar.
+        column (str): Nome da coluna.
+        min_len (int): Comprimento máximo para considerar 'curto'. Default = 4.
+    """
+    # Seleciona apenas strings curtas
+    short_values = df[column].dropna().astype(str)
+    short_values = short_values[short_values.str.len() < min_len]
+
+    if short_values.empty:
+        print(f"Nenhum valor com len < {min_len} na coluna '{column}'.")
+        return
+
+    # Conta a frequência de cada valor curto
+    value_counts = short_values.value_counts()
+
+    # Cria o gráfico
+    plt.figure(figsize=(6, 4))
+    value_counts.plot(kind='bar', color='skyblue', edgecolor='black')
+    plt.title(f"Valores com len < {min_len} na coluna '{column}'")
+    plt.xlabel("Valor")
+    plt.ylabel("Frequência")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_top_frequent_strings(df, column: str, top_n: int = 10):
+  
+    
+    value_counts = df[column].dropna().astype(str).value_counts().head(top_n)
+
+    if value_counts.empty:
+        print(f"Nenhum valor válido encontrado na coluna '{column}'.")
+        return
+
+    # Cria o gráfico
+    plt.figure(figsize=(8, 5))
+    value_counts.plot(kind='bar', color='steelblue', edgecolor='black')
+    plt.title(f"Top {top_n} strings mais frequentes em '{column}'")
+    plt.xlabel("Valor")
+    plt.ylabel("Frequência")
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.show()
