@@ -157,28 +157,42 @@ def dataProcessAnalysis(df):
     
 
     
+import matplotlib.pyplot as plt
+
+
 def getWrongArtistBios(df):
-    # Filter conditions
+    # IDs where artist_bio starts with "There are"
     multiple_artistsId = df.loc[df['lastfm_artist_bio'].str.startswith("There are", na=False), 'id'].tolist()
 
-# IDs where artist_bio is exactly "Read more on Last.fm"
+    # IDs where artist_bio is exactly "Read more on Last.fm"
     read_moreId = df.loc[df['lastfm_artist_bio'].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
+    
+    # IDs where artist_bio is null
+    null_ids = df.loc[df['lastfm_artist_bio'].isnull(), 'id'].tolist()
+ 
+    return multiple_artistsId ,read_moreId , null_ids
+
+
+def printWrongArtistBios(df):
+    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(df)
 
 
     # Count occurrences
     counts = {
         "Starts with 'There are'": len(multiple_artistsId),
-        "Read more on Last.fm": len(read_moreId)
+        "Read more on Last.fm": len(read_moreId),
+        "Null values": len(null_ids)
     }
 
     # Show plot
-    plt.bar(counts.keys(), counts.values())
+    plt.bar(counts.keys(), counts.values(), color=['skyblue', 'salmon', 'lightgreen'])
     plt.title("Contagem de artist_bio problemáticos")
     plt.ylabel("Número de ocorrências")
     plt.xticks(rotation=15)
     plt.show()
 
-    return  multiple_artistsId+read_moreId
+    # Return all problematic IDs as a single list
+    return multiple_artistsId + read_moreId + null_ids
 
 
 def getWrongMusic(df, wrong_ids):
@@ -289,3 +303,44 @@ def plot_top_frequent_strings(df, column: str, top_n: int = 10):
     plt.show()
 
 
+def process_artistData(artist):
+    if "lastfm_artist_name" in artist.columns:
+        artist.rename(columns={'lastfm_artist_name': 'artist_name'}, inplace=True)
+
+    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(artist)
+    wrong_ids = multiple_artistsId + read_moreId + null_ids
+    artist = artist[~artist['id'].isin(wrong_ids)]
+
+
+    return artist,wrong_ids
+
+def process_songData(song, wrong_ids):
+    # Rename and drop columns
+    if "lastfm_album_name" in song.columns:
+        song.rename(columns={"lastfm_album_name": "album_name"}, inplace=True)
+    if "lastfm_release_date" in song.columns:
+        song.drop(columns=["lastfm_release_date"], inplace=True)
+    if "lastfm_track_description" in song.columns:
+        song.drop(columns=["lastfm_track_description"], inplace=True)
+    if "link" in song.columns:
+        song.drop(columns=["link"], inplace=True)
+    
+    # Fill missing album names
+    song['album_name'].fillna('Single', inplace=True)
+
+    # Remove songs whose artist was invalid
+    song = song[~song['artist_id'].isin(wrong_ids)]
+    
+    # Add song ID if missing
+    if "id" not in song.columns:
+        song.insert(0, 'id', range(1, len(song) + 1))
+
+    return song
+
+
+
+def process_dataFinal(artist,song):
+    artist,wrong_id=process_artistData(artist)
+    song=process_songData(song,wrong_id)
+
+    return artist,song
