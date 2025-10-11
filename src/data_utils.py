@@ -154,15 +154,83 @@ def dataProcessAnalysis(df):
         print(f"{col}: {df[col].nunique()} unique values")
     print()
 
-    print("===== MOST FREQUENT VALUES FOR CATEGORICAL COLUMNS =====")
-    cat_cols = df.select_dtypes(include='object')
-    for col in cat_cols:
-        top = df[col].value_counts().head(5)
-        print(f"{col}:\n{top}\n")
-
     
 
+    
+def getWrongArtistBios(df):
+    # Filter conditions
+    multiple_artistsId = df.loc[df['lastfm_artist_bio'].str.startswith("There are", na=False), 'id'].tolist()
 
+# IDs where artist_bio is exactly "Read more on Last.fm"
+    read_moreId = df.loc[df['lastfm_artist_bio'].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
+
+
+    # Count occurrences
+    counts = {
+        "Starts with 'There are'": len(multiple_artistsId),
+        "Read more on Last.fm": len(read_moreId)
+    }
+
+    # Show plot
+    plt.bar(counts.keys(), counts.values())
+    plt.title("Contagem de artist_bio problemáticos")
+    plt.ylabel("Número de ocorrências")
+    plt.xticks(rotation=15)
+    plt.show()
+
+    return  multiple_artistsId+read_moreId
+
+
+def getWrongMusic(df, wrong_ids):
+    # Filter rows where artist_id is in wrong_ids
+    wrong_music = df[df['artist_id'].isin(wrong_ids)]
+    
+    # Return only the song titles as a list
+    d= wrong_music['song'].tolist()
+
+    print("number of music that have wrong artist bio:")
+    print(len(d))
+    print("Music names")
+    print(d)
+    return d
+
+
+def addIdToArtist(artistcsv):
+    df_artsit=  pd.read_csv(artistcsv)
+    if 'id' not in df_artsit.columns:
+        df_artsit.insert(0, 'id', range(1, len(df_artsit) + 1))
+        df_artsit.to_csv(artistcsv, index=False)
+        print(f"'id' column added to {artistcsv}.")
+
+def remove_lastfm_artist_name(artistcsv):
+    df_artsit=  pd.read_csv(artistcsv)
+    if 'lastfm_artist_name' in df_artsit.columns:
+        df_artsit.drop(columns=['lastfm_artist_name'], inplace=True)
+        df_artsit.to_csv(artistcsv, index=False)
+        print(f"'lastfm_artist_name' column removed from {artistcsv}.")
+    
+def connectArtistSong(artistcsv, songcsv):
+    df_artist = pd.read_csv(artistcsv)
+    df_song = pd.read_csv(songcsv)
+
+    merged_df = pd.merge(
+        df_song,
+        df_artist[['id', 'artist']],
+        on='artist', 
+        how='left'
+    )
+
+    merged_df.drop(columns=['artist'], inplace=True)
+    merged_df.rename(columns={'id': 'artist_id'}, inplace=True)
+
+    return merged_df
+
+def removeLinkToSong(df):
+    if 'link' in df.columns:
+        df.drop(columns=['link'], inplace=True)
+        print("'link' column removed from DataFrame.")
+    else:
+        print("No 'link' column found.")
 
 def count_short_values(df: pd.DataFrame, column: str) -> int:
   
@@ -219,3 +287,5 @@ def plot_top_frequent_strings(df, column: str, top_n: int = 10):
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.show()
+
+
