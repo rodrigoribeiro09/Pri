@@ -160,22 +160,22 @@ def dataProcessAnalysis(df):
 import matplotlib.pyplot as plt
 
 
-def getWrongArtistBios(df):
+def getWrongArtistBios(df, col='artist_bio'):
     # IDs where artist_bio starts with "There are"
-    multiple_artistsId = df.loc[df['lastfm_artist_bio'].str.startswith("There are", na=False), 'id'].tolist()
+    multiple_artistsId = df.loc[df[col].str.startswith("There are", na=False), 'id'].tolist()
 
     # IDs where artist_bio is exactly "Read more on Last.fm"
-    read_moreId = df.loc[df['lastfm_artist_bio'].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
+    read_moreId = df.loc[df[col].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
     
     # IDs where artist_bio is null
-    null_ids = df.loc[df['lastfm_artist_bio'].isnull(), 'id'].tolist()
- 
+    null_ids = df.loc[df[col].isnull(), 'id'].tolist()
+
     return multiple_artistsId ,read_moreId , null_ids
 
 
 def printWrongArtistBios(df):
-    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(df)
 
+    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(df)
 
     # Count occurrences
     counts = {
@@ -303,11 +303,14 @@ def plot_top_frequent_strings(df, column: str, top_n: int = 10):
     plt.show()
 
 
-def process_artistData(artist):
+def process_artistData(artist, col='artist_bio'):
     if "lastfm_artist_name" in artist.columns:
         artist.rename(columns={'lastfm_artist_name': 'artist_name'}, inplace=True)
+    if "lastfm_artist_bio" in artist.columns:
+        artist.rename(columns={'lastfm_artist_bio': 'artist_bio'}, inplace=True)
+    artist['artist_bio'] = artist['artist_bio'].str.replace(r'\s*Read more on Last\.fm.*$', '', regex=True, case=False)
 
-    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(artist)
+    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(artist,col=col)
     wrong_ids = multiple_artistsId + read_moreId + null_ids
     artist = artist[~artist['id'].isin(wrong_ids)]
 
@@ -336,6 +339,8 @@ def process_songData(song, wrong_ids):
         song.insert(0, 'id', range(1, len(song) + 1))
 
     return song
+
+
 
 
 
