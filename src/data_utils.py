@@ -112,7 +112,6 @@ def plot_column_frequency(df, col, top_n=20):
     if col not in df.columns:
         raise ValueError(f"Column '{col}' not found in the DataFrame.")
     
-    # Contar frequência de cada valor
     counts = df[col].value_counts().head(top_n)
     
     # Plot
@@ -261,7 +260,6 @@ def plot_short_string_values(df: pd.DataFrame, column: str, min_len: int = 4):
         column (str): Nome da coluna.
         min_len (int): Comprimento máximo para considerar 'curto'. Default = 4.
     """
-    # Seleciona apenas strings curtas
     short_values = df[column].dropna().astype(str)
     short_values = short_values[short_values.str.len() < min_len]
 
@@ -269,10 +267,8 @@ def plot_short_string_values(df: pd.DataFrame, column: str, min_len: int = 4):
         print(f"Nenhum valor com len < {min_len} na coluna '{column}'.")
         return
 
-    # Conta a frequência de cada valor curto
     value_counts = short_values.value_counts()
 
-    # Cria o gráfico
     plt.figure(figsize=(6, 4))
     value_counts.plot(kind='bar', color='skyblue', edgecolor='black')
     plt.title(f"Valores com len < {min_len} na coluna '{column}'")
@@ -292,7 +288,6 @@ def plot_top_frequent_strings(df, column: str, top_n: int = 10):
         print(f"Nenhum valor válido encontrado na coluna '{column}'.")
         return
 
-    # Cria o gráfico
     plt.figure(figsize=(8, 5))
     value_counts.plot(kind='bar', color='steelblue', edgecolor='black')
     plt.title(f"Top {top_n} strings mais frequentes em '{column}'")
@@ -318,7 +313,6 @@ def process_artistData(artist, col='artist_bio'):
     return artist,wrong_ids
 
 def process_songData(song, wrong_ids):
-    # Rename and drop columns
     if "lastfm_album_name" in song.columns:
         song.rename(columns={"lastfm_album_name": "album_name"}, inplace=True)
     if "lastfm_release_date" in song.columns:
@@ -328,10 +322,8 @@ def process_songData(song, wrong_ids):
     if "link" in song.columns:
         song.drop(columns=["link"], inplace=True)
     
-    # Fill missing album names
     song['album_name'].fillna('Single', inplace=True)
 
-    # Remove songs whose artist was invalid
     song = song[~song['artist_id'].isin(wrong_ids)]
     
     # Add song ID if missing

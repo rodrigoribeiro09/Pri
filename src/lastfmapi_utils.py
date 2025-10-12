@@ -221,7 +221,6 @@ def augment_csv_with_lastfm(
     songs_out_path = out_csv_path
     artists_out_path = out_csv_path.replace('.csv', '_artists.csv')
 
-    # sobrescrever o ficheiro de saída se pedido
     if overwrite and os.path.exists(out_csv_path):
         os.remove(out_csv_path)
 

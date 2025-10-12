@@ -2,11 +2,9 @@ import os
 import pandas as pd
 from lastfmapi_utils import augment_csv_with_lastfm
 
-# garante que a pasta processData existe
 process_dir = r"c:\FEUP\MEIC\PRI\processData"
 os.makedirs(process_dir, exist_ok=True)
 
-# entrada e saída dentro de processData
 csv_path = r"c:\FEUP\MEIC\PRI\dataset\spotify_millsongdata.csv"
 out_csv_path = os.path.join(process_dir, "spotify_millsongdata_with_lastfm.csv")
 progress_file = os.path.join(process_dir, "lastfm_progress.json")
@@ -14,10 +12,10 @@ progress_file = os.path.join(process_dir, "lastfm_progress.json")
 augment_csv_with_lastfm(
     csv_path,
     out_csv_path=out_csv_path,
-    overwrite=False,         # muda para True se quiser forçar recriação
-    chunk_size=200,          # ajusta conforme a RAM disponível
+    overwrite=False,         
+    chunk_size=200,         
     progress_file=progress_file,
-    sleep_between_calls=0.2  # para evitar rate-limit
+    sleep_between_calls=0.2  
 )
 
 print("Processamento completo!")
