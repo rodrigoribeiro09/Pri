@@ -162,13 +162,13 @@ import matplotlib.pyplot as plt
 
 def getWrongArtistBios(df):
     # IDs where artist_bio starts with "There are"
-    multiple_artistsId = df.loc[df['lastfm_artist_bio'].str.startswith("There are", na=False), 'id'].tolist()
+    multiple_artistsId = df.loc[df['artist_bio'].str.startswith("There are", na=False), 'id'].tolist()
 
     # IDs where artist_bio is exactly "Read more on Last.fm"
-    read_moreId = df.loc[df['lastfm_artist_bio'].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
+    read_moreId = df.loc[df['artist_bio'].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
     
     # IDs where artist_bio is null
-    null_ids = df.loc[df['lastfm_artist_bio'].isnull(), 'id'].tolist()
+    null_ids = df.loc[df['artist_bio'].isnull(), 'id'].tolist()
  
     return multiple_artistsId ,read_moreId , null_ids
 
@@ -306,6 +306,9 @@ def plot_top_frequent_strings(df, column: str, top_n: int = 10):
 def process_artistData(artist):
     if "lastfm_artist_name" in artist.columns:
         artist.rename(columns={'lastfm_artist_name': 'artist_name'}, inplace=True)
+    if "lastfm_artist_bio" in artist.columns:
+        artist.rename(columns={'lastfm_artist_bio': 'artist_bio'}, inplace=True)
+    artist['artist_bio'] = artist['artist_bio'].str.replace(r'\s*Read more on Last\.fm.*$', '', regex=True, case=False)
 
     multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(artist)
     wrong_ids = multiple_artistsId + read_moreId + null_ids
@@ -336,6 +339,8 @@ def process_songData(song, wrong_ids):
         song.insert(0, 'id', range(1, len(song) + 1))
 
     return song
+
+
 
 
 
