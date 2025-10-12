@@ -161,20 +161,27 @@ import matplotlib.pyplot as plt
 
 def getWrongArtistBios(df, col='artist_bio'):
     # IDs where artist_bio starts with "There are"
-    multiple_artistsId = df.loc[df[col].str.startswith("There are", na=False), 'id'].tolist()
+    multiple_artistsId = df.loc[
+    df[col].str.contains(r'^\s*there are\b', case=False, na=False, regex=True),
+    'id'
+    ].tolist()
+    
 
     # IDs where artist_bio is exactly "Read more on Last.fm"
-    read_moreId = df.loc[df[col].str.strip().eq("Read more on Last.fm"), 'id'].tolist()
-    
+    read_moreId = df.loc[
+        df[col].str.replace(r'[\r\n\t]+', '', regex=True).str.strip().eq("Read more on Last.fm"),
+        'id'
+    ].tolist()    
     # IDs where artist_bio is null
-    null_ids = df.loc[df[col].isnull(), 'id'].tolist()
-
-    return multiple_artistsId ,read_moreId , null_ids
+    null_artist_bio = df.loc[df[col].isnull(), 'id'].tolist()
 
 
-def printWrongArtistBios(df):
+    return multiple_artistsId ,read_moreId , null_artist_bio
 
-    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(df)
+
+def printWrongArtistBios(df,col):
+
+    multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(df,col)
 
     # Count occurrences
     counts = {
@@ -303,12 +310,16 @@ def process_artistData(artist, col='artist_bio'):
         artist.rename(columns={'lastfm_artist_name': 'artist_name'}, inplace=True)
     if "lastfm_artist_bio" in artist.columns:
         artist.rename(columns={'lastfm_artist_bio': 'artist_bio'}, inplace=True)
-    artist['artist_bio'] = artist['artist_bio'].str.replace(r'\s*Read more on Last\.fm.*$', '', regex=True, case=False)
 
     multiple_artistsId, read_moreId, null_ids = getWrongArtistBios(artist,col=col)
     wrong_ids = multiple_artistsId + read_moreId + null_ids
+    print(len(multiple_artistsId), len(read_moreId), len(null_ids))
+    print(f"Antes: {len(artist)} artistas")
+    print(f"A remover: {len(wrong_ids)} artistas problemáticos")
     artist = artist[~artist['id'].isin(wrong_ids)]
+    print(f"Depois: {len(artist)} artistas")
 
+    artist['artist_bio'] = artist['artist_bio'].str.replace(r'\s*Read more on Last\.fm.*$', '', regex=True, case=False)
 
     return artist,wrong_ids
 
