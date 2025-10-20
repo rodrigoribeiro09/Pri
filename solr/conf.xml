@@ -1,0 +1,11 @@
+<field name="song_id" type="string" indexed="false" stored="true" required="true"/>
+<field name="song_name" type="text_general" indexed="true" stored="true"/>
+<field name="song_lyrics" type="text_en" indexed="true" stored="true"/>
+<field name="album_name" type="string" indexed="true" stored="true"/>
+<field name="album_name_text" type="text_general" indexed="true" stored="false"/>
+<field name="artist_name" type="string" indexed="true" stored="true"/>
+<field name="artist_name_text" type="text_general" indexed="true" stored="false"/>
+<field name="artist_bio" type="text_en" indexed="true" stored="true"/>
+
+<copyField source="album_name" dest="album_name_text"/>
+<copyField source="artist_name" dest="artist_name_text"/>
