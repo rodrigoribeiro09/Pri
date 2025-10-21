@@ -1,0 +1,13 @@
+<schema name="songs" version="1.6">
+
+
+  <uniqueKey>song_id</uniqueKey>
+
+  <field name="song_id" type="string" indexed="true" stored="true"/>
+  <field name="song_name" type="text_general" indexed="true" stored="true"/>
+  <field name="song_lyrics" type="text_general" indexed="true" stored="true"/>
+  <field name="album_name" type="string" indexed="true" stored="true"/>
+  <field name="artist_name" type="string" indexed="true" stored="true"/>
+  <field name="artist_bio" type="text_general" indexed="true" stored="true"/>
+  
+</schema>
