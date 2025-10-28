@@ -334,6 +334,8 @@ def process_songData(song, wrong_ids):
         song.drop(columns=["link"], inplace=True)
     
     song['album_name'].fillna('Single', inplace=True)
+    song['album_name'].replace('Single', 'No Album', inplace=True)
+    song['album_name'].replace('No album name', 'No Album', inplace=True)
 
     song = song[~song['artist_id'].isin(wrong_ids)]
     
@@ -344,7 +346,9 @@ def process_songData(song, wrong_ids):
     return song
 
 
-
+def process_albumData(song):
+    song['album_name'].replace(['Single', 'No album Name'], 'No Album', inplace=True)
+    return song
 
 
 def process_dataFinal(artist,song):

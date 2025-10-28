@@ -36,3 +36,43 @@
   - `indexed="true"` → searchable
   - `stored="true"` → returned in results
   - Enables searching for keywords or phrases in the artist’s bio
+
+## Tokenizers and Filters
+
+
+In this Solr schema for English song lyrics and artist biographies, we use a combination of **tokenizers** and **filters** to process text for better search performance.
+
+---
+
+## Tokenizers
+
+### StandardTokenizerFactory
+- **Purpose:** Splits text into individual words (tokens) based on whitespace and punctuation.
+- **Why:** Handles letters, numbers, and punctuation correctly, making it suitable for general English text such as lyrics and biographies.
+
+---
+
+## Filters
+
+### LowerCaseFilterFactory
+- **Purpose:** Converts all tokens to lowercase.
+- **Why:** Ensures searches are **case-insensitive**, so words like `"Love"` and `"love"` are treated the same.
+
+### StopFilterFactory
+- **Purpose:** Removes common English stopwords.
+- **Configuration:** Uses `ignoreCase="true"` and a stopwords file `stopwords.txt`.
+- **Why:** Words like `"a"`, `"the"`, `"and"`, `"is"` are very frequent but usually do not add meaning to search queries. Removing them reduces noise and improves relevance.
+- **Example:**
+
+```
+Input: "I am singing in the rain"
+Output: "singing rain"
+```
+
+### PorterStemFilterFactory
+- **Purpose:** Performs **stemming** on English words, reducing them to their root form.
+- **Why:** Helps match different word forms and increases recall.
+- **Example:**
+```
+"running", "ran", "runs" → "run"
+```
