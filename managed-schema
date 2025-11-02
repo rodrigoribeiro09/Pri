@@ -1,8 +1,9 @@
 <schema name="songs" version="1.6">
-
   
   <uniqueKey>id</uniqueKey>
 
+
+  <!-- Custom field types (only your specialized ones) -->
   <fieldType name="text_lyrics" class="solr.TextField" positionIncrementGap="100">
     <analyzer type="index">
       <tokenizer class="solr.StandardTokenizerFactory"/>
@@ -33,8 +34,7 @@
     </analyzer>
   </fieldType>
 
-  <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
-
+  <!-- Your fields -->
   <field name="id" type="string" indexed="true" stored="true"/>
   <field name="song_name" type="text_general" indexed="true" stored="true"/>
   <field name="song_lyrics" type="text_lyrics" indexed="true" stored="true"/>

@@ -1,4 +1,7 @@
 # Solar
+
+## analyze the documents and identify their indexable components:
+
 ## Schema
 
 - **song_id**

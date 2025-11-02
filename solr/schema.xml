@@ -1,0 +1,43 @@
+<schema name="songs" version="1.6">
+
+  <uniqueKey>id</uniqueKey>
+
+  <fieldType name="text_lyrics" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_bio" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <!-- Your fields -->
+  <field name="id" type="string" indexed="true" stored="true"/>
+  <field name="song_name" type="text_general" indexed="true" stored="true"/>
+  <field name="song_lyrics" type="text_lyrics" indexed="true" stored="true"/>
+  <field name="album_name" type="string" indexed="true" stored="true"/>
+  <field name="artist_name" type="string" indexed="true" stored="true"/>
+  <field name="artist_bio" type="text_bio" indexed="true" stored="true"/>
+
+</schema>
