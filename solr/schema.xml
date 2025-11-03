@@ -6,14 +6,15 @@
     <analyzer type="index">
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.LowerCaseFilterFactory"/>
-      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
-      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="English"/>
+
     </analyzer>
     <analyzer type="query">
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.LowerCaseFilterFactory"/>
-      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
-      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="English"/>
     </analyzer>
   </fieldType>
 
@@ -21,14 +22,14 @@
     <analyzer type="index">
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.LowerCaseFilterFactory"/>
-      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
-      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="English"/>
     </analyzer>
     <analyzer type="query">
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.LowerCaseFilterFactory"/>
-      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
-      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="English"/>
     </analyzer>
   </fieldType>
 
