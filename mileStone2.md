@@ -72,7 +72,7 @@ Input: "I am singing in the rain"
 Output: "singing rain"
 ```
 
-### PorterStemFilterFactory
+### SnowballPorterFilterFactory
 - **Purpose:** Performs **stemming** on English words, reducing them to their root form.
 - **Why:** Helps match different word forms and increases recall.
 - **Example:**
