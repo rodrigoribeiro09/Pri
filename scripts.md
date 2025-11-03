@@ -18,3 +18,4 @@ docker cp solr/stopwords.txt song_solr:/var/solr/data/songs/conf/stopwords.txt
 - os filtros estao a ser chamados mas nao aplicados
 - stop words not working-working
 - psf working
+
