@@ -102,11 +102,14 @@ The integrated dataset enables multiple information retrieval scenarios:
 
 • Search songs by sentiment: Ability to find songs based
 on emotions or mood expressed in the lyrics.
+
 • Similarity-based search: Find artists or tracks similar in
 style, theme, or lyrical content.
+
 • Filter songs by explicit content: Enable users to
 find or filter songs based on the level of violence, explicit
 language, or their overall content rating (e.g., PG, PG-13).
+
 • Relate artist background to lyrics: Connect the per-
 sonal or professional background of an artist with the lyrical
 content of their songs.
