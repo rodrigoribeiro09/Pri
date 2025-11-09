@@ -356,3 +356,26 @@ def process_dataFinal(artist,song):
     song=process_songData(song,wrong_id)
 
     return artist,song
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+def getDataAnal(music, artists):
+    song_counts = music.groupby('artist_id').size().reset_index(name='num_songs')
+
+    artist_song_counts = song_counts.merge(artists, on='artist_id')
+
+    artist_song_counts = artist_song_counts.sort_values(by='num_songs', ascending=False)
+
+    X = 50
+    top_artists = artist_song_counts.head(X)
+
+
+    plt.figure(figsize=(14, 8))
+    plt.barh(top_artists['artist_name'], top_artists['num_songs'])
+    plt.xlabel('Número de músicas')
+    plt.ylabel('Artista')
+    plt.title(f'Top {X} artistas com mais músicas')
+    plt.gca().invert_yaxis()  # inverte para o maior ficar no topo
+    plt.tight_layout()
+    plt.show()

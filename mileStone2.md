@@ -79,3 +79,5 @@ Output: "singing rain"
 ```
 "running", "ran", "runs" → "run"
 ```
+
+## Information Need:

@@ -1,0 +1,32 @@
+{
+  "terms": [
+    "broken heart",
+    "heartbreak",
+    "breakup",
+    "cheating",
+    "love",
+    "sadness",
+    "lost love",
+    "lonely"
+  ],
+  "term_boosts": {
+    "broken heart": 10,
+    "heartbreak": 8,
+    "breakup": 7,
+    "cheating": 5,
+    "love": 3,
+    "sadness": 3,
+    "lost love": 9,
+    "lonely": 4
+  },
+  "qf": "song_lyrics^5 artist_bio^3 song_name^4 album_name^2",
+  "pf": "\"broken heart\"^15 \"lost love\"^12 song_name^15 album_name^12 song_lyrics^10",
+  "rows": 100,
+  "fuzziness_terms": ["love", "sadness", "heartbreak"],
+  "wildcard_terms": ["love", "heartbreak", "breakup"],
+  "proximity_terms": {
+    "broken heart": 2,
+    "lost love": 2
+  },
+  "independent_boosts": []
+}

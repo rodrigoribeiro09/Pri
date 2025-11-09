@@ -62,7 +62,9 @@ def main(trec_eval_stdout: str):
     plt.tight_layout()
 
     # Show the PR curve
-    plt.show()
+    output_file = "results/pr_curve.png" 
+    plt.savefig(output_file)
+    print(f"✅ PR curve saved to {output_file}")
 
 
 if __name__ == "__main__":

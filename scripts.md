@@ -8,4 +8,14 @@ python .\src\solrScript.py
 docker exec -it song_solr sh -c 'bin/solr post -c songs /data/dataset.csv'
 
 
-
+# Eval pipeline
+## Correr queries:
+python3 scripts/query_solr.py --queries config/queries --uri http://localhost:8983/solr --collection songs
+## resultados para terc:
+python3 scripts/solr2trec.py --run-id run1 --input results/solr_output.json > results/trec_run.txt
+## Transformar os qrels em terec:
+python3 scripts/qrels2trec.py --qrels config/qrels > results/qrels.trec
+## Avalie com trec_eval
+- Need to be inside the trec:eval
+- If you dont have the trec_eval run makefile
+- trec_eval -q -m all_trec results/qrels.trec results/trec_run.txt | scripts/plot_pr.py
