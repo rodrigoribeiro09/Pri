@@ -81,3 +81,7 @@ Output: "singing rain"
 ```
 
 ## Information Need:
+
+
+## Notas relatorio
+- results- graficos sobre a avaiacao e observaçoes sobre os resultados

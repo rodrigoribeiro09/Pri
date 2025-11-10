@@ -6,93 +6,92 @@ from pathlib import Path
 import glob
 import requests
 
+import json
+import sys
+import requests
+import json
+import sys
+import requests
 
 def edismax_query_from_config(config_path, solr_uri, collection):
     """
-    Faz uma query EDisMax no Solr a partir de uma configuração JSON avançada.
-
-    Arguments:
-    - config_path: caminho para o ficheiro JSON de configuração.
-    - solr_uri: URL base do Solr (ex: http://localhost:8983/solr)
-    - collection: nome da coleção Solr (ex: 'music')
-
-    Retorna:
-    - Dicionário JSON no mesmo formato que Solr devolve:
-      {
-        "response": {
-          "numFound": 10,
-          "docs": [{"id": "...", "score": ...}, ...]
-        }
-      }
+    Executa uma query EDisMax no Solr com base numa configuração JSON avançada.
+    Mantém a query base (q) inalterada e adiciona:
+      - fuzziness (~1)
+      - wildcards (*)
+      - proximidade ("a b"~N)
+      - phrase boosts (pf)
     """
 
-    # === 1. Ler ficheiro de configuração ===
     try:
         with open(config_path, "r", encoding="utf-8") as f:
             config = json.load(f)
     except FileNotFoundError:
         print(f" Config file not found: {config_path}")
         sys.exit(1)
+    except json.JSONDecodeError:
+        print(f"Invalid JSON format in config file: {config_path}")
+        sys.exit(1)
 
-    # === 2. Extrair parâmetros da config ===
-    terms = config.get("terms", [])
-    term_boosts = config.get("term_boosts", {})
-    fuzziness_terms = set(config.get("fuzziness_terms", []))
-    wildcard_terms = set(config.get("wildcard_terms", []))
+    # === 2.  parâmetros ===
+    base_query = config.get("q", "").strip()
+    fuzziness_terms = config.get("fuzziness_terms", [])
+    wildcard_terms = config.get("wildcard_terms", [])
     proximity_terms = config.get("proximity_terms", {})
     independent_boosts = config.get("independent_boosts", [])
 
-    query_parts = []
+    qf = config.get("qf", "")
+    pf = config.get("pf", "")
+    rows = config.get("rows", 10)
 
-    # === 3. Construir a query string ===
-    for term in terms:
-        boost = term_boosts.get(term, 1)
+    extra_parts = []
 
-        # Proximity match com slop definido
-        if term in proximity_terms:
-            slop = proximity_terms[term]
-            query_parts.append(f'"{term}"~{slop}^{boost}')
-        # Frases genéricas
-        elif " " in term:
-            query_parts.append(f'"{term}"~2^{boost}')
-        # Termos únicos com fuzziness/wildcard
-        else:
-            parts = []
-            if term in fuzziness_terms:
-                parts.append(f"{term}~1^{boost}")
-            if term in wildcard_terms:
-                parts.append(f"{term}*^{boost}")
-            if not parts:
-                parts.append(f"{term}^{boost}")
-            query_parts.extend(parts)
+    # Fuzziness terms → add variantes ~1
+    for term in fuzziness_terms:
+        extra_parts.append(f"{term}~1")
 
-    query_string = " OR ".join(query_parts)
+    # Wildcard terms → add variantes *
+    for term in wildcard_terms:
+        extra_parts.append(f"{term}*")
+
+    # Proximity phrases → add "a b"~N
+    for phrase, slop in proximity_terms.items():
+        extra_parts.append(f"\"{phrase}\"~{slop}")
+
+ 
+    if extra_parts:
+        final_query = f"{base_query} {' '.join(extra_parts)}".strip()
+    else:
+        final_query = base_query
+
+    # === 5. Montar parâmetros da query Solr ===
+    params = {
+        "q": final_query,
+        "defType": "edismax",
+        "qf": qf,
+        "pf": pf,
+        "rows": rows,
+        "wt": "json",
+        "fl": "*,score"
+    }
 
     # Boost functions (bf)
-    bf = " ".join(independent_boosts) if independent_boosts else None
+    if independent_boosts:
+        params["bf"] = " ".join(independent_boosts)
 
-    params = {
-    "q": query_string,
-    "defType": "edismax",
-    "qf": config.get("qf", ""),
-    "pf": config.get("pf", ""),
-    "rows": config.get("rows", 10),
-    "wt": "json",
-    "fl": "*,score"   
-    }
-    if bf:
-        params["bf"] = bf
+    # === 6. Executar query no Solr ===
+    uri = f"{solr_uri.rstrip('/')}/{collection}/select"
 
-    # === 4. Enviar query ao Solr ===
-    uri = f"{solr_uri}/{collection}/select"
     try:
         response = requests.get(uri, params=params)
         response.raise_for_status()
     except requests.RequestException as e:
-        print(f" Error querying Solr: {e}")
+        print(f"❌ Error querying Solr: {e}")
         sys.exit(1)
 
-    # === 5. Retornar JSON no formato do Solr ===
+    # === 7. (Opcional) Mostrar query final para debug ===
+    print(f"🔍 Final Solr query: {final_query}")
+
     return response.json()
 
 
