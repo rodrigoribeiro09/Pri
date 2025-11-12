@@ -15,7 +15,7 @@
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.LowerCaseFilterFactory"/>
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
-      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms_output_wordnet.txt" ignoreCase="true" expand="true"/>
       <filter class="solr.SnowballPorterFilterFactory" language="English"/>
     </analyzer>
   </fieldType>
@@ -31,7 +31,7 @@
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.LowerCaseFilterFactory"/>
       <filter class="solr.ASCIIFoldingFilterFactory"/>
-      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms_output_wordnet.txt" ignoreCase="true" expand="true"/>
     </analyzer>
   </fieldType>
 

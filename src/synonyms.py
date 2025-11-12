@@ -126,5 +126,21 @@ def generate_wordnet_synonyms(input_csv, output_file, columns=None, pos_tags=[wo
 
     print(f"✅ Saved {len(synonyms_mapping)} words with synonyms to '{output_file}'")
 
-if __name__ == "__main__":
-    generate_wordnet_synonyms("dataset/dataset.csv", "synonyms_output_wordnet.json")
+
+
+
+def json_to_txt(json_file_path, output_file_path):
+   
+    # Open and load the JSON file
+    with open(json_file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Write to TXT file
+    with open(output_file_path, 'w', encoding='utf-8') as f:
+        for key, values in data.items():
+            line = ', '.join([key] + values)
+            f.write(line + '\n')
+
+# Example usage
+json_to_txt("src/synonyms_output_wordnet.json", "solr/synonyms_output_wordnet.txt")
+print("File generated successfully!")

@@ -7,7 +7,7 @@ dumped,underprice,plunge,deck,knock down,dump,floor,coldcock,ditch
 heartbreak,grief,heartache,brokenheartedness
 lonely,unfrequented,lone,lonesome,solitary,alone
 love,roll in the hay,dearest,enjoy,eff,jazz,beloved,hump,lovemaking
-passion,rage,mania,warmth,cacoethes,heat,passionateness,love
+passion,warmth,passionateness,love
 romance,romance language,chat up,coquet,mash,woo,solicit,love affair,court,butterfly,romanticism,love story,flirt
 separation,interval,detachment,breakup,legal separation
 unfaithful,treasonous,treasonable,traitorous,faithless

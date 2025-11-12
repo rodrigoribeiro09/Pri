@@ -2,13 +2,13 @@
 docker run -d --name song_solr -p 8983:8983 -v ${PWD}/dataset:/data solr:9
 ## Create core:
 docker exec -it song_solr  bin/solr create_core -c <CORENAME>
+## Add synonyms
+docker cp solr/synonyms.txt song_solr:/var/solr/data/<CORENAME>/conf/
+docker cp solr/stopwords.txt song_solr:/var/solr/data/<CORENAME>/conf/
 ## Add schema:
 python .\src\solrScript.py
 ## Adicionar os docs:
 docker exec -it song_solr sh -c 'bin/solr post -c <CORENAME> /data/dataset.csv'
-## Add synonyms
-docker cp solr/synonyms.txt song_solr:/var/solr/data/<CORENAME>/conf/
-docker cp solr/stopwords.txt song_solr:/var/solr/data/<CORENAME>/conf/
 
 
 ## Delete core
