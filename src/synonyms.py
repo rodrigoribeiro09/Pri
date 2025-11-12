@@ -1,119 +1,130 @@
-import pandas as pd
 import string
 import nltk
-import json
-from nltk.corpus import stopwords
+from nltk.corpus import wordnet, stopwords
+import pandas as pd
+import string
 from nltk.tokenize import word_tokenize
-from nltk.corpus import wordnet # <--- NOVO IMPORT
+import json
+import os
+input_filename = "solr/words_list.txt"  
+output_filename = "solr/synonyms_output_wordnet.txt"
 
-input_filename = "../dataset/dataset.csv"
-output_filename = "synonyms_output_wordnet.txt" # Mudei o nome do ficheiro de saída para evitar sobrescrever
-
-# -------------------------------------------------------------
-## 2. Função de Consulta ao WordNet
 def get_wordnet_synonyms(word):
     """
-    Consulta o WordNet para encontrar sinónimos de uma palavra localmente.
+    Consulta o WordNet para encontrar sinónimos de uma palavra.
     """
     synonyms = set()
     word_lower = word.lower()
     
-    # Itera sobre todos os 'synsets' (conjuntos de sinónimos) para a palavra
     for syn in wordnet.synsets(word_lower):
-        # Itera sobre os 'lemmas' (formas da palavra) dentro de cada synset
         for lemma in syn.lemmas():
-            # Adiciona o sinónimo, substituindo sublinhados por espaços e convertendo para minúsculas
             synonym_candidate = lemma.name().replace('_', ' ').lower()
             synonyms.add(synonym_candidate)
-            
-    # O WordNet pode incluir a própria palavra como sinónimo, removemos
-    synonyms.discard(word_lower) 
     
+    synonyms.discard(word_lower)
     return list(synonyms)
 
-# -------------------------------------------------------------
-try:
-    # Download dos recursos NLTK (permanece igual)
-    print("A descarregar recursos NLTK (necessário apenas na primeira vez)...")
-    nltk.download('punkt', quiet=True)
-    nltk.download('stopwords', quiet=True)
-    nltk.download('wordnet', quiet=True)
+def generate_synonyms_from_txt(input_filename, output_filename):
+    try:
+        nltk.download('punkt', quiet=True)
+        nltk.download('stopwords', quiet=True)
+        nltk.download('wordnet', quiet=True)
 
-    # Preparar ferramentas de limpeza de texto (permanece igual)
+        stop_words = set(stopwords.words('english'))
+        translator = str.maketrans('', '', string.punctuation)
+
+        with open(input_filename, "r", encoding="utf-8") as f:
+            raw_words = f.readlines()
+
+        words_to_process = set()
+        for word in raw_words:
+            word = word.strip().lower()
+            word = word.translate(translator)
+            if word and word not in stop_words and word.isalpha():
+                words_to_process.add(word)
+
+        print(f"Foram encontradas {len(words_to_process)} palavras únicas para processar.")
+
+        unique_words_list = sorted(list(words_to_process))
+        total_words = len(unique_words_list)
+
+        with open(output_filename, "w", encoding="utf-8") as f:
+            for i, word in enumerate(unique_words_list):
+                print(f"Progresso: {i+1}/{total_words} | Mapeando: '{word}'")
+                syns = get_wordnet_synonyms(word)
+                if syns:
+                    # Junta com vírgulas e sem vírgula no final
+                    line = word + "," + ",".join(syns)
+                    f.write(line + "\n")
+
+        print(f"✅ Dicionário de sinónimos guardado em '{output_filename}'")
+
+    except FileNotFoundError:
+        print(f"ERRO: Não foi possível encontrar o ficheiro '{input_filename}'")
+    except Exception as e:
+        print(f"Ocorreu um erro inesperado: {e}")
+
+# -------------------------------------------------------------
+
+
+
+def get_synonyms(word, pos_tags=[wordnet.NOUN, wordnet.VERB]):
+    synonyms = set()
+    word_lower = word.lower()
+    for pos in pos_tags:
+        for syn in wordnet.synsets(word_lower, pos=pos):
+            for lemma in syn.lemmas():
+                synonym_candidate = lemma.name().replace("_", " ").lower()
+                if synonym_candidate != word_lower:
+                    synonyms.add(synonym_candidate)
+    return list(synonyms)
+
+def generate_wordnet_synonyms(input_csv, output_file, columns=None, pos_tags=[wordnet.NOUN, wordnet.VERB]):
+    if columns is None:
+        columns = ['song_name', 'album_name', 'song_lyrics', 'artist_bio']
+
+    # Check file exists
+    if not os.path.exists(input_csv):
+        raise FileNotFoundError(f"{input_csv} not found!")
+
+    # Download NLTK resources
+    nltk_data_path = os.path.expanduser('~/nltk_data')
+    nltk.data.path.append(nltk_data_path)
+
+    # Baixar recursos necessários
+    nltk.download('punkt', download_dir=nltk_data_path, quiet=True)   # tokenizador
+    nltk.download('punkt_tab', download_dir=nltk_data_path, quiet=True)  # evita erro punkt_tab
+    nltk.download('wordnet', download_dir=nltk_data_path, quiet=True)
+    nltk.download('omw-1.4', download_dir=nltk_data_path, quiet=True)
+    nltk.download('stopwords', download_dir=nltk_data_path, quiet=True)
     stop_words = set(stopwords.words('english'))
     translator = str.maketrans('', '', string.punctuation)
-
-    # Ler o dataset (permanece igual)
-    df = pd.read_csv(input_filename)
-    
-    print(f"Dataset '{input_filename}' lido com sucesso.")
-
+    print("✅ NLTK resources downloaded.")
+    df = pd.read_csv(input_csv)
     all_words = set()
-    
-    # 🌟 NOVA CONFIGURAÇÃO: Definir as colunas a processar
-    columns_to_process = ['song_lyrics', 'artist_bio']
-    
-    # Iterar sobre as colunas
-    print(f"A processar palavras únicas nas colunas: {columns_to_process}...")
-    
-    for column_name in columns_to_process:
-        print(f"-> A processar coluna '{column_name}'...")
-        
-        # Itera sobre o texto em cada linha da coluna
-        for text_content in df[column_name]:
-            # Certifica-se de que o conteúdo é tratado como string
-            tokens = word_tokenize(str(text_content))
-            
+
+    for col in columns:
+        if col not in df.columns:
+            continue
+        for text in df[col]:
+            tokens = word_tokenize(str(text))
             for word in tokens:
-                # 2. Converter para minúsculas
-                lowered_word = word.lower()
-                
-                # 3. Remover pontuação
-                cleaned_word = lowered_word.translate(translator)
-                
-                # 4. Verificar se é uma palavra válida
-                if (cleaned_word not in stop_words and
-                    cleaned_word != '' and
-                    cleaned_word.isalpha()):
-                    
+                cleaned_word = word.lower().translate(translator)
+                if cleaned_word.isalpha() and cleaned_word not in stop_words:
                     all_words.add(cleaned_word)
+                    print(f"Collected word: {cleaned_word}")
 
-
-    print(f"Foram encontradas {len(all_words)} palavras únicas nas letras e biografias.")
-
-# -------------------------------------------------------------
-## 4. Consultar o WordNet e Criar o Dicionário de Mapeamento (MODIFICADO)
-    
-    # Inicializa o dicionário de saída
     synonyms_mapping = {}
-    unique_words_list = sorted(list(all_words)) # Ordena para garantir um processamento consistente
-    total_words = len(unique_words_list)
-
-    print(f"\nA iniciar consulta LOCAL e mapeamento para {total_words} palavras...")
-    
-    for i, word in enumerate(unique_words_list):
-        # Mostrar progresso
-        print(f"Progresso: {i+1}/{total_words} | Mapeando: '{word}'")
-        
-        syns = get_wordnet_synonyms(word) 
-        
-        # Só adiciona a palavra ao dicionário se encontrar sinónimos
+    for word in sorted(all_words):
+        syns = get_synonyms(word, pos_tags)
+        print(f"Word: '{word}' | Synonyms found: {len(syns)}")
         if syns:
-            synonyms_mapping[word] = syns 
+            synonyms_mapping[word] = syns
 
-    print(f"\nMapeamento WordNet terminado. Foram mapeadas {len(synonyms_mapping)} palavras com sinónimos.")
-
-# -------------------------------------------------------------
-## 5. Guardar o Dicionário de Mapeamento em JSON (MODIFICADO)
-    
-    with open(output_filename, "w", encoding="utf-8") as f:
-        # Usa json.dump para escrever o dicionário no ficheiro
-        # indent=4 torna o ficheiro legível
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(synonyms_mapping, f, indent=4, ensure_ascii=False)
-            
-    print(f"SUCESSO: Dicionário de sinónimos guardado em '{output_filename}'")
 
-except FileNotFoundError:
-    print(f"ERRO: Não foi possível encontrar o ficheiro '{input_filename}'")
-except Exception as e:
-    print(f"Ocorreu um erro inesperado: {e}")
+    print(f"✅ Saved {len(synonyms_mapping)} words with synonyms to '{output_file}'")
+
+if __name__ == "__main__":
+    generate_wordnet_synonyms("dataset/dataset.csv", "synonyms_output_wordnet.json")

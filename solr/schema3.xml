@@ -1,0 +1,46 @@
+<schema name="songs" version="1.6">
+
+  <uniqueKey>id</uniqueKey>
+
+
+  <fieldType name="text_content" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms_hand.txt" ignoreCase="true" expand="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="English"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="English"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_name" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms_hand.txt" ignoreCase="true" expand="true"/> 
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+    </analyzer>
+  </fieldType>
+
+
+
+  <field name="song_lyrics" type="text_content" indexed="true" stored="true"/>
+  <field name="artist_bio" type="text_content" indexed="true" stored="true"/>
+  <field name="song_name" type="text_name" indexed="true" stored="true"/>
+  <field name="album_name" type="text_name" indexed="true" stored="true"/>
+  <field name="artist_name" type="text_name" indexed="true" stored="true"/>
+
+</schema>

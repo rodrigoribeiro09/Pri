@@ -6,23 +6,13 @@ from pathlib import Path
 import glob
 import requests
 
-import json
-import sys
-import requests
-import json
-import sys
-import requests
-
 def edismax_query_from_config(config_path, solr_uri, collection):
     """
     Executa uma query EDisMax no Solr com base numa configuração JSON avançada.
-    Mantém a query base (q) inalterada e adiciona:
-      - fuzziness (~1)
-      - wildcards (*)
-      - proximidade ("a b"~N)
-      - phrase boosts (pf)
+    Trata fuzziness, wildcards, proximidade e phrase boosts de forma segura.
     """
 
+    # === 1. Ler configuração JSON ===
     try:
         with open(config_path, "r", encoding="utf-8") as f:
             config = json.load(f)
@@ -33,7 +23,7 @@ def edismax_query_from_config(config_path, solr_uri, collection):
         print(f"Invalid JSON format in config file: {config_path}")
         sys.exit(1)
 
-    # === 2.  parâmetros ===
+    # === 2. Parâmetros da query ===
     base_query = config.get("q", "").strip()
     fuzziness_terms = config.get("fuzziness_terms", [])
     wildcard_terms = config.get("wildcard_terms", [])
@@ -44,27 +34,23 @@ def edismax_query_from_config(config_path, solr_uri, collection):
     pf = config.get("pf", "")
     rows = config.get("rows", 10)
 
-    extra_parts = []
+    # === 3. Construir query segura ===
+    final_query_parts = [base_query]
 
-    # Fuzziness terms → add variantes ~1
-    for term in fuzziness_terms:
-        extra_parts.append(f"{term}~1")
+    # Fuzziness
+    final_query_parts += [f"{t}~1" for t in fuzziness_terms]
 
-    # Wildcard terms → add variantes *
-    for term in wildcard_terms:
-        extra_parts.append(f"{term}*")
+    # Wildcards
+    final_query_parts += [f"{t}*" for t in wildcard_terms]
 
-    # Proximity phrases → add "a b"~N
+    # Proximity phrases (escapando aspas)
     for phrase, slop in proximity_terms.items():
-        extra_parts.append(f"\"{phrase}\"~{slop}")
+        escaped_phrase = phrase.replace('"', '\\"')
+        final_query_parts.append(f'"{escaped_phrase}"~{slop}')
 
- 
-    if extra_parts:
-        final_query = f"{base_query} {' '.join(extra_parts)}".strip()
-    else:
-        final_query = base_query
+    final_query = " ".join(final_query_parts)
 
-    # === 5. Montar parâmetros da query Solr ===
+    # === 4. Parâmetros Solr ===
     params = {
         "q": final_query,
         "defType": "edismax",
@@ -75,30 +61,27 @@ def edismax_query_from_config(config_path, solr_uri, collection):
         "fl": "*,score"
     }
 
-    # Boost functions (bf)
     if independent_boosts:
         params["bf"] = " ".join(independent_boosts)
 
-    # === 6. Executar query no Solr ===
+    # === 5. Executar query ===
     uri = f"{solr_uri.rstrip('/')}/{collection}/select"
 
     try:
         response = requests.get(uri, params=params)
         response.raise_for_status()
     except requests.RequestException as e:
-        print(f"❌ Error querying Solr: {e}")
+        print(f" Error querying Solr: {e}")
         sys.exit(1)
 
-    # === 7. (Opcional) Mostrar query final para debug ===
     print(f"🔍 Final Solr query: {final_query}")
-
     return response.json()
 
 
 def main(query_folder: Path, solr_uri: str, collection: str):
     """
-    Lê todos os ficheiros JSON num diretório, executa queries EDisMax em Solr
-    e imprime o resultado combinado em JSON.
+    Lê todos os ficheiros JSON num diretório, executa queries EDisMax no Solr
+    e guarda resultados completos e simplificados em JSON.
     """
     sys.stdout.reconfigure(encoding='utf-8')
 
@@ -113,6 +96,7 @@ def main(query_folder: Path, solr_uri: str, collection: str):
             solr_result = edismax_query_from_config(query_file, solr_uri, collection)
             results_full[int(filename)] = solr_result
 
+            # Extrair campos simples
             simple_docs = []
             for doc in solr_result.get("response", {}).get("docs", []):
                 simple_doc = {
@@ -128,6 +112,7 @@ def main(query_folder: Path, solr_uri: str, collection: str):
             print(f"  Error running query {filename}: {e}")
             continue
 
+    # Guardar resultados
     output_path_full = Path("results/solr_output.json")
     output_path_full.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path_full, "w", encoding="utf-8") as f:

@@ -1,0 +1,14 @@
+affection,heart,fondness,tenderness,affectionateness,warmheartedness,warmness
+alone,entirely,solely,unequalled,unequaled,unparalleled,solo,lone,unique,unaccompanied,only,lonely,solitary
+betrayal,perfidy,treachery,treason
+breakup,dissolution,separation,detachment
+cheating,dirty,chisel,betray,cheat,jockey,cuckold,two-timing,rip off,shaft,chouse,cheat on,wander,chicane,foul,screw,unsporting,adulterous
+dumped,underprice,plunge,deck,knock down,dump,floor,coldcock,ditch
+heartbreak,grief,heartache,brokenheartedness
+lonely,unfrequented,lone,lonesome,solitary,alone
+love,roll in the hay,dearest,enjoy,eff,jazz,beloved,hump,lovemaking
+passion,rage,mania,warmth,cacoethes,heat,passionateness,love
+romance,romance language,chat up,coquet,mash,woo,solicit,love affair,court,butterfly,romanticism,love story,flirt
+separation,interval,detachment,breakup,legal separation
+unfaithful,treasonous,treasonable,traitorous,faithless
+broken heart,heartbreak,lost love,love lost,heartache,romantic pain,love sorrow,shattered heart,heartbroken,sadness in love,unrequited love,love despair,crushed heart,love grief,lonely heart,love disappointment,broke up,loveless,hurtin,dumped,no love

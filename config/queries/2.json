@@ -1,13 +1,5 @@
 {
-  "q": "broken heart heartbreak breakup cheating heartbreak ",
-  "qf": "song_lyrics^5 artist_bio^3 song_name^4 album_name^2",
-  "pf": "\"broken heart\"^15 \"lost love\"^12 \"heartache\"^10 song_name^15 album_name^12 song_lyrics^10",
-  "rows": 100,
-  "fuzziness_terms": ["love", "heart"],
-  "wildcard_terms": ["love", "heart"],
-  "proximity_terms": {
-    "love heartbreak": 5,
-    "romantic sorrow": 4
-  },
-  "independent_boosts": []
+  "q": "broken heart",
+  "qf": "song_lyrics^5 artist_bio^2 song_name^4 album_name^2",
+  "rows": 100
 }
