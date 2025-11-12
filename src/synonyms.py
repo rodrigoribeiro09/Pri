@@ -6,8 +6,7 @@ import string
 from nltk.tokenize import word_tokenize
 import json
 import os
-input_filename = "solr/words_list.txt"  
-output_filename = "solr/synonyms_output_wordnet.txt"
+
 
 def get_wordnet_synonyms(word):
     """
@@ -141,6 +140,9 @@ def json_to_txt(json_file_path, output_file_path):
             line = ', '.join([key] + values)
             f.write(line + '\n')
 
-# Example usage
-json_to_txt("src/synonyms_output_wordnet.json", "solr/synonyms_output_wordnet.txt")
-print("File generated successfully!")
+
+if __name__ == "__main__":
+    input_filename = "solr/words_list.txt"  
+    output_filename = "solr/synonyms_output_raw.txt"
+    generate_synonyms_from_txt(input_filename, output_filename)
+    

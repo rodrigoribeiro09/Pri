@@ -4,13 +4,10 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 cores = [
-    {"core": "songs",  "schema": "solr/schema0.xml", "url": "http://localhost:8983/solr/songs/schema"},
-    {"core": "songs1", "schema": "solr/schema1.xml", "url": "http://localhost:8983/solr/songs1/schema"},
-    {"core": "songs2", "schema": "solr/schema2.xml", "url": "http://localhost:8983/solr/songs2/schema"},
-    {"core": "songs3", "schema": "solr/schema3.xml", "url": "http://localhost:8983/solr/songs3/schema"},
+    {"core": "songs", "schema": "solr/schema1.xml", "url": "http://localhost:8983/solr/songs/schema"},
+    {"core": "songsBoost", "schema": "solr/schema2.xml", "url": "http://localhost:8983/solr/songsBoost/schema"},
 ]
 
-test = {"core": "songs_test2", "schema": "solr/schema3.xml", "url": "http://localhost:8983/solr/songs_test2/schema"}
 
 
 def parse_schema(xml_path):
@@ -81,4 +78,6 @@ def parse_one(entry):
 
 
 if __name__ == "__main__":
-    parse_one(test)
+    parse_all()
+
+
