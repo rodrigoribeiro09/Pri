@@ -28,3 +28,14 @@ terrified, panicked, panic-stricken, panicky, horrified, petrified, terrorized
 terror, panic, fright, threat, menace, horror
 afraid, fearful, frightened, uneasy, alarmed, apprehensive, timid, cowardly, jumpy
 paranoia, suspicion, mistrust, delusion, obsession, fearfulness, persecution, insecurity
+autonomy,self-sufficiency,self-reliance
+democracy,commonwealth,republic
+free,liberate,release
+freedom,exemption
+independence,independency
+justice,justness
+liberation,freeing,release
+liberty,autonomy
+relief,easing,rest,alleviation
+release,liberation,discharge
+rights,equality
