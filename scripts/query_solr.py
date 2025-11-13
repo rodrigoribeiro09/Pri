@@ -78,23 +78,34 @@ def edismax_query_from_config(config_path, solr_uri, collection):
     return response.json()
 
 
-def main(query_folder: Path, solr_uri: str, collection: str):
+def main(query_folder: Path, solr_uri: str, collections: list[str]):
     """
-    Lê todos os ficheiros JSON num diretório, executa queries EDisMax no Solr
-    e guarda resultados completos e simplificados em JSON.
+    Lê todos os ficheiros JSON num diretório, atribui cada query a uma
+    collection em round-robin e guarda resultados completos e
+    simplificados em dois ficheiros JSON.
+
     """
     sys.stdout.reconfigure(encoding='utf-8')
+
+    query_files = sorted(glob.glob(query_folder.joinpath("*.json").as_posix()))
+    if not query_files:
+        print(f" No query files found in {query_folder}")
+        sys.exit(1)
 
     results_full = {}
     results_simple = {}
 
-    for query_file in glob.glob(query_folder.joinpath("*.json").as_posix()):
+    for idx, query_file in enumerate(query_files):
         filename = Path(query_file).stem
-        print(f" Running query {filename} ...")
+        collection = collections[idx % len(collections)] if collections else "music"
+        print(f" Running query {filename} against collection: {collection} ...")
 
         try:
             solr_result = edismax_query_from_config(query_file, solr_uri, collection)
-            results_full[int(filename)] = solr_result
+
+            # Usar o mesmo formato de output antigo: chaves inteiras quando possível
+            key = int(filename)
+            results_full[key] = solr_result
 
             # Extrair campos simples
             simple_docs = []
@@ -106,7 +117,7 @@ def main(query_folder: Path, solr_uri: str, collection: str):
                 }
                 simple_docs.append(simple_doc)
 
-            results_simple[int(filename)] = {"response": {"docs": simple_docs}}
+            results_simple[key] = {"response": {"docs": simple_docs}}
 
         except Exception as e:
             print(f"  Error running query {filename}: {e}")
@@ -124,7 +135,6 @@ def main(query_folder: Path, solr_uri: str, collection: str):
 
     print(f" Resultados completos guardados em: {output_path_full.resolve()}")
     print(f" Resultados simplificados guardados em: {output_path_simple.resolve()}")
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -144,11 +154,19 @@ if __name__ == "__main__":
         help="Solr instance URI (default: http://localhost:8983/solr).",
     )
     parser.add_argument(
-        "--collection",
+        "--collections",
         type=str,
-        default="music",
-        help="Solr collection name (default: 'music').",
+        nargs="+",
+        required=False,
+        help="One or more Solr collection names. Example: --collections model1 model2 model3",
     )
 
     args = parser.parse_args()
-    main(args.queries, args.uri, args.collection)
+
+    # Prefer --collections if provided, fall back to --collection for compatibility
+    if args.collections:
+        collections = args.collections
+    else:
+        collections = ["music"]
+
+    main(args.queries, args.uri, collections)

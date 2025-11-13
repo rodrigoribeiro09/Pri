@@ -12,3 +12,19 @@ romance,romance language,chat up,coquet,mash,woo,solicit,love affair,court,butte
 separation,interval,detachment,breakup,legal separation
 unfaithful,treasonous,treasonable,traitorous,faithless
 broken heart,heartbreak,lost love,love lost,heartache,romantic pain,love sorrow,shattered heart,heartbroken,sadness in love,unrequited love,love despair,crushed heart,love grief,lonely heart,love disappointment,broke up,loveless,hurtin,dumped,no love
+anxious, dying, unquiet, nervous, queasy, uneasy
+danger, risk, peril, threat, menace
+dread, awful, dreaded, horrendous, dire, horrific, direful, dreadful, fearful, terrible, fearsome, frightening, frightful, appalling, intimidating
+fear, reverence, care, concern, fright, dread, awe, apprehension, anxiety, terror
+fright, affright, scare, fearfulness, frighten, startle, alarm
+horror, repulsion, revulsion, repugnance, disgust, abhorrence
+insecure, unsafe, vulnerable, exposed
+nervous, aflutter, flighty, skittish, uneasy, jittery, tense
+nightmare, incubus, dream, torment
+panic, terror, affright, scare, frenzy, hysteria, alarm
+scared, frightened, afraid, fearful, terrified, panicked, startled, intimidated
+tension, stress, tautness, tenseness, strain, anxiety
+terrified, panicked, panic-stricken, panicky, horrified, petrified, terrorized
+terror, panic, fright, threat, menace, horror
+afraid, fearful, frightened, uneasy, alarmed, apprehensive, timid, cowardly, jumpy
+paranoia, suspicion, mistrust, delusion, obsession, fearfulness, persecution, insecurity
