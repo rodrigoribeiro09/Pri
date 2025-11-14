@@ -15,7 +15,7 @@ broken heart,heartbreak,lost love,love lost,heartache,romantic pain,love sorrow,
 anxious, dying, unquiet, nervous, queasy, uneasy
 danger, risk, peril, threat, menace
 dread, awful, dreaded, horrendous, dire, horrific, direful, dreadful, fearful, terrible, fearsome, frightening, frightful, appalling, intimidating
-fear, reverence, care, concern, fright, dread, awe, apprehension, anxiety, terror
+fear, reverence, fright, dread, awe, apprehension, anxiety, terror
 fright, affright, scare, fearfulness, frighten, startle, alarm
 horror, repulsion, revulsion, repugnance, disgust, abhorrence
 insecure, unsafe, vulnerable, exposed
