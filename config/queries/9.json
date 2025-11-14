@@ -1,0 +1,5 @@
+{
+    "q": "freedom american",
+    "qf": "song_lyrics^3 artist_bio^3 song_name^5 album_name^2",
+    "rows": 100
+}
