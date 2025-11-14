@@ -15,7 +15,7 @@ def main(trec_eval_stdout: str):
         (name, query_id, value) = metric.split()
         results[query_id][name] = value
 
-    del results["all"]  # discard aggregated results
+    # del results["all"]  # discard aggregated results
 
     for query_id, metrics in results.items():
 
