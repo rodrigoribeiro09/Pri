@@ -32,10 +32,11 @@ python3 scripts/solr2trec.py --run-id run1 --input results/solr_output.json > re
 
 python3 scripts/qrels2trec.py --qrels config/qrels > results/qrels.trec
 ## Avalie com trec_eval
-
-- Need to be inside the trec:eval
+- Run this in PRI not in trec_eval
 - If you dont have the trec_eval run makefile
-- trec_eval -q -m all_trec results/qrels.trec results/trec_run.txt | scripts/plot_pr.py
+./trec_eval/trec_eval -q -m all_trec results/qrels.trec results/trec_run.txt \
+    | python3 scripts/plot_pr.py
+
 
 
 ------------------------------------------------------
