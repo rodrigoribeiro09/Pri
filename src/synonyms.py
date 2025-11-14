@@ -9,6 +9,7 @@ import os
 
 
 def get_wordnet_synonyms(word):
+
     """
     Consulta o WordNet para encontrar sinónimos de uma palavra.
     """
@@ -25,10 +26,9 @@ def get_wordnet_synonyms(word):
 
 def generate_synonyms_from_txt(input_filename, output_filename):
     try:
-        nltk.download('punkt', quiet=True)
-        nltk.download('stopwords', quiet=True)
-        nltk.download('wordnet', quiet=True)
-
+        nltk.download('wordnet')
+        nltk.download('stopwords')
+        nltk.download('punkt')
         stop_words = set(stopwords.words('english'))
         translator = str.maketrans('', '', string.punctuation)
 

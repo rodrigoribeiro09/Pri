@@ -3,7 +3,7 @@ import subprocess
 
 # Configurações
 SOLR_CONTAINER = "song_solr"
-CORES = ["simple", "songs", "songsBoost"] 
+CORES = ["simple", "songs"] 
 DATASET_FILE = "/data/dataset.csv"  
 
 def run_command(cmd):

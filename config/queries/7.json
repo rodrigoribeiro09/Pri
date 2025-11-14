@@ -1,5 +1,7 @@
 {
     "q": "freedom american",
-    "qf": "song_lyrics^6 artist_bio^2 song_name^2 album_name^1",
+    "core": "simple",
+    "queryConfig": "simple",
     "rows": 100
 }
+
