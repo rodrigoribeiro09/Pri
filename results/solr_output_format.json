@@ -1620,6 +1620,11 @@
           "artist_name": "Status Quo"
         },
         {
+          "id": "40346",
+          "song_name": "Y",
+          "artist_name": "Louis Armstrong"
+        },
+        {
           "id": "2556",
           "song_name": "H",
           "artist_name": "Cher"
@@ -1633,11 +1638,6 @@
           "id": "52944",
           "song_name": "H",
           "artist_name": "Vonda Shepard"
-        },
-        {
-          "id": "40346",
-          "song_name": "Y",
-          "artist_name": "Louis Armstrong"
         },
         {
           "id": "12449",
@@ -1705,14 +1705,14 @@
           "artist_name": "Nightwish"
         },
         {
-          "id": "37426",
-          "song_name": "H",
-          "artist_name": "Justin Bieber"
-        },
-        {
           "id": "6577",
           "song_name": "O",
           "artist_name": "George Strait"
+        },
+        {
+          "id": "37426",
+          "song_name": "H",
+          "artist_name": "Justin Bieber"
         }
       ]
     }
@@ -2953,11 +2953,6 @@
           "artist_name": "Drake"
         },
         {
-          "id": "38409",
-          "song_name": "C",
-          "artist_name": "Kid Rock"
-        },
-        {
           "id": "39538",
           "song_name": "F",
           "artist_name": "Lenny Kravitz"
@@ -2971,11 +2966,6 @@
           "id": "45267",
           "song_name": "A",
           "artist_name": "Pat Benatar"
-        },
-        {
-          "id": "4464",
-          "song_name": "T",
-          "artist_name": "Drake"
         },
         {
           "id": "8258",
@@ -2993,24 +2983,9 @@
           "artist_name": "Metallica"
         },
         {
-          "id": "14677",
-          "song_name": "D",
-          "artist_name": "Owl City"
-        },
-        {
-          "id": "18650",
-          "song_name": "I",
-          "artist_name": "Tom T. Hall"
-        },
-        {
           "id": "20242",
           "song_name": "U",
           "artist_name": "W.A.S.P."
-        },
-        {
-          "id": "23606",
-          "song_name": "T",
-          "artist_name": "Backstreet Boys"
         },
         {
           "id": "36147",
@@ -3018,29 +2993,9 @@
           "artist_name": "Jimmy Buffett"
         },
         {
-          "id": "48955",
-          "song_name": "I",
-          "artist_name": "Roy Orbison"
-        },
-        {
           "id": "2841",
           "song_name": "N",
           "artist_name": "Chris Rea"
-        },
-        {
-          "id": "4822",
-          "song_name": "I",
-          "artist_name": "Elton John"
-        },
-        {
-          "id": "7050",
-          "song_name": "I",
-          "artist_name": "Green Day"
-        },
-        {
-          "id": "12848",
-          "song_name": "I",
-          "artist_name": "Nat King Cole"
         },
         {
           "id": "14130",
@@ -3048,19 +3003,9 @@
           "artist_name": "Oingo Boingo"
         },
         {
-          "id": "16002",
-          "song_name": "I",
-          "artist_name": "Quincy Punx"
-        },
-        {
           "id": "16341",
           "song_name": "M",
           "artist_name": "Randy Travis"
-        },
-        {
-          "id": "18512",
-          "song_name": "H",
-          "artist_name": "Tim McGraw"
         },
         {
           "id": "20818",
@@ -3078,44 +3023,9 @@
           "artist_name": "Alice In Chains"
         },
         {
-          "id": "23298",
-          "song_name": "I",
-          "artist_name": "Ariana Grande"
-        },
-        {
-          "id": "26568",
-          "song_name": "I",
-          "artist_name": "Children"
-        },
-        {
-          "id": "28380",
-          "song_name": "R",
-          "artist_name": "Demi Lovato"
-        },
-        {
-          "id": "31194",
-          "song_name": "I",
-          "artist_name": "Fall Out Boy"
-        },
-        {
-          "id": "33742",
-          "song_name": "I",
-          "artist_name": "Hank Williams"
-        },
-        {
           "id": "34713",
           "song_name": "N",
           "artist_name": "Howard Jones"
-        },
-        {
-          "id": "37799",
-          "song_name": "W",
-          "artist_name": "Katy Perry"
-        },
-        {
-          "id": "43345",
-          "song_name": "I",
-          "artist_name": "Neil Diamond"
         },
         {
           "id": "45052",
@@ -3126,11 +3036,6 @@
           "id": "45062",
           "song_name": "I",
           "artist_name": "Overkill"
-        },
-        {
-          "id": "47933",
-          "song_name": "I",
-          "artist_name": "Ramones"
         },
         {
           "id": "48101",
@@ -3148,44 +3053,9 @@
           "artist_name": "Yngwie Malmsteen"
         },
         {
-          "id": "1085",
-          "song_name": "I",
-          "artist_name": "Barbra Streisand"
-        },
-        {
-          "id": "2589",
-          "song_name": "A",
-          "artist_name": "Chicago"
-        },
-        {
-          "id": "5787",
-          "song_name": "W",
-          "artist_name": "Faith No More"
-        },
-        {
-          "id": "6411",
-          "song_name": "H",
-          "artist_name": "George Harrison"
-        },
-        {
           "id": "8269",
           "song_name": "F",
           "artist_name": "Iron Maiden"
-        },
-        {
-          "id": "13602",
-          "song_name": "T",
-          "artist_name": "Nina Simone"
-        },
-        {
-          "id": "17729",
-          "song_name": "Y",
-          "artist_name": "Santana"
-        },
-        {
-          "id": "20149",
-          "song_name": "T",
-          "artist_name": "Wanda Jackson"
         },
         {
           "id": "23922",
@@ -3193,49 +3063,9 @@
           "artist_name": "Beautiful South"
         },
         {
-          "id": "26668",
-          "song_name": "I",
-          "artist_name": "Chris Rea"
-        },
-        {
-          "id": "29936",
-          "song_name": "I",
-          "artist_name": "Ellie Goulding"
-        },
-        {
-          "id": "30136",
-          "song_name": "B",
-          "artist_name": "Elvis Presley"
-        },
-        {
-          "id": "32179",
-          "song_name": "I",
-          "artist_name": "George Harrison"
-        },
-        {
-          "id": "33670",
-          "song_name": "I",
-          "artist_name": "Hank Snow"
-        },
-        {
-          "id": "34523",
-          "song_name": "D",
-          "artist_name": "Hollies"
-        },
-        {
-          "id": "34960",
-          "song_name": "T",
-          "artist_name": "Iggy Pop"
-        },
-        {
           "id": "35474",
           "song_name": "F",
           "artist_name": "Iron Maiden"
-        },
-        {
-          "id": "36847",
-          "song_name": "B",
-          "artist_name": "Joni Mitchell"
         },
         {
           "id": "41135",
@@ -3243,69 +3073,9 @@
           "artist_name": "Marilyn Manson"
         },
         {
-          "id": "42199",
-          "song_name": "S",
-          "artist_name": "Miley Cyrus"
-        },
-        {
-          "id": "42561",
-          "song_name": "I",
-          "artist_name": "Moody Blues"
-        },
-        {
-          "id": "46134",
-          "song_name": "I",
-          "artist_name": "Phil Collins"
-        },
-        {
-          "id": "52364",
-          "song_name": "I",
-          "artist_name": "Usher"
-        },
-        {
-          "id": "2551",
-          "song_name": "H",
-          "artist_name": "Cher"
-        },
-        {
-          "id": "7133",
-          "song_name": "I",
-          "artist_name": "Guns N' Roses"
-        },
-        {
-          "id": "8709",
-          "song_name": "S",
-          "artist_name": "James Taylor"
-        },
-        {
-          "id": "10031",
-          "song_name": "I",
-          "artist_name": "Kenny Rogers"
-        },
-        {
-          "id": "10273",
-          "song_name": "H",
-          "artist_name": "Kirsty Maccoll"
-        },
-        {
-          "id": "19298",
-          "song_name": "T",
-          "artist_name": "Underoath"
-        },
-        {
-          "id": "32918",
-          "song_name": "I",
-          "artist_name": "Gordon Lightfoot"
-        },
-        {
           "id": "35367",
           "song_name": "F",
           "artist_name": "INXS"
-        },
-        {
-          "id": "37105",
-          "song_name": "T",
-          "artist_name": "Journey"
         },
         {
           "id": "41462",
@@ -3318,26 +3088,6 @@
           "artist_name": "Megadeth"
         },
         {
-          "id": "42980",
-          "song_name": "T",
-          "artist_name": "Natalie Cole"
-        },
-        {
-          "id": "45345",
-          "song_name": "I",
-          "artist_name": "Patsy Cline"
-        },
-        {
-          "id": "46448",
-          "song_name": "W",
-          "artist_name": "Pitbull"
-        },
-        {
-          "id": "48253",
-          "song_name": "I",
-          "artist_name": "Ray Charles"
-        },
-        {
           "id": "52034",
           "song_name": "F",
           "artist_name": "Ultravox"
@@ -3348,19 +3098,9 @@
           "artist_name": "Enigma"
         },
         {
-          "id": "6260",
-          "song_name": "T",
-          "artist_name": "Frankie Valli"
-        },
-        {
           "id": "7522",
           "song_name": "I",
           "artist_name": "Hillsong"
-        },
-        {
-          "id": "8659",
-          "song_name": "I",
-          "artist_name": "James Taylor"
         },
         {
           "id": "10366",
@@ -3368,69 +3108,329 @@
           "artist_name": "Korn"
         },
         {
-          "id": "10749",
-          "song_name": "G",
-          "artist_name": "Leann Rimes"
+          "id": "989",
+          "song_name": "P",
+          "artist_name": "Backstreet Boys"
         },
         {
-          "id": "10833",
-          "song_name": "D",
-          "artist_name": "Lenny Kravitz"
-        },
-        {
-          "id": "15256",
-          "song_name": "D",
-          "artist_name": "Phil Collins"
-        },
-        {
-          "id": "17264",
-          "song_name": "D",
-          "artist_name": "Rolling Stones"
-        },
-        {
-          "id": "37806",
-          "song_name": "H",
-          "artist_name": "Keith Green"
-        },
-        {
-          "id": "7272",
-          "song_name": "I",
-          "artist_name": "Hank Williams Jr."
-        },
-        {
-          "id": "13321",
-          "song_name": "I",
-          "artist_name": "Neil Young"
-        },
-        {
-          "id": "36191",
-          "song_name": "I",
-          "artist_name": "Jimmy Buffett"
-        },
-        {
-          "id": "51208",
-          "song_name": "I",
-          "artist_name": "Tom T. Hall"
-        },
-        {
-          "id": "1371",
-          "song_name": "G",
-          "artist_name": "Billie Holiday"
-        },
-        {
-          "id": "50286",
-          "song_name": "I",
-          "artist_name": "Sublime"
-        },
-        {
-          "id": "22589",
-          "song_name": "I",
-          "artist_name": "Alice In Chains"
+          "id": "49602",
+          "song_name": "P",
+          "artist_name": "Smiths"
         },
         {
           "id": "30807",
           "song_name": "N",
           "artist_name": "Eurythmics"
+        },
+        {
+          "id": "5645",
+          "song_name": "T",
+          "artist_name": "Fabolous"
+        },
+        {
+          "id": "7926",
+          "song_name": "N",
+          "artist_name": "Iggy Pop"
+        },
+        {
+          "id": "9903",
+          "song_name": "S",
+          "artist_name": "Kenny Chesney"
+        },
+        {
+          "id": "12627",
+          "song_name": "H",
+          "artist_name": "Misfits"
+        },
+        {
+          "id": "13921",
+          "song_name": "G",
+          "artist_name": "Oasis"
+        },
+        {
+          "id": "18444",
+          "song_name": "F",
+          "artist_name": "The Weeknd"
+        },
+        {
+          "id": "18911",
+          "song_name": "N",
+          "artist_name": "Tragically Hip"
+        },
+        {
+          "id": "24790",
+          "song_name": "P",
+          "artist_name": "Blur"
+        },
+        {
+          "id": "27138",
+          "song_name": "D",
+          "artist_name": "Coldplay"
+        },
+        {
+          "id": "29400",
+          "song_name": "P",
+          "artist_name": "Dream Theater"
+        },
+        {
+          "id": "29918",
+          "song_name": "D",
+          "artist_name": "Ellie Goulding"
+        },
+        {
+          "id": "33359",
+          "song_name": "P",
+          "artist_name": "Green Day"
+        },
+        {
+          "id": "37658",
+          "song_name": "H",
+          "artist_name": "Kate Bush"
+        },
+        {
+          "id": "42266",
+          "song_name": "H",
+          "artist_name": "Misfits"
+        },
+        {
+          "id": "52138",
+          "song_name": "P",
+          "artist_name": "Unkle"
+        },
+        {
+          "id": "53232",
+          "song_name": "T",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "2740",
+          "song_name": "D",
+          "artist_name": "Chris Brown"
+        },
+        {
+          "id": "13509",
+          "song_name": "P",
+          "artist_name": "Nicki Minaj"
+        },
+        {
+          "id": "47606",
+          "song_name": "A",
+          "artist_name": "R. Kelly"
+        },
+        {
+          "id": "47803",
+          "song_name": "M",
+          "artist_name": "Rage Against The Machine"
+        },
+        {
+          "id": "55001",
+          "song_name": "Y",
+          "artist_name": "You Am I"
+        },
+        {
+          "id": "10402",
+          "song_name": "T",
+          "artist_name": "Korn"
+        },
+        {
+          "id": "28265",
+          "song_name": "H",
+          "artist_name": "Def Leppard"
+        },
+        {
+          "id": "36465",
+          "song_name": "I",
+          "artist_name": "John Mellencamp"
+        },
+        {
+          "id": "4049",
+          "song_name": "F",
+          "artist_name": "Depeche Mode"
+        },
+        {
+          "id": "33085",
+          "song_name": "D",
+          "artist_name": "Grateful Dead"
+        },
+        {
+          "id": "33341",
+          "song_name": "M",
+          "artist_name": "Green Day"
+        },
+        {
+          "id": "44069",
+          "song_name": "T",
+          "artist_name": "Nine Inch Nails"
+        },
+        {
+          "id": "47418",
+          "song_name": "T",
+          "artist_name": "Queens Of The Stone Age"
+        },
+        {
+          "id": "49529",
+          "song_name": "H",
+          "artist_name": "Slayer"
+        },
+        {
+          "id": "18377",
+          "song_name": "J",
+          "artist_name": "Tears For Fears"
+        },
+        {
+          "id": "7714",
+          "song_name": "W",
+          "artist_name": "Horrible Histories"
+        },
+        {
+          "id": "41168",
+          "song_name": "T",
+          "artist_name": "Marilyn Manson"
+        },
+        {
+          "id": "51657",
+          "song_name": "T",
+          "artist_name": "Tragically Hip"
+        },
+        {
+          "id": "46201",
+          "song_name": "O",
+          "artist_name": "Phineas And Ferb"
+        },
+        {
+          "id": "38599",
+          "song_name": "T",
+          "artist_name": "King Diamond"
+        },
+        {
+          "id": "10192",
+          "song_name": "B",
+          "artist_name": "Kirk Franklin"
+        },
+        {
+          "id": "20226",
+          "song_name": "H",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "38606",
+          "song_name": "A",
+          "artist_name": "Kirk Franklin"
+        },
+        {
+          "id": "38626",
+          "song_name": "E",
+          "artist_name": "Kirk Franklin"
+        },
+        {
+          "id": "38641",
+          "song_name": "I",
+          "artist_name": "Kirk Franklin"
+        },
+        {
+          "id": "53175",
+          "song_name": "C",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "53182",
+          "song_name": "E",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "53193",
+          "song_name": "L",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "53195",
+          "song_name": "L",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "53209",
+          "song_name": "R",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "53245",
+          "song_name": "W",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "53247",
+          "song_name": "W",
+          "artist_name": "W.A.S.P."
+        },
+        {
+          "id": "50320",
+          "song_name": "A",
+          "artist_name": "Supertramp"
+        },
+        {
+          "id": "14145",
+          "song_name": "W",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "18332",
+          "song_name": "A",
+          "artist_name": "Talking Heads"
+        },
+        {
+          "id": "18334",
+          "song_name": "C",
+          "artist_name": "Talking Heads"
+        },
+        {
+          "id": "44562",
+          "song_name": "G",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "44566",
+          "song_name": "I",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "44568",
+          "song_name": "I",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "44585",
+          "song_name": "P",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "44586",
+          "song_name": "R",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "44588",
+          "song_name": "R",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "44604",
+          "song_name": "W",
+          "artist_name": "Oingo Boingo"
+        },
+        {
+          "id": "50417",
+          "song_name": "A",
+          "artist_name": "Talking Heads"
+        },
+        {
+          "id": "50428",
+          "song_name": "D",
+          "artist_name": "Talking Heads"
+        },
+        {
+          "id": "50429",
+          "song_name": "E",
+          "artist_name": "Talking Heads"
         }
       ]
     }
