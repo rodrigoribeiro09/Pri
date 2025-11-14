@@ -1,5 +1,6 @@
 {
-  "q": "broken heart", 
-  "qf": "song_lyrics^5 artist_bio^2 song_name^2 album_name^2",
-  "rows": 100
+  "q": "heartbreak",
+  "core": "simple",
+  "queryConfig": "simple",
+  "rows": 10
 }

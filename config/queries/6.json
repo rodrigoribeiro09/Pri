@@ -1,5 +1,6 @@
 {
   "q": "fear",
-  "qf": "song_lyrics^5 artist_bio^2 song_name^4 album_name^2",
-  "rows": 100
+  "core": "songs",
+  "queryConfig": "enhanced",
+  "rows": 10
 }

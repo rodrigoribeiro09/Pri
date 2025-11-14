@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 SOLR_CONTAINER = "song_solr"
-CORES = ["simple", "songs", "songsBoost"]
+CORES = ["simple", "songs"]
 
 SYNONYMS_FILE = Path.cwd() / "solr" / "synonyms_hand.txt"
 STOPWORDS_FILE = Path.cwd() / "solr" / "stopwords.txt"

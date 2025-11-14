@@ -4,8 +4,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 cores = [
-    {"core": "songs", "schema": "solr/schema1.xml", "url": "http://localhost:8983/solr/songs/schema"},
-    {"core": "songsBoost", "schema": "solr/schema2.xml", "url": "http://localhost:8983/solr/songsBoost/schema"},
+    {"core": "songs", "schema": "solr/schema2.xml", "url": "http://localhost:8983/solr/songs/schema"},
 ]
 
 

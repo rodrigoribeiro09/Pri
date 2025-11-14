@@ -21,7 +21,7 @@ python3 ./src/startSolr/load_files_solr.py
 ## Correr queries:
 - difrentes queries do mesmo IN so difere o boost
 - isto corre a 1 query no 1 schema a 2 no segundo e a 3 no 3, para cada query que queiram fazer criar 3 ficheiros seguidos para funcionar
-python3 .\scripts\query_solr.py --queries .\config\queries --uri http://localhost:8983/solr --collections simple songs songsBoost
+python3 .\scripts\query_solr.py
 
 ## resultados para terc:
 

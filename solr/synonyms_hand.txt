@@ -1,14 +1,14 @@
 affection,heart,fondness,tenderness,affectionateness,warmheartedness,warmness
-alone,entirely,solely,unequalled,unequaled,unparalleled,solo,lone,unique,unaccompanied,only,lonely,solitary
+alone,entirely,solely,unequalled,unequaled,unparalleled,solo,lone,unaccompanied,only,lonely,solitary
 betrayal,perfidy,treachery,treason
 breakup,dissolution,separation,detachment
 cheating,dirty,chisel,betray,cheat,jockey,cuckold,two-timing,rip off,shaft,chouse,cheat on,wander,chicane,foul,screw,unsporting,adulterous
 dumped,underprice,plunge,deck,knock down,dump,floor,coldcock,ditch
 heartbreak,grief,heartache,brokenheartedness
 lonely,unfrequented,lone,lonesome,solitary,alone
-love,roll in the hay,dearest,enjoy,eff,jazz,beloved,hump,lovemaking
+love,dearest,enjoy,eff,jazz,beloved,hump,lovemaking
 passion,warmth,passionateness,love
-romance,romance language,chat up,coquet,mash,woo,solicit,love affair,court,butterfly,romanticism,love story,flirt
+romance,romance language,mash,woo,solicit,love affair,court,butterfly,romanticism,love story,flirt
 separation,interval,detachment,breakup,legal separation
 unfaithful,treasonous,treasonable,traitorous,faithless
 broken heart,heartbreak,lost love,love lost,heartache,romantic pain,love sorrow,shattered heart,heartbroken,sadness in love,unrequited love,love despair,crushed heart,love grief,lonely heart,love disappointment,broke up,loveless,hurtin,dumped,no love
@@ -39,3 +39,8 @@ liberty,autonomy
 relief,easing,rest,alleviation
 release,liberation,discharge
 rights,equality
+adoration,idolization,idolisation
+heart,warmness,mettle,middle,warmheartedness,affection,affectionateness
+metal,metallic,alloy,metallic element
+punk,goon,toughie,thug,spunk,sleazy,crummy,kindling,punk rock,tinny,bum,touchwood,chintzy,tough,hoodlum,punk,cheesy,cheap,hood,rocker
+rock,rock-and-roll,rock 'n' roll,rock'n'roll,rock music
