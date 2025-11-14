@@ -95,6 +95,9 @@ def main(query_folder: Path, solr_uri: str, collections: list[str]):
     results_full = {}
     results_simple = {}
 
+    # Campos textuais que queremos garantir como listas (como no schema `simple`)
+    fields_to_list = ["song_name", "song_lyrics", "album_name", "artist_name", "artist_bio"]
+
     for idx, query_file in enumerate(query_files):
         filename = Path(query_file).stem
         collection = collections[idx % len(collections)] if collections else "music"
@@ -103,17 +106,23 @@ def main(query_folder: Path, solr_uri: str, collections: list[str]):
         try:
             solr_result = edismax_query_from_config(query_file, solr_uri, collection)
 
+            # Normalizar certos campos para serem sempre listas (como no core `simple`)
+            for doc in solr_result.get("response", {}).get("docs", []):
+                for f in fields_to_list:
+                    if f in doc and not isinstance(doc[f], list):
+                        doc[f] = [doc[f]]
+
             # Usar o mesmo formato de output antigo: chaves inteiras quando possível
             key = int(filename)
             results_full[key] = solr_result
 
-            # Extrair campos simples
+            # Extrair campos simples (mantendo listas, não strings)
             simple_docs = []
             for doc in solr_result.get("response", {}).get("docs", []):
                 simple_doc = {
                     "id": doc.get("id"),
-                    "song_name": doc.get("song_name", [""])[0] if doc.get("song_name") else "",
-                    "artist_name": doc.get("artist_name", "")
+                    "song_name": doc.get("song_name", []),
+                    "artist_name": doc.get("artist_name", [])
                 }
                 simple_docs.append(simple_doc)
 
