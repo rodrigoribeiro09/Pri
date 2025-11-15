@@ -2,9 +2,17 @@
 
   <uniqueKey>id</uniqueKey>
 
-  <fieldType name="text_content" class="solr.TextField" positionIncrementGap="100"/>
+  <fieldType name="text_content" class="solr.TextField">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+    </analyzer>
+  </fieldType>
 
-  <fieldType name="text_name" class="solr.TextField" positionIncrementGap="100"/>
+  <fieldType name="text_name" class="solr.TextField">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+    </analyzer>
+  </fieldType>
 
   <field name="song_lyrics" type="text_content" indexed="true" stored="true"/>
   <field name="artist_bio" type="text_content" indexed="true" stored="true"/>
