@@ -2766,15 +2766,6 @@
           ]
         },
         {
-          "id": "12140",
-          "song_name": [
-            "All Revved Up And No Place To Go"
-          ],
-          "artist_name": [
-            "Meat Loaf"
-          ]
-        },
-        {
           "id": "31168",
           "song_name": [
             "American Made"
@@ -2793,6 +2784,15 @@
           ]
         },
         {
+          "id": "32972",
+          "song_name": [
+            "1976"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
+        },
+        {
           "id": "19369",
           "song_name": [
             "Where Have You Gone?"
@@ -2802,12 +2802,12 @@
           ]
         },
         {
-          "id": "32972",
+          "id": "12140",
           "song_name": [
-            "1976"
+            "All Revved Up And No Place To Go"
           ],
           "artist_name": [
-            "Grand Funk Railroad"
+            "Meat Loaf"
           ]
         },
         {
@@ -2820,12 +2820,147 @@
           ]
         },
         {
+          "id": "21455",
+          "song_name": [
+            "Lance's Song"
+          ],
+          "artist_name": [
+            "Zac Brown Band"
+          ]
+        },
+        {
           "id": "25594",
           "song_name": [
             "American Skin"
           ],
           "artist_name": [
             "Bruce Springsteen"
+          ]
+        },
+        {
+          "id": "3574",
+          "song_name": [
+            "Leader Of The Band"
+          ],
+          "artist_name": [
+            "Dan Fogelberg"
+          ]
+        },
+        {
+          "id": "8697",
+          "song_name": [
+            "On The 4th Of July"
+          ],
+          "artist_name": [
+            "James Taylor"
+          ]
+        },
+        {
+          "id": "51242",
+          "song_name": [
+            "Running Wild"
+          ],
+          "artist_name": [
+            "Tom T. Hall"
+          ]
+        },
+        {
+          "id": "32375",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "George Michael"
+          ]
+        },
+        {
+          "id": "16180",
+          "song_name": [
+            "Freedom Fighter"
+          ],
+          "artist_name": [
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "45527",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Paul McCartney"
+          ]
+        },
+        {
+          "id": "16253",
+          "song_name": [
+            "PLANET EARTH"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "50210",
+          "song_name": [
+            "High Time"
+          ],
+          "artist_name": [
+            "Styx"
+          ]
+        },
+        {
+          "id": "19398",
+          "song_name": [
+            "Cry Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "45069",
+          "song_name": [
+            "In Union We Stand"
+          ],
+          "artist_name": [
+            "Overkill"
+          ]
+        },
+        {
+          "id": "24622",
+          "song_name": [
+            "Back To Eden"
+          ],
+          "artist_name": [
+            "Black Sabbath"
+          ]
+        },
+        {
+          "id": "27036",
+          "song_name": [
+            "From A Distance"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "20223",
+          "song_name": [
+            "Flesh And Fire"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53192",
+          "song_name": [
+            "Lake Of Fools"
+          ],
+          "artist_name": [
+            "W.A.S.P."
           ]
         }
       ]
@@ -2834,6 +2969,15 @@
   "8": {
     "response": {
       "docs": [
+        {
+          "id": "33042",
+          "song_name": [
+            "We're An American Band"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
+        },
         {
           "id": "12446",
           "song_name": [
@@ -2853,6 +2997,15 @@
           ]
         },
         {
+          "id": "52207",
+          "song_name": [
+            "Dreamer"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
           "id": "39046",
           "song_name": [
             "Wild American"
@@ -2862,30 +3015,12 @@
           ]
         },
         {
-          "id": "28879",
+          "id": "43485",
           "song_name": [
-            "God Bless The U.S.A."
+            "Eldorado"
           ],
           "artist_name": [
-            "Dolly Parton"
-          ]
-        },
-        {
-          "id": "35042",
-          "song_name": [
-            "God Bless The USA"
-          ],
-          "artist_name": [
-            "Independence Day"
-          ]
-        },
-        {
-          "id": "13786",
-          "song_name": [
-            "American Anthem"
-          ],
-          "artist_name": [
-            "Norah Jones"
+            "Neil Young"
           ]
         },
         {
@@ -2898,12 +3033,120 @@
           ]
         },
         {
-          "id": "15770",
+          "id": "28879",
           "song_name": [
-            "American Dream"
+            "God Bless The U.S.A."
           ],
           "artist_name": [
-            "Puff Daddy"
+            "Dolly Parton"
+          ]
+        },
+        {
+          "id": "35042",
+          "song_name": [
+            "God Bless The USA"
+          ],
+          "artist_name": [
+            "Independence Day"
+          ]
+        },
+        {
+          "id": "13786",
+          "song_name": [
+            "American Anthem"
+          ],
+          "artist_name": [
+            "Norah Jones"
+          ]
+        },
+        {
+          "id": "32375",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "George Michael"
+          ]
+        },
+        {
+          "id": "8697",
+          "song_name": [
+            "On The 4th Of July"
+          ],
+          "artist_name": [
+            "James Taylor"
+          ]
+        },
+        {
+          "id": "27650",
+          "song_name": [
+            "American Baby"
+          ],
+          "artist_name": [
+            "Dave Matthews Band"
+          ]
+        },
+        {
+          "id": "21455",
+          "song_name": [
+            "Lance's Song"
+          ],
+          "artist_name": [
+            "Zac Brown Band"
+          ]
+        },
+        {
+          "id": "30417",
+          "song_name": [
+            "Freedom 90"
+          ],
+          "artist_name": [
+            "Enrique Iglesias"
+          ]
+        },
+        {
+          "id": "39728",
+          "song_name": [
+            "American Star"
+          ],
+          "artist_name": [
+            "Lil Wayne"
+          ]
+        },
+        {
+          "id": "32989",
+          "song_name": [
+            "Don't Let 'em Take Your Gun"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
+        },
+        {
+          "id": "3574",
+          "song_name": [
+            "Leader Of The Band"
+          ],
+          "artist_name": [
+            "Dan Fogelberg"
+          ]
+        },
+        {
+          "id": "47787",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Rage Against The Machine"
+          ]
+        },
+        {
+          "id": "53244",
+          "song_name": [
+            "War Cry"
+          ],
+          "artist_name": [
+            "W.A.S.P."
           ]
         },
         {
@@ -2916,12 +3159,39 @@
           ]
         },
         {
-          "id": "42005",
+          "id": "15237",
+          "song_name": [
+            "Freedom!"
+          ],
+          "artist_name": [
+            "Pharrell Williams"
+          ]
+        },
+        {
+          "id": "25707",
           "song_name": [
             "Freedom"
           ],
           "artist_name": [
-            "Michael W. Smith"
+            "Bruno Mars"
+          ]
+        },
+        {
+          "id": "53742",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Wham!"
+          ]
+        },
+        {
+          "id": "17718",
+          "song_name": [
+            "Once It's Gotcha"
+          ],
+          "artist_name": [
+            "Santana"
           ]
         }
       ]
@@ -2930,6 +3200,24 @@
   "9": {
     "response": {
       "docs": [
+        {
+          "id": "33042",
+          "song_name": [
+            "We're An American Band"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
+        },
+        {
+          "id": "20873",
+          "song_name": [
+            "I Must Not Think Bad Thoughts"
+          ],
+          "artist_name": [
+            "X"
+          ]
+        },
         {
           "id": "12446",
           "song_name": [
@@ -2976,12 +3264,75 @@
           ]
         },
         {
+          "id": "21455",
+          "song_name": [
+            "Lance's Song"
+          ],
+          "artist_name": [
+            "Zac Brown Band"
+          ]
+        },
+        {
+          "id": "8697",
+          "song_name": [
+            "On The 4th Of July"
+          ],
+          "artist_name": [
+            "James Taylor"
+          ]
+        },
+        {
+          "id": "3574",
+          "song_name": [
+            "Leader Of The Band"
+          ],
+          "artist_name": [
+            "Dan Fogelberg"
+          ]
+        },
+        {
           "id": "32989",
           "song_name": [
             "Don't Let 'em Take Your Gun"
           ],
           "artist_name": [
             "Grand Funk Railroad"
+          ]
+        },
+        {
+          "id": "27650",
+          "song_name": [
+            "American Baby"
+          ],
+          "artist_name": [
+            "Dave Matthews Band"
+          ]
+        },
+        {
+          "id": "51242",
+          "song_name": [
+            "Running Wild"
+          ],
+          "artist_name": [
+            "Tom T. Hall"
+          ]
+        },
+        {
+          "id": "50210",
+          "song_name": [
+            "High Time"
+          ],
+          "artist_name": [
+            "Styx"
+          ]
+        },
+        {
+          "id": "32375",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "George Michael"
           ]
         },
         {
@@ -2994,21 +3345,30 @@
           ]
         },
         {
-          "id": "16896",
+          "id": "45069",
           "song_name": [
-            "American Oxygen"
+            "In Union We Stand"
           ],
           "artist_name": [
-            "Rihanna"
+            "Overkill"
           ]
         },
         {
-          "id": "13786",
+          "id": "50206",
           "song_name": [
-            "American Anthem"
+            "Half-Penny, Two-Penny"
           ],
           "artist_name": [
-            "Norah Jones"
+            "Styx"
+          ]
+        },
+        {
+          "id": "35998",
+          "song_name": [
+            "Railroads And Riverboats"
+          ],
+          "artist_name": [
+            "Jim Croce"
           ]
         },
         {
@@ -3018,6 +3378,51 @@
           ],
           "artist_name": [
             "Alabama"
+          ]
+        },
+        {
+          "id": "9250",
+          "song_name": [
+            "Big Foot"
+          ],
+          "artist_name": [
+            "Johnny Cash"
+          ]
+        },
+        {
+          "id": "46937",
+          "song_name": [
+            "Avalanche"
+          ],
+          "artist_name": [
+            "Prince"
+          ]
+        },
+        {
+          "id": "52870",
+          "song_name": [
+            "American Music"
+          ],
+          "artist_name": [
+            "Violent Femmes"
+          ]
+        },
+        {
+          "id": "27036",
+          "song_name": [
+            "From A Distance"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "5457",
+          "song_name": [
+            "American Girl"
+          ],
+          "artist_name": [
+            "Everclear"
           ]
         }
       ]
