@@ -60,7 +60,7 @@ def edismax_query_from_config(config_path, solr_uri):
     except requests.RequestException as e:
         print(f"Error querying Solr core '{core}': {e}")
         sys.exit(1)
-
+    print(f"Query executed on core '{core}': {params}")
     print(f"🔍 Core: {core} | Final Solr query: {base_query}")
     return response.json()
 
