@@ -15,19 +15,17 @@ broken heart,heartbreak,lost love,love lost,heartache,romantic pain,love sorrow,
 anxious, dying, unquiet, nervous, queasy, uneasy
 danger, risk, peril, threat, menace
 dread, awful, dreaded, horrendous, dire, horrific, direful, dreadful, fearful, terrible, fearsome, frightening, frightful, appalling, intimidating
-fear, reverence, fright, dread, awe, apprehension, anxiety, terror
+fear, reverence, fright, dread, awe, anxiety, terror
 fright, affright, scare, fearfulness, frighten, startle, alarm
-horror, repulsion, revulsion, repugnance, disgust, abhorrence
+horror, repulsion, revulsion, disgust, abhorrence
 insecure, unsafe, vulnerable, exposed
-nervous, aflutter, flighty, skittish, uneasy, jittery, tense
 nightmare, incubus, dream, torment
 panic, terror, affright, scare, frenzy, hysteria, alarm
 scared, frightened, afraid, fearful, terrified, panicked, startled, intimidated
-tension, stress, tautness, tenseness, strain, anxiety
+anxiety, tension, stress, tenseness, strain
 terrified, panicked, panic-stricken, panicky, horrified, petrified, terrorized
 terror, panic, fright, threat, menace, horror
 afraid, fearful, frightened, uneasy, alarmed, apprehensive, timid, cowardly, jumpy
-paranoia, suspicion, mistrust, delusion, obsession, fearfulness, persecution, insecurity
 autonomy,self-sufficiency,self-reliance
 democracy,commonwealth,republic
 free,liberate,release

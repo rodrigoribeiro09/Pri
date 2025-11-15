@@ -1,98 +1,7 @@
 {
   "1": {
     "response": {
-      "docs": [
-        {
-          "id": "39091",
-          "song_name": [
-            "Break This Heartbreak"
-          ],
-          "artist_name": [
-            "Kylie Minogue"
-          ]
-        },
-        {
-          "id": "19003",
-          "song_name": [
-            "A Room At The Heartbreak Hotel"
-          ],
-          "artist_name": [
-            "U2"
-          ]
-        },
-        {
-          "id": "28226",
-          "song_name": [
-            "Bringin' On The Heartbreak"
-          ],
-          "artist_name": [
-            "Def Leppard"
-          ]
-        },
-        {
-          "id": "16834",
-          "song_name": [
-            "Little Miss Heartbreak"
-          ],
-          "artist_name": [
-            "Richard Marx"
-          ]
-        },
-        {
-          "id": "3173",
-          "song_name": [
-            "Front Page"
-          ],
-          "artist_name": [
-            "Cliff Richard"
-          ]
-        },
-        {
-          "id": "1750",
-          "song_name": [
-            "Heartbreak Eyes"
-          ],
-          "artist_name": [
-            "Bon Jovi"
-          ]
-        },
-        {
-          "id": "30326",
-          "song_name": [
-            "Heartbreak Hill"
-          ],
-          "artist_name": [
-            "Emmylou Harris"
-          ]
-        },
-        {
-          "id": "403",
-          "song_name": [
-            "Heartbreak Express"
-          ],
-          "artist_name": [
-            "Alabama"
-          ]
-        },
-        {
-          "id": "4643",
-          "song_name": [
-            "Yesterday's Heartbreak"
-          ],
-          "artist_name": [
-            "Eddie Cochran"
-          ]
-        },
-        {
-          "id": "25329",
-          "song_name": [
-            "Danger Heartbreak Dead Ahead"
-          ],
-          "artist_name": [
-            "Bonnie Raitt"
-          ]
-        }
-      ]
+      "docs": []
     }
   },
   "2": {
@@ -289,98 +198,7 @@
   },
   "4": {
     "response": {
-      "docs": [
-        {
-          "id": "16217",
-          "song_name": [
-            "Anxiety"
-          ],
-          "artist_name": [
-            "Ramones"
-          ]
-        },
-        {
-          "id": "17790",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "Sia"
-          ]
-        },
-        {
-          "id": "25193",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "Bon Jovi"
-          ]
-        },
-        {
-          "id": "29307",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "Drake"
-          ]
-        },
-        {
-          "id": "39538",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "Lenny Kravitz"
-          ]
-        },
-        {
-          "id": "44865",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "OneRepublic"
-          ]
-        },
-        {
-          "id": "45267",
-          "song_name": [
-            "Anxiety"
-          ],
-          "artist_name": [
-            "Pat Benatar"
-          ]
-        },
-        {
-          "id": "8258",
-          "song_name": [
-            "Real Fright"
-          ],
-          "artist_name": [
-            "Iron Butterfly"
-          ]
-        },
-        {
-          "id": "10197",
-          "song_name": [
-            "Hello Fear"
-          ],
-          "artist_name": [
-            "Kirk Franklin"
-          ]
-        },
-        {
-          "id": "12300",
-          "song_name": [
-            "Mistress Dread"
-          ],
-          "artist_name": [
-            "Metallica"
-          ]
-        }
-      ]
+      "docs": []
     }
   },
   "5": {
@@ -396,6 +214,15 @@
           ]
         },
         {
+          "id": "45267",
+          "song_name": [
+            "Anxiety"
+          ],
+          "artist_name": [
+            "Pat Benatar"
+          ]
+        },
+        {
           "id": "17790",
           "song_name": [
             "Fear"
@@ -438,15 +265,6 @@
           ],
           "artist_name": [
             "OneRepublic"
-          ]
-        },
-        {
-          "id": "45267",
-          "song_name": [
-            "Anxiety"
-          ],
-          "artist_name": [
-            "Pat Benatar"
           ]
         },
         {
@@ -475,21 +293,6 @@
           "artist_name": [
             "Metallica"
           ]
-        }
-      ]
-    }
-  },
-  "6": {
-    "response": {
-      "docs": [
-        {
-          "id": "10197",
-          "song_name": [
-            "Hello Fear"
-          ],
-          "artist_name": [
-            "Kirk Franklin"
-          ]
         },
         {
           "id": "20242",
@@ -498,6 +301,102 @@
           ],
           "artist_name": [
             "W.A.S.P."
+          ]
+        },
+        {
+          "id": "36147",
+          "song_name": [
+            "Brahma Fear"
+          ],
+          "artist_name": [
+            "Jimmy Buffett"
+          ]
+        },
+        {
+          "id": "2841",
+          "song_name": [
+            "Nothing To Fear"
+          ],
+          "artist_name": [
+            "Chris Rea"
+          ]
+        },
+        {
+          "id": "5074",
+          "song_name": [
+            "Fear And Love"
+          ],
+          "artist_name": [
+            "Enigma"
+          ]
+        },
+        {
+          "id": "14130",
+          "song_name": [
+            "Nothing To Fear"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "16341",
+          "song_name": [
+            "My Greatest Fear"
+          ],
+          "artist_name": [
+            "Randy Travis"
+          ]
+        },
+        {
+          "id": "20818",
+          "song_name": [
+            "It's The Fear"
+          ],
+          "artist_name": [
+            "Within Temptation"
+          ]
+        },
+        {
+          "id": "22085",
+          "song_name": [
+            "Bright Light Fright"
+          ],
+          "artist_name": [
+            "Aerosmith"
+          ]
+        },
+        {
+          "id": "22575",
+          "song_name": [
+            "Fear The Voices"
+          ],
+          "artist_name": [
+            "Alice In Chains"
+          ]
+        },
+        {
+          "id": "34713",
+          "song_name": [
+            "Nothing To Fear"
+          ],
+          "artist_name": [
+            "Howard Jones"
+          ]
+        }
+      ]
+    }
+  },
+  "6": {
+    "response": {
+      "docs": [
+        {
+          "id": "44865",
+          "song_name": [
+            "Fear"
+          ],
+          "artist_name": [
+            "OneRepublic"
           ]
         },
         {
@@ -510,39 +409,12 @@
           ]
         },
         {
-          "id": "44865",
+          "id": "47707",
           "song_name": [
-            "Fear"
+            "Lull"
           ],
           "artist_name": [
-            "OneRepublic"
-          ]
-        },
-        {
-          "id": "39538",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "Lenny Kravitz"
-          ]
-        },
-        {
-          "id": "45267",
-          "song_name": [
-            "Anxiety"
-          ],
-          "artist_name": [
-            "Pat Benatar"
-          ]
-        },
-        {
-          "id": "17790",
-          "song_name": [
-            "Fear"
-          ],
-          "artist_name": [
-            "Sia"
+            "Radiohead"
           ]
         },
         {
@@ -555,21 +427,147 @@
           ]
         },
         {
-          "id": "29307",
+          "id": "39926",
+          "song_name": [
+            "White Noise"
+          ],
+          "artist_name": [
+            "Linkin Park"
+          ]
+        },
+        {
+          "id": "3781",
+          "song_name": [
+            "Beautiful People Say"
+          ],
+          "artist_name": [
+            "David Guetta"
+          ]
+        },
+        {
+          "id": "33341",
+          "song_name": [
+            "Mass Hysteria"
+          ],
+          "artist_name": [
+            "Green Day"
+          ]
+        },
+        {
+          "id": "17790",
           "song_name": [
             "Fear"
           ],
           "artist_name": [
-            "Drake"
+            "Sia"
           ]
         },
         {
-          "id": "14130",
+          "id": "18911",
+          "song_name": [
+            "No Threat"
+          ],
+          "artist_name": [
+            "Tragically Hip"
+          ]
+        },
+        {
+          "id": "42266",
+          "song_name": [
+            "Horror Hotel"
+          ],
+          "artist_name": [
+            "Misfits"
+          ]
+        },
+        {
+          "id": "44069",
+          "song_name": [
+            "Terrible Lie"
+          ],
+          "artist_name": [
+            "Nine Inch Nails"
+          ]
+        },
+        {
+          "id": "27965",
+          "song_name": [
+            "Don't Be Afraid"
+          ],
+          "artist_name": [
+            "David Guetta"
+          ]
+        },
+        {
+          "id": "13160",
+          "song_name": [
+            "I'm Afraid"
+          ],
+          "artist_name": [
+            "Neil Diamond"
+          ]
+        },
+        {
+          "id": "12323",
+          "song_name": [
+            "The Frayed Ends Of Sanity"
+          ],
+          "artist_name": [
+            "Metallica"
+          ]
+        },
+        {
+          "id": "13509",
+          "song_name": [
+            "Pound The Alarm"
+          ],
+          "artist_name": [
+            "Nicki Minaj"
+          ]
+        },
+        {
+          "id": "41168",
+          "song_name": [
+            "Terrible Lie (acoustic)"
+          ],
+          "artist_name": [
+            "Marilyn Manson"
+          ]
+        },
+        {
+          "id": "39538",
+          "song_name": [
+            "Fear"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ]
+        },
+        {
+          "id": "34713",
           "song_name": [
             "Nothing To Fear"
           ],
           "artist_name": [
-            "Oingo Boingo"
+            "Howard Jones"
+          ]
+        },
+        {
+          "id": "5074",
+          "song_name": [
+            "Fear And Love"
+          ],
+          "artist_name": [
+            "Enigma"
+          ]
+        },
+        {
+          "id": "11992",
+          "song_name": [
+            "Terrible Lie (Nin Cover From 1988)"
+          ],
+          "artist_name": [
+            "Marilyn Manson"
           ]
         }
       ]
@@ -577,908 +575,7 @@
   },
   "7": {
     "response": {
-      "docs": [
-        {
-          "id": "12446",
-          "song_name": [
-            "The Spirit Of American"
-          ],
-          "artist_name": [
-            "Michael Bolton"
-          ]
-        },
-        {
-          "id": "39046",
-          "song_name": [
-            "Wild American"
-          ],
-          "artist_name": [
-            "Kris Kristofferson"
-          ]
-        },
-        {
-          "id": "244",
-          "song_name": [
-            "American Hearts"
-          ],
-          "artist_name": [
-            "Air Supply"
-          ]
-        },
-        {
-          "id": "28879",
-          "song_name": [
-            "God Bless The U.S.A."
-          ],
-          "artist_name": [
-            "Dolly Parton"
-          ]
-        },
-        {
-          "id": "35042",
-          "song_name": [
-            "God Bless The USA"
-          ],
-          "artist_name": [
-            "Independence Day"
-          ]
-        },
-        {
-          "id": "50316",
-          "song_name": [
-            "What Happened"
-          ],
-          "artist_name": [
-            "Sublime"
-          ]
-        },
-        {
-          "id": "13786",
-          "song_name": [
-            "American Anthem"
-          ],
-          "artist_name": [
-            "Norah Jones"
-          ]
-        },
-        {
-          "id": "16896",
-          "song_name": [
-            "American Oxygen"
-          ],
-          "artist_name": [
-            "Rihanna"
-          ]
-        },
-        {
-          "id": "32989",
-          "song_name": [
-            "Don't Let 'em Take Your Gun"
-          ],
-          "artist_name": [
-            "Grand Funk Railroad"
-          ]
-        },
-        {
-          "id": "33042",
-          "song_name": [
-            "We're An American Band"
-          ],
-          "artist_name": [
-            "Grand Funk Railroad"
-          ]
-        },
-        {
-          "id": "52870",
-          "song_name": [
-            "American Music"
-          ],
-          "artist_name": [
-            "Violent Femmes"
-          ]
-        },
-        {
-          "id": "22224",
-          "song_name": [
-            "American Pride"
-          ],
-          "artist_name": [
-            "Alabama"
-          ]
-        },
-        {
-          "id": "9105",
-          "song_name": [
-            "American Son"
-          ],
-          "artist_name": [
-            "John Mellencamp"
-          ]
-        },
-        {
-          "id": "10812",
-          "song_name": [
-            "American Woman"
-          ],
-          "artist_name": [
-            "Lenny Kravitz"
-          ]
-        },
-        {
-          "id": "5457",
-          "song_name": [
-            "American Girl"
-          ],
-          "artist_name": [
-            "Everclear"
-          ]
-        },
-        {
-          "id": "27650",
-          "song_name": [
-            "American Baby"
-          ],
-          "artist_name": [
-            "Dave Matthews Band"
-          ]
-        },
-        {
-          "id": "53244",
-          "song_name": [
-            "War Cry"
-          ],
-          "artist_name": [
-            "W.A.S.P."
-          ]
-        },
-        {
-          "id": "23401",
-          "song_name": [
-            "I Am Not American"
-          ],
-          "artist_name": [
-            "Arrogant Worms"
-          ]
-        },
-        {
-          "id": "12618",
-          "song_name": [
-            "American Nightmare"
-          ],
-          "artist_name": [
-            "Misfits"
-          ]
-        },
-        {
-          "id": "1727",
-          "song_name": [
-            "American Dreams"
-          ],
-          "artist_name": [
-            "Bon Jovi"
-          ]
-        },
-        {
-          "id": "43455",
-          "song_name": [
-            "American Dream"
-          ],
-          "artist_name": [
-            "Neil Young"
-          ]
-        },
-        {
-          "id": "39279",
-          "song_name": [
-            "American"
-          ],
-          "artist_name": [
-            "Lana Del Rey"
-          ]
-        },
-        {
-          "id": "22958",
-          "song_name": [
-            "My American Dream"
-          ],
-          "artist_name": [
-            "America"
-          ]
-        },
-        {
-          "id": "37422",
-          "song_name": [
-            "Foreign Remix"
-          ],
-          "artist_name": [
-            "Justin Bieber"
-          ]
-        },
-        {
-          "id": "31622",
-          "song_name": [
-            "Early American"
-          ],
-          "artist_name": [
-            "Frank Sinatra"
-          ]
-        },
-        {
-          "id": "22467",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Alice Cooper"
-          ]
-        },
-        {
-          "id": "38728",
-          "song_name": [
-            "All American Man"
-          ],
-          "artist_name": [
-            "Kiss"
-          ]
-        },
-        {
-          "id": "15237",
-          "song_name": [
-            "Freedom!"
-          ],
-          "artist_name": [
-            "Pharrell Williams"
-          ]
-        },
-        {
-          "id": "42005",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Michael W. Smith"
-          ]
-        },
-        {
-          "id": "8503",
-          "song_name": [
-            "When The Stone Begins To Turn"
-          ],
-          "artist_name": [
-            "Jackson Browne"
-          ]
-        },
-        {
-          "id": "32992",
-          "song_name": [
-            "Freedom Is For Children"
-          ],
-          "artist_name": [
-            "Grand Funk Railroad"
-          ]
-        },
-        {
-          "id": "33839",
-          "song_name": [
-            "American Offline"
-          ],
-          "artist_name": [
-            "Hank Williams Jr."
-          ]
-        },
-        {
-          "id": "36057",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Jimi Hendrix"
-          ]
-        },
-        {
-          "id": "9104",
-          "song_name": [
-            "American Dream"
-          ],
-          "artist_name": [
-            "John Mellencamp"
-          ]
-        },
-        {
-          "id": "33838",
-          "song_name": [
-            "American Dream"
-          ],
-          "artist_name": [
-            "Hank Williams Jr."
-          ]
-        },
-        {
-          "id": "46881",
-          "song_name": [
-            "American Life"
-          ],
-          "artist_name": [
-            "Primus"
-          ]
-        },
-        {
-          "id": "5942",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Fleetwood Mac"
-          ]
-        },
-        {
-          "id": "15424",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Pitbull"
-          ]
-        },
-        {
-          "id": "31907",
-          "song_name": [
-            "American Honky-Tonk Bar Association"
-          ],
-          "artist_name": [
-            "Garth Brooks"
-          ]
-        },
-        {
-          "id": "5465",
-          "song_name": [
-            "Blackjack"
-          ],
-          "artist_name": [
-            "Everclear"
-          ]
-        },
-        {
-          "id": "42223",
-          "song_name": [
-            "American Psycho"
-          ],
-          "artist_name": [
-            "Misfits"
-          ]
-        },
-        {
-          "id": "31362",
-          "song_name": [
-            "American Superstar"
-          ],
-          "artist_name": [
-            "Flo-Rida"
-          ]
-        },
-        {
-          "id": "25707",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Bruno Mars"
-          ]
-        },
-        {
-          "id": "47787",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Rage Against The Machine"
-          ]
-        },
-        {
-          "id": "28526",
-          "song_name": [
-            "Freedom Of Choice"
-          ],
-          "artist_name": [
-            "Devo"
-          ]
-        },
-        {
-          "id": "38142",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Kenny Chesney"
-          ]
-        },
-        {
-          "id": "7293",
-          "song_name": [
-            "The American Dream"
-          ],
-          "artist_name": [
-            "Hank Williams Jr."
-          ]
-        },
-        {
-          "id": "33368",
-          "song_name": [
-            "Reject"
-          ],
-          "artist_name": [
-            "Green Day"
-          ]
-        },
-        {
-          "id": "33332",
-          "song_name": [
-            "Last Of The American Girls"
-          ],
-          "artist_name": [
-            "Green Day"
-          ]
-        },
-        {
-          "id": "34975",
-          "song_name": [
-            "Wild America"
-          ],
-          "artist_name": [
-            "Iggy Pop"
-          ]
-        },
-        {
-          "id": "18534",
-          "song_name": [
-            "Two Lanes Of Freedom"
-          ],
-          "artist_name": [
-            "Tim McGraw"
-          ]
-        },
-        {
-          "id": "17718",
-          "song_name": [
-            "Once It's Gotcha"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "49163",
-          "song_name": [
-            "Before We Go"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "49173",
-          "song_name": [
-            "Deeper, Dig Deeper"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "49208",
-          "song_name": [
-            "Praise"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "49212",
-          "song_name": [
-            "She Can't Let Go"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "49216",
-          "song_name": [
-            "Songs Of Freedom"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "15770",
-          "song_name": [
-            "American Dream"
-          ],
-          "artist_name": [
-            "Puff Daddy"
-          ]
-        },
-        {
-          "id": "8400",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Isley Brothers"
-          ]
-        },
-        {
-          "id": "7781",
-          "song_name": [
-            "American Music"
-          ],
-          "artist_name": [
-            "Ian Hunter"
-          ]
-        },
-        {
-          "id": "9505",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Judds"
-          ]
-        },
-        {
-          "id": "25593",
-          "song_name": [
-            "American Beauty"
-          ],
-          "artist_name": [
-            "Bruce Springsteen"
-          ]
-        },
-        {
-          "id": "31555",
-          "song_name": [
-            "American Beauty Rose"
-          ],
-          "artist_name": [
-            "Frank Sinatra"
-          ]
-        },
-        {
-          "id": "45527",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Paul McCartney"
-          ]
-        },
-        {
-          "id": "53431",
-          "song_name": [
-            "Freedom Of '76"
-          ],
-          "artist_name": [
-            "Ween"
-          ]
-        },
-        {
-          "id": "50386",
-          "song_name": [
-            "Holy Mountains"
-          ],
-          "artist_name": [
-            "System Of A Down"
-          ]
-        },
-        {
-          "id": "34782",
-          "song_name": [
-            "All American Alien Boy"
-          ],
-          "artist_name": [
-            "Ian Hunter"
-          ]
-        },
-        {
-          "id": "10662",
-          "song_name": [
-            "Freedom Time"
-          ],
-          "artist_name": [
-            "Lauryn Hill"
-          ]
-        },
-        {
-          "id": "12140",
-          "song_name": [
-            "All Revved Up And No Place To Go"
-          ],
-          "artist_name": [
-            "Meat Loaf"
-          ]
-        },
-        {
-          "id": "13140",
-          "song_name": [
-            "Freedom Song"
-          ],
-          "artist_name": [
-            "Neil Diamond"
-          ]
-        },
-        {
-          "id": "39206",
-          "song_name": [
-            "Diamond Heart"
-          ],
-          "artist_name": [
-            "Lady Gaga"
-          ]
-        },
-        {
-          "id": "28494",
-          "song_name": [
-            "Tora! Tora! Tora!"
-          ],
-          "artist_name": [
-            "Depeche Mode"
-          ]
-        },
-        {
-          "id": "41652",
-          "song_name": [
-            "Eye Of The Beholder"
-          ],
-          "artist_name": [
-            "Metallica"
-          ]
-        },
-        {
-          "id": "27939",
-          "song_name": [
-            "Imagination"
-          ],
-          "artist_name": [
-            "David Bowie"
-          ]
-        },
-        {
-          "id": "36377",
-          "song_name": [
-            "Woke Up This Morning"
-          ],
-          "artist_name": [
-            "John Legend"
-          ]
-        },
-        {
-          "id": "18926",
-          "song_name": [
-            "All American Girl"
-          ],
-          "artist_name": [
-            "Train"
-          ]
-        },
-        {
-          "id": "31669",
-          "song_name": [
-            "Concentration Moon"
-          ],
-          "artist_name": [
-            "Frank Zappa"
-          ]
-        },
-        {
-          "id": "44176",
-          "song_name": [
-            "Franco Un-American"
-          ],
-          "artist_name": [
-            "NOFX"
-          ]
-        },
-        {
-          "id": "5695",
-          "song_name": [
-            "American Heart"
-          ],
-          "artist_name": [
-            "Faith Hill"
-          ]
-        },
-        {
-          "id": "15452",
-          "song_name": [
-            "Free"
-          ],
-          "artist_name": [
-            "Planetshakers"
-          ]
-        },
-        {
-          "id": "3916",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Deep Purple"
-          ]
-        },
-        {
-          "id": "7613",
-          "song_name": [
-            "In Freedom"
-          ],
-          "artist_name": [
-            "Hillsong United"
-          ]
-        },
-        {
-          "id": "11658",
-          "song_name": [
-            "Is This Freedom"
-          ],
-          "artist_name": [
-            "Lucky Dube"
-          ]
-        },
-        {
-          "id": "16989",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Robbie Williams"
-          ]
-        },
-        {
-          "id": "19357",
-          "song_name": [
-            "So This Is Freedom?"
-          ],
-          "artist_name": [
-            "Unseen"
-          ]
-        },
-        {
-          "id": "32375",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "George Michael"
-          ]
-        },
-        {
-          "id": "34340",
-          "song_name": [
-            "Freedom is here"
-          ],
-          "artist_name": [
-            "Hillsong"
-          ]
-        },
-        {
-          "id": "34367",
-          "song_name": [
-            "In Your Freedom"
-          ],
-          "artist_name": [
-            "Hillsong"
-          ]
-        },
-        {
-          "id": "35054",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Indiana Bible College"
-          ]
-        },
-        {
-          "id": "46520",
-          "song_name": [
-            "There's Freedom"
-          ],
-          "artist_name": [
-            "Planetshakers"
-          ]
-        },
-        {
-          "id": "53742",
-          "song_name": [
-            "Freedom"
-          ],
-          "artist_name": [
-            "Wham!"
-          ]
-        },
-        {
-          "id": "49632",
-          "song_name": [
-            "A Message 2 Fat Cuzz"
-          ],
-          "artist_name": [
-            "Snoop Dogg"
-          ]
-        },
-        {
-          "id": "27938",
-          "song_name": [
-            "I'm Afraid Of Americans"
-          ],
-          "artist_name": [
-            "David Bowie"
-          ]
-        },
-        {
-          "id": "54241",
-          "song_name": [
-            "Heartland"
-          ],
-          "artist_name": [
-            "Willie Nelson"
-          ]
-        },
-        {
-          "id": "16180",
-          "song_name": [
-            "Freedom Fighter"
-          ],
-          "artist_name": [
-            "Rainbow"
-          ]
-        },
-        {
-          "id": "4841",
-          "song_name": [
-            "American Without Tears"
-          ],
-          "artist_name": [
-            "Elvis Costello"
-          ]
-        },
-        {
-          "id": "10905",
-          "song_name": [
-            "Running To My Freedom"
-          ],
-          "artist_name": [
-            "Leo Sayer"
-          ]
-        },
-        {
-          "id": "49172",
-          "song_name": [
-            "Day Of Celebration"
-          ],
-          "artist_name": [
-            "Santana"
-          ]
-        },
-        {
-          "id": "23444",
-          "song_name": [
-            "American Idiot (Greenday Cover)"
-          ],
-          "artist_name": [
-            "Avril Lavigne"
-          ]
-        },
-        {
-          "id": "31974",
-          "song_name": [
-            "A Dream Of Siam"
-          ],
-          "artist_name": [
-            "Gary Numan"
-          ]
-        }
-      ]
+      "docs": []
     }
   },
   "8": {
