@@ -21,8 +21,8 @@ python3 ./src/startSolr/load_files_solr.py
 ## Correr queries:
 - difrentes queries do mesmo IN so difere o boost
 - isto corre a 1 query no 1 schema a 2 no segundo e a 3 no 3, para cada query que queiram fazer criar 3 ficheiros seguidos para funcionar
-python3 .\scripts\query_solr.py
-
+- python3 .\scripts\query_solr.py
+- python3 ./scripts/query_solr.py
 ## resultados para terc:
 
 python3 scripts/solr2trec.py --run-id run1 --input results/solr_output.json > results/trec_run.txt

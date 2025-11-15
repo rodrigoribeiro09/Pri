@@ -1,0 +1,15 @@
+<schema name="songs" version="1.6">
+
+  <uniqueKey>id</uniqueKey>
+
+  <fieldType name="text_content" class="solr.TextField" positionIncrementGap="100"/>
+
+  <fieldType name="text_name" class="solr.TextField" positionIncrementGap="100"/>
+
+  <field name="song_lyrics" type="text_content" indexed="true" stored="true"/>
+  <field name="artist_bio" type="text_content" indexed="true" stored="true"/>
+  <field name="song_name" type="text_name" indexed="true" stored="true"/>
+  <field name="album_name" type="text_name" indexed="true" stored="true"/>
+  <field name="artist_name" type="text_name" indexed="true" stored="true"/>
+
+</schema>
