@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 219,
+      "QTime": 278,
       "params": {
         "q": "heartbreak",
         "defType": "edismax",
@@ -234,27 +234,20 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 4,
+      "QTime": 518,
       "params": {
-        "mm": "75%",
-        "ps": "3",
+        "q": "heartbreak",
+        "defType": "edismax",
+        "qf": "song_lyrics song_name artist_name artist_bio album_name",
         "fl": "*,score",
         "rows": "10",
-        "ps2": "2",
-        "q": "heartbreak",
-        "tie": "0.1",
-        "defType": "edismax",
-        "qf": "song_lyrics^5 song_name^3 artist_name^2 artist_bio^2 album_name^1",
-        "pf": "song_lyrics^10 song_name^5",
-        "pf1": "song_lyrics^2 song_name^1 artist_bio^1",
-        "wt": "json",
-        "pf2": "song_lyrics^7 song_name^3 artist_bio^1"
+        "wt": "json"
       }
     },
     "response": {
       "numFound": 12576,
       "start": 0,
-      "maxScore": 1194.8085,
+      "maxScore": 86.88531,
       "numFoundExact": true,
       "docs": [
         {
@@ -276,7 +269,7 @@
           ],
           "_version_": 1848804316505178112,
           "_root_": "52220",
-          "score": 1194.8085
+          "score": 86.88531
         },
         {
           "id": "28226",
@@ -297,28 +290,7 @@
           ],
           "_version_": 1848804306197676032,
           "_root_": "28226",
-          "score": 1181.729
-        },
-        {
-          "id": "48945",
-          "song_name": [
-            "Heartache"
-          ],
-          "song_lyrics": [
-            "Tonight at midnight you came by  \r\nI Shook my head, tried not to cry  \r\nHalfway weeping, halfway sleeping  \r\nTossing, turning, trembling, burning  \r\n  \r\nHere it comes, heartache  \r\nYou wore your hair down  \r\nI love it that way  \r\nYou reached out and touched me  \r\n  \r\nAnd then you faded away  \r\nIt's unreal, the way I feel  \r\nIt's almost dawn and you are gone  \r\nHere it comes, heartache  \r\n  \r\nHeartache of heartache  \r\nDeeper than blue  \r\nTeardrop on teardrop  \r\nI'm still in love with you  \r\n  \r\nWhat a way to start a day  \r\nhere it comes, heartache over you  \r\nHeartache for you  \r\nEverytime you walk through my mind  \r\nI get that old heartache\r\n\r\n"
-          ],
-          "album_name": [
-            "Roy Orbison's Many Moods"
-          ],
-          "artist_name": [
-            "Roy Orbison"
-          ],
-          "artist_bio": [
-            "Roy Kelton Orbison (April 23, 1936 – December 6, 1988), nicknamed \"The Big O\", was an influential American singer-songwriter and a pioneer of rock and roll, whose recording career spanned more than four decades. By the mid-1960s Orbison was internationally recognized for his ballads of lost love, rhythmically advanced melodies, three-octave vocal range, characteristic dark sunglasses, and sometimes distinctive usage of falsetto, typified in songs such as \"Only the Lonely, \"Oh, Pretty Woman\", and \"Crying\"."
-          ],
-          "_version_": 1848804314694287361,
-          "_root_": "48945",
-          "score": 1176.0193
+          "score": 86.26667
         },
         {
           "id": "39091",
@@ -339,7 +311,7 @@
           ],
           "_version_": 1848804310714941442,
           "_root_": "39091",
-          "score": 1165.8763
+          "score": 85.327255
         },
         {
           "id": "40760",
@@ -360,28 +332,7 @@
           ],
           "_version_": 1848804311473061888,
           "_root_": "40760",
-          "score": 1164.0905
-        },
-        {
-          "id": "19003",
-          "song_name": [
-            "A Room At The Heartbreak Hotel"
-          ],
-          "song_lyrics": [
-            "From where I stand  \r\nI can see through you  \r\nFrom where you're sitting, pretty one  \r\nI know it got to you  \r\n  \r\nI see the stars in your eyes  \r\nYou want the truth, but you need the lies  \r\nLike Judy Garland, like Valentino  \r\nYou give your life for rock n' roll  \r\nUh huh  \r\n  \r\nStand, we're on a landslide of love  \r\nYou got everything you want  \r\nBut what you need you give away  \r\n  \r\nFor primitive love  \r\nAnd a ride on the mystery train  \r\nA primitive love  \r\nA room at the Heart...  \r\nThe Heartbreak Hotel  \r\nA room at the Heartbreak  \r\nHeartbreak Hotel  \r\nA room at the Heartbreak  \r\nHeartbreak Hotel  \r\n  \r\nYou say it's love, it's not the money  \r\nYou let them suck your life out like honey  \r\nTurning tricks, you're on the street  \r\nSelling your kisses so bittersweet  \r\n  \r\n(Gospel voices)  \r\n  \r\nA primitive love  \r\nA and a ride on the mystery train  \r\nA primitive love  \r\nA room at the Heart  \r\nThe Heartbreak Hotel  \r\n  \r\nA room at the Heartbreak, the Heartbreak,  \r\nThe Heartbreak Hotel, Hotel  \r\n[Repeat until end]\r\n\r\n"
-          ],
-          "album_name": [
-            "The Best Of 1980-1990 & B-Sides"
-          ],
-          "artist_name": [
-            "U2"
-          ],
-          "artist_bio": [
-            "U2 is an Irish rock band formed in Dublin in 1976. The group comprises Bono (lead vocals and rhythm guitar), the Edge (lead guitar, keyboards, and backing vocals), Adam Clayton (bass guitar), and Larry Mullen Jr. (drums and percussion). Initially rooted in post-punk, U2's musical style has evolved throughout their career, yet has maintained an anthemic quality built on Bono's expressive vocals and the Edge's chiming, effects-based guitar sounds. Bono's lyrics"
-          ],
-          "_version_": 1848804303464038401,
-          "_root_": "19003",
-          "score": 1156.604
+          "score": 85.24583
         },
         {
           "id": "35133",
@@ -402,7 +353,49 @@
           ],
           "_version_": 1848804308978499585,
           "_root_": "35133",
-          "score": 1152.493
+          "score": 84.47936
+        },
+        {
+          "id": "48945",
+          "song_name": [
+            "Heartache"
+          ],
+          "song_lyrics": [
+            "Tonight at midnight you came by  \r\nI Shook my head, tried not to cry  \r\nHalfway weeping, halfway sleeping  \r\nTossing, turning, trembling, burning  \r\n  \r\nHere it comes, heartache  \r\nYou wore your hair down  \r\nI love it that way  \r\nYou reached out and touched me  \r\n  \r\nAnd then you faded away  \r\nIt's unreal, the way I feel  \r\nIt's almost dawn and you are gone  \r\nHere it comes, heartache  \r\n  \r\nHeartache of heartache  \r\nDeeper than blue  \r\nTeardrop on teardrop  \r\nI'm still in love with you  \r\n  \r\nWhat a way to start a day  \r\nhere it comes, heartache over you  \r\nHeartache for you  \r\nEverytime you walk through my mind  \r\nI get that old heartache\r\n\r\n"
+          ],
+          "album_name": [
+            "Roy Orbison's Many Moods"
+          ],
+          "artist_name": [
+            "Roy Orbison"
+          ],
+          "artist_bio": [
+            "Roy Kelton Orbison (April 23, 1936 – December 6, 1988), nicknamed \"The Big O\", was an influential American singer-songwriter and a pioneer of rock and roll, whose recording career spanned more than four decades. By the mid-1960s Orbison was internationally recognized for his ballads of lost love, rhythmically advanced melodies, three-octave vocal range, characteristic dark sunglasses, and sometimes distinctive usage of falsetto, typified in songs such as \"Only the Lonely, \"Oh, Pretty Woman\", and \"Crying\"."
+          ],
+          "_version_": 1848804314694287361,
+          "_root_": "48945",
+          "score": 84.071304
+        },
+        {
+          "id": "19003",
+          "song_name": [
+            "A Room At The Heartbreak Hotel"
+          ],
+          "song_lyrics": [
+            "From where I stand  \r\nI can see through you  \r\nFrom where you're sitting, pretty one  \r\nI know it got to you  \r\n  \r\nI see the stars in your eyes  \r\nYou want the truth, but you need the lies  \r\nLike Judy Garland, like Valentino  \r\nYou give your life for rock n' roll  \r\nUh huh  \r\n  \r\nStand, we're on a landslide of love  \r\nYou got everything you want  \r\nBut what you need you give away  \r\n  \r\nFor primitive love  \r\nAnd a ride on the mystery train  \r\nA primitive love  \r\nA room at the Heart...  \r\nThe Heartbreak Hotel  \r\nA room at the Heartbreak  \r\nHeartbreak Hotel  \r\nA room at the Heartbreak  \r\nHeartbreak Hotel  \r\n  \r\nYou say it's love, it's not the money  \r\nYou let them suck your life out like honey  \r\nTurning tricks, you're on the street  \r\nSelling your kisses so bittersweet  \r\n  \r\n(Gospel voices)  \r\n  \r\nA primitive love  \r\nA and a ride on the mystery train  \r\nA primitive love  \r\nA room at the Heart  \r\nThe Heartbreak Hotel  \r\n  \r\nA room at the Heartbreak, the Heartbreak,  \r\nThe Heartbreak Hotel, Hotel  \r\n[Repeat until end]\r\n\r\n"
+          ],
+          "album_name": [
+            "The Best Of 1980-1990 & B-Sides"
+          ],
+          "artist_name": [
+            "U2"
+          ],
+          "artist_bio": [
+            "U2 is an Irish rock band formed in Dublin in 1976. The group comprises Bono (lead vocals and rhythm guitar), the Edge (lead guitar, keyboards, and backing vocals), Adam Clayton (bass guitar), and Larry Mullen Jr. (drums and percussion). Initially rooted in post-punk, U2's musical style has evolved throughout their career, yet has maintained an anthemic quality built on Bono's expressive vocals and the Edge's chiming, effects-based guitar sounds. Bono's lyrics"
+          ],
+          "_version_": 1848804303464038401,
+          "_root_": "19003",
+          "score": 83.85643
         },
         {
           "id": "4643",
@@ -423,28 +416,28 @@
           ],
           "_version_": 1848804297282682882,
           "_root_": "4643",
-          "score": 1140.0962
+          "score": 83.68208
         },
         {
-          "id": "54765",
+          "id": "30656",
           "song_name": [
-            "Owner Of A Lonely Heart"
+            "Good Morning Heartache"
           ],
           "song_lyrics": [
-            "Move yourself  \r\nYou always live your life  \r\nNever thinking of the future  \r\nProve yourself  \r\nYou are the move you make  \r\nTake your chances win or loser  \r\n  \r\nSee yourself  \r\nYou are the steps you take  \r\nYou and you, and that's the only way  \r\n  \r\nShake, shake yourself  \r\nYou're every move you make  \r\nSo the story goes  \r\n  \r\nOwner of a lonely heart  \r\nOwner of a lonely heart  \r\nMuch better than a  \r\nOwner of a broken heart  \r\nOwner of a lonely heart  \r\n  \r\nSay - you don't want to chance it  \r\nYou've been hurt so before  \r\n  \r\nWatch it now  \r\nThe eagle in the sky  \r\nHow he dancin' one and only  \r\nYou, lose yourself  \r\nNo not for pity's sake  \r\nThere's no real reason to be lonely  \r\nBe yourself  \r\nGive your free will a chance  \r\nYou've got to want to succeed  \r\n  \r\nOwner of a lonely heart  \r\nOwner of a lonely heart  \r\nMuch better than a  \r\nOwner of a broken heart  \r\nOwner of a lonely heart  \r\n  \r\nOwner of a lonely heart  \r\n  \r\nAfter my own indecision  \r\nThey confused me so  \r\nOwner of a lonely heart  \r\nMy love said never question your will at all  \r\nIn the end you've got to go  \r\nLook before you leap  \r\nOwner of a lonely heart  \r\nAnd don't you hesitate at all - no no  \r\n  \r\nOwner of a lonely heart  \r\nOwner of a lonely heart  \r\nMuch better than a  \r\nOwner of a broken heart  \r\nOwner of a lonely heart  \r\n  \r\nOwner of a lonely heart  \r\nOwner of a lonely heart  \r\nMuch better than a  \r\nOwner of a broken heart  \r\nOwner of a lonely heart  \r\n  \r\nOwner of a lonely heart  \r\n  \r\nSooner or later each conclusion  \r\nWill decide the lonely heart  \r\nOwner of a lonely heart  \r\nIt will excite it will delight  \r\nIt will give a better start  \r\nOwner of a lonely heart  \r\n  \r\nDon't deceive your free will at all  \r\nDon't deceive your free will at all  \r\nOwner of a lonely heart  \r\nDon't deceive your free will at all  \r\nJust receive it\r\n\r\n"
+            "Good morning heartache, you old gloomy sight  \r\nGood morning heartache, thought we said goodbye last night  \r\nI turned and tossed until it seemed you had gone  \r\nBut here you are with the dawn  \r\n  \r\nWish I'd forget you, but you're here to stay  \r\nIt seems I met you when my love went away  \r\nNow everyday I start by saying to you  \r\nGood morning heartache, what's new  \r\n  \r\nStop haunting me now  \r\nCan't chase you no how  \r\nJust leave me alone  \r\nI've got those Monday blues  \r\nStraight through Sunday blues  \r\n  \r\nGood morning heartache, here we go again  \r\nGood morning heartache, you're the one who knew me when  \r\nMight as well get used to you hanging around  \r\nGood morning heartache, sit down  \r\n  \r\nStop haunting me now  \r\nCan't chase you no how  \r\nJust leave me alone  \r\nI've got those Monday blues  \r\nStraight through Sunday blues  \r\n  \r\nGood morning heartache, here we go again  \r\nGood morning heartache, you're the one who knew me when  \r\nMight as well get used to you hanging around  \r\nGood morning heartache, sit down\r\n\r\n"
           ],
           "album_name": [
-            "90125"
+            "Heart Of A Woman"
           ],
           "artist_name": [
-            "Yes"
+            "Etta James"
           ],
           "artist_bio": [
-            "Yes is a British progressive rock band which formed in London, United Kingdom in 1968. They are best known for 1970's \"I've Seen All Good People\", the 1972 9-minute US Top 20 smash \"Roundabout\" and their 1983 #1 hit \"Owner of a Lonely Heart\". Despite many lineup changes, occasional splits and the influence of the many changes in popular music, the band has endured for 40 years and still retains a strong international following. Their music is marked by sharp dynamic contrasts"
+            "Etta James (1938-2012) was a U.S.  blues, soul, R&B, rock & roll, and jazz singer and songwriter. She is the winner of four Grammies, seventeen Blues Music Awards, and was inducted into the Rock & Roll Hall of Fame (in 1993), the Blues Hall of Fame (in 2001), and the Grammy Hall of Fame (in both 1999 and 2008).\r\n\r\nJames was born Jamesetta Hawkins in Los Angeles, California, on 25th January 1938, to an unmarried fourteen-year-old mother, Dorothy Hawkins."
           ],
-          "_version_": 1848804317659660288,
-          "_root_": "54765",
-          "score": 1139.5276
+          "_version_": 1848804307195920384,
+          "_root_": "30656",
+          "score": 83.421616
         },
         {
           "id": "17135",
@@ -465,7 +458,7 @@
           ],
           "_version_": 1848804302727938049,
           "_root_": "17135",
-          "score": 1133.9924
+          "score": 83.3822
         }
       ]
     }
@@ -473,7 +466,7 @@
   "3": {
     "responseHeader": {
       "status": 0,
-      "QTime": 5,
+      "QTime": 541,
       "params": {
         "mm": "75%",
         "ps": "3",
@@ -712,7 +705,7 @@
   "4": {
     "responseHeader": {
       "status": 0,
-      "QTime": 10,
+      "QTime": 81,
       "params": {
         "q": "fear",
         "defType": "edismax",
@@ -944,7 +937,7 @@
   "5": {
     "responseHeader": {
       "status": 0,
-      "QTime": 2,
+      "QTime": 1,
       "params": {
         "q": "fear",
         "defType": "edismax",
@@ -1176,7 +1169,7 @@
   "6": {
     "responseHeader": {
       "status": 0,
-      "QTime": 1,
+      "QTime": 8,
       "params": {
         "mm": "75%",
         "ps": "3",
@@ -1415,7 +1408,7 @@
   "7": {
     "responseHeader": {
       "status": 0,
-      "QTime": 149,
+      "QTime": 175,
       "params": {
         "q": "freedom american",
         "defType": "edismax",
@@ -3537,7 +3530,7 @@
   "8": {
     "responseHeader": {
       "status": 0,
-      "QTime": 20,
+      "QTime": 72,
       "params": {
         "q": "freedom american",
         "defType": "edismax",
@@ -5659,7 +5652,7 @@
   "9": {
     "responseHeader": {
       "status": 0,
-      "QTime": 4,
+      "QTime": 122,
       "params": {
         "mm": "75%",
         "ps": "3",
