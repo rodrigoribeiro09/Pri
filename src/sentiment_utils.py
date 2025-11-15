@@ -174,9 +174,9 @@ def analyze_song_emotions(
     # Plot
     fig, ax = plt.subplots(figsize=(8, 5))
     ax.bar(emo_df['emotion'], emo_df['count'], color='#1f77b4')
-    ax.set_title('Distribuição de Emoções nas Músicas')
-    ax.set_ylabel('Soma das ocorrências / pontuações')
-    ax.set_xlabel('Emoção')
+    ax.set_title('Distribution of Emotions in Songs')
+    ax.set_ylabel('Sum of Occurrences / Scores')
+    ax.set_xlabel('Emotion')
     plt.xticks(rotation=45, ha='right')
     for i, v in enumerate(emo_df['count']):
         ax.text(i, v + max(1, max(emo_df['count']) * 0.01), str(v), ha='center')
