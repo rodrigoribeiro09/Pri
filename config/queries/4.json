@@ -1,6 +1,6 @@
 {
-  "q": "fear",
-  "core": "songs",
+  "q": "fear anxiety",
+  "core": "simple",
   "queryConfig": "simple",
-  "rows": 10
+  "rows": 25
 }
