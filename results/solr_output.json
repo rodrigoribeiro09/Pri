@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 1,
+      "QTime": 2,
       "params": {
         "q": "heartbreak",
         "defType": "edismax",
@@ -234,7 +234,7 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 5,
+      "QTime": 4,
       "params": {
         "q": "heartbreak",
         "defType": "edismax",
@@ -466,7 +466,7 @@
   "3": {
     "responseHeader": {
       "status": 0,
-      "QTime": 6,
+      "QTime": 5,
       "params": {
         "mm": "75%",
         "ps": "3",
@@ -1169,7 +1169,7 @@
   "6": {
     "responseHeader": {
       "status": 0,
-      "QTime": 3,
+      "QTime": 1,
       "params": {
         "mm": "75%",
         "ps": "3",
@@ -1408,13 +1408,13 @@
   "7": {
     "responseHeader": {
       "status": 0,
-      "QTime": 1,
+      "QTime": 4,
       "params": {
         "q": "freedom american",
         "defType": "edismax",
         "qf": "song_lyrics song_name artist_name artist_bio album_name",
         "fl": "*,score",
-        "rows": "10",
+        "rows": "25",
         "wt": "json"
       }
     },
@@ -1633,6 +1633,321 @@
           "_version_": 1848878154488217601,
           "_root_": "25594",
           "score": 4.6541357
+        },
+        {
+          "id": "35162",
+          "song_name": [
+            "Make It Easier"
+          ],
+          "song_lyrics": [
+            "I'm in search of greener pastures  \nDon't like my garden's what I said  \nAlthough I'm working harder than last year  \nI'm still deep in the red  \nI am rowing as hard as I can  \nAnd they're selling me up a stream  \nI'm always one more step away  \nFrom the american dream  \n  \nI got a chip on my shoulder  \nAbout the size of a mental block  \nI've got someone on the telephone  \nTrying to sell me a future in stock  \nMaybe I work too hard to be happy  \nAnd I should practice letting go  \nBut it's hard not to rock the boat  \nWhen you're sailing against the undertow  \n  \n[Chorus]  \nI want to slide into the black  \nAnd wear the black mask  \nI might not get what I lack  \nBut it doesn't hurt to ask  \nIf I want to sail  \nI need my life to be breezier  \nI said please god or someone  \nMake it easier  \n  \nI went to Sunday school every Sunday  \nSwallowed the bait and I got the hook  \nWhen I needed something someday  \nI would read the good book  \nTell me what does it take to get ahead  \nSometimes I know I'd sell my soul  \nWhen it looks like everybody else is flying  \nAnd I'm crawling in the hole  \n  \nWell maybe if I open my own business  \nMaybe if I buy a lottery ticket  \nSomeone tell me what is the secret  \nTo getting out of the thicket  \nGive me more than just a sample  \nI need a whole lot of glory  \nMy life become an example  \nOf the american success story  \n  \n[Chorus: x2]  \n  \nMake it easier  \nMake it easier\n\n"
+          ],
+          "album_name": [
+            "Strange Fire"
+          ],
+          "artist_name": [
+            "Indigo Girls"
+          ],
+          "artist_bio": [
+            "The Indigo Girls are Amy Ray and Emily Saliers.  They met on the playground in grammar school in Decatur, Georgia, USA, and have been playing together since high school. \n\nTheir first release in 1985 was a seven-inch single named \"Crazy Game\", with the B-side \"Everybody's Waiting (for Someone to Come Home)\". That same year, the Indigo Girls released a six-track Extended play album named \"Indigo Girls\", and in 1987 released their first full-length album, Strange Fire, recorded at John Keane Studio in Athens, Georgia, and including \"Crazy Game\"."
+          ],
+          "_version_": 1848878156452200453,
+          "_root_": "35162",
+          "score": 4.321513
+        },
+        {
+          "id": "25043",
+          "song_name": [
+            "American Storm"
+          ],
+          "song_lyrics": [
+            "Words and music by bob seger  \n  \nHeadin' out on some uncharted path  \nYou soon turn back  \nIt happens time and time again  \nYou never seem to reach the end  \nSomeone's out there on the street tonight  \nWhen things go wrong  \nHe'll guarantee to make them right  \nIf the price is right  \n  \nEvery time I look you're fallin' fallin'  \nBeaten by the wind  \nEvery time I turn around he's there again  \n  \nIt's like a full force gale  \nAn american storm  \nYou're buried far beneath a mountain of cold  \nAnd you never get warm  \nIt's like a wall of mirrors  \nYou charge 'em at full speed  \nYou cover up - you hear the shattering glass  \nBut you never bleed  \nYou never feel the need  \n  \nEverybody casts a certain light  \nA special gift  \nIt's theirs to use for wrong or right  \nWhen you face the night  \nMore and more we choose the easy way  \nWe take no risks  \nWe figure out which games to play  \nAnd how to make 'em pay  \n  \nSuddenly the pressure's fallin' fallin'  \nSkies have all turned grey  \nSuddenly the storm is heading straight your way  \n  \nIt's like a full force gale  \nAtop a mountain of cold  \nYou tell your story again and again  \nAnd it never gets old  \nIt's like a wall of mirrors  \nYou charge 'em at full speed  \nYou cover up - you hear the shattering glass  \nBut you never bleed  \nYou face a full force gale  \nAn american storm  \nYou're buried beneath a mountain of cold  \nAnd you never get warm - no you never get warm  \nYou face a wall of mirrors  \nYou charge 'em at full speed  \nYou cover up - you hear the shattering glass  \nBut you never bleed  \nYou never feel the need\n\n"
+          ],
+          "album_name": [
+            "No Album"
+          ],
+          "artist_name": [
+            "Bob Seger"
+          ],
+          "artist_bio": [
+            "Robert Clark Seger (/ˈsiːɡər/, born May 6, 1945) is an American singer-songwriter, guitarist and pianist. As a locally successful Detroit-area artist, he performed and recorded as Bob Seger and the Last Heard and Bob Seger System throughout the 1960s. By the early 1970s, he had dropped the 'System' from his recordings and continued to strive for broader success with various other bands. In 1973, he put together the Silver Bullet Band, with a group of Detroit-area musicians"
+          ],
+          "_version_": 1848878154377068547,
+          "_root_": "25043",
+          "score": 4.239633
+        },
+        {
+          "id": "8400",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Freedom, this is what I call freedom  \n  \nWell, I wanna say, I wanna tell you  \nI wanna say when you can do what you wanna do  \nAnd go where you wanna go  \nAnd live where you wanna live  \nAnd love who you wanna love  \n  \nAnd be what you wanna be  \nJoin what you wanna join  \nWell, well, well, that's freedom  \nYeah, yeah, freedom, yes sir  \n  \nWhen you can learn what you wanna learn  \nAnd read what you wanna read  \n(Free, free, free)  \n  \nAnd write what you wanna write  \n(Free, free, free)  \nDo what you feel is right  \n(Free, free, free)  \n  \nHey, hey, hey, hey, freedom, freedom  \nOh yeah, freedom, freedom, freedom  \nOh yeah, freedom, oh that's freedom, freedom  \nFreedom, freedom, freedom, freedom, oh yeah  \n  \nFree, free, free  \nFree, free, free  \nFree, free, free  \nFree, free, free  \n  \nWhen you can eat what you wanna eat  \nAnd sleep where you wanna sleep  \nAnd say what you wanna say  \nI like the children play what they wanna play  \n  \nAnd work when you wanna work  \nFlirt when you wanna flirt  \nOh, that's freedom, freedom, freedom, freedom  \nFreedom, freedom, freedom, freedom  \n  \nWhen you can laugh when you wanna laugh  \nAnd cry when you wanna cry  \n(Free, free, free)  \n  \nAnd don't have to feel ashamed  \n(Free, free, free)  \nSing the song you wanna sing  \n(Free, free, free)  \n  \nWhen you can buy what you wanna buy  \n(Free, free, free)  \nWhen no one to ask you why  \n(Free, free, free)  \n  \nDress the way you wanna dress  \n(Free, free, free)  \nJust because you feel the space  \n(Free, free, free)  \n  \nRock the way you wanna rock  \n(Free, free, free)  \nTalk the way you wanna talk  \n(Free, free, free)  \n  \nShake the way you wanna shake  \n(Free, free, free)  \nNo one to put you at  \n(Free, free, free)  \n  \nOh, that's freedom, freedom  \nFreedom, freedom, oh yeah  \nFreedom, that's freedom, freedom, freedom  \nFreedom, freedom, freedom, freedom  \n  \nFreedom, oh, freedom, freedom, freedom  \nFreedom, freedom, freedom\n\n"
+          ],
+          "album_name": [
+            "The Essential Isley Brothers"
+          ],
+          "artist_name": [
+            "Isley Brothers"
+          ],
+          "artist_bio": [
+            "First formed in the early ’50s, the Isley Brothers enjoyed one of the longest, most influential, and most diverse careers in the pantheon of popular music — over the course of nearly a half century of performing, the group’s distinguished history spanned not only two generations of Isley siblings but also massive cultural shifts which heralded their music’s transformation from gritty R&B to Motown soul to blistering funk.\n\nand a Soundtrack of Beverly Hills Cop (1984)"
+          ],
+          "_version_": 1848878150098878466,
+          "_root_": "8400",
+          "score": 4.149459
+        },
+        {
+          "id": "45527",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "This is my right, a right given by god  \nTo live a free life, to live in freedom  \n  \nWe talkin' about freedom  \nTalkin' bout freedom  \nI will fight, for the right  \nTo live in freedom  \n  \nAnyone, who wants to take it away  \nWill have to answer, cause this is my right  \n  \nWe talkin' about freedom  \nTalkin' bout freedom  \nI will fight, for the right  \nTo live in freedom, ah yeah, c'mon now  \n  \nYou talkin' about freedom  \nWere talkin' bout freedom  \nI will fight, for the right  \nTo live in freedom  \n  \nEverybody talkin' bout freedom  \nTalkin' bout freedom  \nI will fight, for the right  \nTo live in freedom\n\n"
+          ],
+          "album_name": [
+            "Driving Rain"
+          ],
+          "artist_name": [
+            "Paul McCartney"
+          ],
+          "artist_bio": [
+            "Sir James Paul McCartney CH MBE (born 18 June 1942) is an English singer, songwriter, musician, and record and film producer who gained worldwide fame as co-lead vocalist and bassist for the Beatles. His songwriting partnership with John Lennon remains the most successful in history. After the group disbanded in 1970, he pursued a solo career and formed the band Wings with his first wife, Linda, and Denny Laine.\n\nA self-taught musician, McCartney is proficient on bass, guitar, keyboards, and drums."
+          ],
+          "_version_": 1848878158854488065,
+          "_root_": "45527",
+          "score": 4.1070867
+        },
+        {
+          "id": "36377",
+          "song_name": [
+            "Woke Up This Morning"
+          ],
+          "song_lyrics": [
+            "Woke up this morning with my mind  \nStayed on freedom  \nWoke up this morning with my mind  \nStayed on freedom  \nWoke up this morning with my mind  \nStayed on freedom  \nHallelu, Hallelu, Hallelujah.  \n  \nI'm walking and talking with my mind  \nstayed on freedom  \nI'm walking and talking with my mind  \nstayed on freedom  \nI'm walking and talking with my mind  \nstayed on freedom  \nHallelu, Hallelu, Hallelujah.  \n  \nAin't nothing wrong with my mind  \nStayed on freedom  \nOh, there ain't nothing wrong with keeping my mind  \nStayed on freedom  \nThere ain't nothing wrong with keeping your mind  \nStayed on freedom  \nHallelu, Hallelu, Hallelujah.  \n  \nI'm singing and praying with my mind  \nStayed on freedom  \nYeah, I'm singing and praying with my mind  \nStayed on freedom  \nHallelu, Hallelu, Hallelujah.\n\n"
+          ],
+          "album_name": [
+            "Soundtrack For A Revolution"
+          ],
+          "artist_name": [
+            "John Legend"
+          ],
+          "artist_bio": [
+            "John Stephens (born December 28, 1978 in Springfield, Ohio), better known as John Legend, is a Grammy award winning R&B singer-songwriter, multi-instrumentalist, poet and actor signed to Kanye West's G.O.O.D. Music label. Prior to the release of his debut album Get Lifted in 2004, Legend's career gained momentum through a series of successful collaborations with multiple established artists such as Jay-Z, Alicia Keys and Lauryn Hill. He released his second album"
+          ],
+          "_version_": 1848878156725878786,
+          "_root_": "36377",
+          "score": 4.045581
+        },
+        {
+          "id": "42005",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Verse 1  \nWhere the spirit of the Lord is  \nThere is freedom  \nWhere the spirit of the Lord is  \nThere is freedom  \n  \nLift your eyes to heaven  \nThere is freedom  \nLift your eyes to heaven  \nThere is freedom  \n  \nChorus  \n  \nFreedom reings in this place  \nShowers of mercy and grace  \nFalling on every face  \nThere is freedom  \nJesus reigns in this place  \nShowers of mercy and grace  \nFalling on every face  \nThere is freedom  \n  \nVerse 2  \nEver time you're thirsty  \nThere is freedom  \nEvery time you're thirsty  \nThere is freedom  \n  \nGive you all to Jesus  \nThere is freedom  \nGive you all to Jesus  \nThere is freedom  \n  \nChorus x2\n\n"
+          ],
+          "album_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Michael W. Smith"
+          ],
+          "artist_bio": [
+            "Michael W. Smith (born October 7th, 1957 in Kenova, WV) is an American singer, author, songwriter, guitarist, and keyboardist.\n\nSince his first solo project in 1983, Smith has become one of the most popular artists in the contemporary Christian music world, while also finding considerable success in the mainstream. Smith has frequently topped both Christian radio and Billboard charts and is often listed as one of the top keyboardists in rock and roll in Keyboard Magazine."
+          ],
+          "_version_": 1848878158146699264,
+          "_root_": "42005",
+          "score": 4.043118
+        },
+        {
+          "id": "36071",
+          "song_name": [
+            "Jam Back At The House"
+          ],
+          "song_lyrics": [
+            "Jimi:  \n\"yeah well a like I said before we only ran up a few numbers so let  \nMe try and do this one like we were just jammin' at the house we don't have  \nA name for yet it's just like an instrumental so we'll just go along with it.  \nIt goes somthin' like this.\"  \n  \nNo lyrics. it's an insturmental like jimi said, but a great instrumental.  \n  \nJimi:  \n\"before we go any further we'd like to say that you all really had a lot of\npashents  \nThree days worth. you've prooved to the world what can happen with a little\nbit of  \nLove and sounds. oh, I left my girlfriend at home I'm sorry. I'd like to do a\nthing  \nThat a new american anthem until we get another on together. this is called\n'voodoo  \nChild (slight return)'.\"  \n\n"
+          ],
+          "album_name": [
+            "Live at Woodstock"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ],
+          "artist_bio": [
+            "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter. Although his mainstream career spanned only four years, he is widely regarded as one of the most influential electric guitarists in the history of popular music, and one of the most celebrated musicians of the 20th century. The Rock and Roll Hall of Fame describes him as \"arguably the greatest instrumentalist in the history of rock music\"."
+          ],
+          "_version_": 1848878156661915652,
+          "_root_": "36071",
+          "score": 3.9339187
+        },
+        {
+          "id": "36072",
+          "song_name": [
+            "Jam Back At The House (Beginnings)"
+          ],
+          "song_lyrics": [
+            "Jimi:  \n\"yeah well a like I said before we only ran up a few numbers so let  \nMe try and do this one like we were just jammin' at the house we don't have  \nA name for yet it's just like an instrumental so we'll just go along with it.  \nIt goes somthin' like this.\"  \n  \nNo lyrics. it's an insturmental like jimi said, but a great instrumental.  \n  \nJimi:  \n\"before we go any further we'd like to say that you all really had a lot of\npashents  \nThree days worth. you've prooved to the world what can happen with a little\nbit of  \nLove and sounds. oh, I left my girlfriend at home I'm sorry. I'd like to do a\nthing  \nThat a new american anthem until we get another on together. this is called\n'voodoo  \nChild (slight return)'.\"\n\n"
+          ],
+          "album_name": [
+            "Woodstock"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ],
+          "artist_bio": [
+            "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter. Although his mainstream career spanned only four years, he is widely regarded as one of the most influential electric guitarists in the history of popular music, and one of the most celebrated musicians of the 20th century. The Rock and Roll Hall of Fame describes him as \"arguably the greatest instrumentalist in the history of rock music\"."
+          ],
+          "_version_": 1848878156661915653,
+          "_root_": "36072",
+          "score": 3.9339187
+        },
+        {
+          "id": "41121",
+          "song_name": [
+            "Irresponsible Hate Anthem"
+          ],
+          "song_lyrics": [
+            "I am so all american I'd sell you suicide  \nI am totalitarian I've got abortions in my eyes  \nI hate the hater I'd rape the raper  \nI am not the animal who will not be himself  \nFuck it  \nHey victim should I black your eyes again?  \nHey victim  \nYou were the one who put the stick in my hand  \nI am the ism my hate's a prism  \nLet's jut kill everyone and let your god sort them out  \nFuck it  \nEverybody's someone else's nigger  \nI know you are so am I  \nI wasn't born with enough middle fingers  \nI don't need to choose a side  \nI better, better, better, better not say this  \nBetter, better, better, better not tell  \nI hate the hater, I'd rape the raper  \nI am the idiot who will not be himself  \nFuck it\n\n"
+          ],
+          "album_name": [
+            "Antichrist Superstar"
+          ],
+          "artist_name": [
+            "Marilyn Manson"
+          ],
+          "artist_bio": [
+            "Marilyn Manson is an American rock band formed by namesake lead singer Marilyn Manson (born Brian Hugh Warner on January 5, 1969 in Canton, OH) and guitarist Daisy Berkowitz (born Scott Mitchell Putesky on April 28th 1968 in Los Angeles, CA,  - died October 22, 2017) in Fort Lauderdale, Florida, in 1989. Originally named Marilyn Manson & the Spooky Kids, they gained a local cult following in South Florida in the early 1990s with their theatrical live performances."
+          ],
+          "_version_": 1848878157942226947,
+          "_root_": "41121",
+          "score": 3.9339187
+        },
+        {
+          "id": "21633",
+          "song_name": [
+            "Namibia"
+          ],
+          "song_lyrics": [
+            "People get freedom in Namibia  \nPeople get free and independent  \nPeople get freedom in Namibia  \nPeople get free and independent  \nI pay my tribute to, people get freedom in  \nNamibia  \nPeople get free and independent, yea  \nPeople get freedom in Namibia  \nPeople get free and independent  \n  \nSo strive for the land  \nDon't depend on the over sea man  \nHe is like a mosquito  \nA mean, one step, hey, we got more step to  \nGo  \n  \nI pay my tribute to, people get freedom in  \nNamibia  \nPeople get free and independent, one time  \nPeople get freedom in Namibia  \nPeople get free and independent  \n  \nSo many years ago  \nI say, white racist regime would not  \nKnow  \nRun, dem hafi gun run, run with their  \nMentality  \nRun dem down  \n  \nA tribute to, people get freedom in  \nNamibia, yea, yea  \nPeople get free and independent, really a  \nJoy and relief  \nPeople get freedom in Namibia, free to  \nMake up your mind  \nPeople get free and independent, every  \nTime  \n  \nWe don't stop you go, we don't stop you  \nGo  \nMi sey, we don't stop you go, we don't  \nStop you go  \nMi sey, we don't stop you go, we don't  \nStop you go  \nMi sey, we don't stop you go, we don't  \nStop you go  \n  \nRastaman rise, rise and take your stance  \nAgain  \nAll revolutionaries rise  \nHey come come come come come come meek  \nWe help and freedom  \n  \nI tell you now, people get freedom in  \nNamibia  \nPeople get free and independent  \nHey, people get freedom in Namibia  \nPeople get free and independent, yes  \nPeople get freedom in Namibia, my life is  \nFull of joy  \nPeople get free and independent, tell  \nAfricans I know their joy  \nPeople get freedom in Namibia, we got all  \nRight to live  \nPeople get free and independent, we've  \nGot a right to give  \n  \nPeople get freedom in Namibia  \nPeople get free and independent  \nPeople get freedom in Namibia  \nPeople get free and independent\n\n"
+          ],
+          "album_name": [
+            "No Album"
+          ],
+          "artist_name": [
+            "Ziggy Marley"
+          ],
+          "artist_bio": [
+            "David Nesta \"Ziggy\" Marley (born October 17, 1968 in Saint Ann Parish, ghetto of Trenchtown, Jamaica), composer, singer and guitarist, is a multiple Grammy-winning (reggae) Jamaican musician. He is known for songs like \"Tomorrow People\", \"Love Is My Religion\" and \"A Lifetime\", He is the oldest son in the marriage between the singer Rita Anderson (Marley) and late legendary reggae Bob Marley. David's father Bob nicknamed him \"Ziggy\". A ziggy is a big marijuana spliff  on Jamaiaca."
+          ],
+          "_version_": 1848878153483681795,
+          "_root_": "21633",
+          "score": 3.924626
+        },
+        {
+          "id": "16180",
+          "song_name": [
+            "Freedom Fighter"
+          ],
+          "song_lyrics": [
+            "You can't control me tell me what to do  \nChained in mediocrity so I can be like you  \nI'm not a statue not part of a machine  \nI'm sick and tired of the whole routine  \nCalculate your future, computerize your past  \nInstant replay if it's gone too fast  \nTake away my freedom, take away my home  \nI'm only human but it might no show  \nI'm not made of stone  \n  \nI'm a freedom fighter I got something to say  \nI'm a freedom fighter get out of my way  \nHide behind your politics, hide behind your rules  \nTell me I'm a man but you treat me like a fool  \nIt's the same old story with a different name  \nYou give us all a number and nothing changes  \nOut in the winter of a world upon it's knees  \nEveryone is watching but no-one sees  \nYou can't take my freedom you know it is my right  \nIf you try and stop me I'm gonna fight  \nWith all of my might  \n  \nI'm a freedom fighter and I'm taking command  \nI'm a freedom fighter and I'm making a stand  \n  \nFighting for breath as the world gathers speed  \nTime's running out for the things that I need  \n  \nI'm a freedom fighter I gotta make a stand  \nI'm a freedom fighter, yeah That's what I am  \nI'm a freedom fighter I can't take it no more  \nI'm a freedom fighter no no more  \nI'm a freedom fighter but I'm not afraid  \nI'm a freedom fighter get out of my way\n\n"
+          ],
+          "album_name": [
+            "Difficult to Cure"
+          ],
+          "artist_name": [
+            "Rainbow"
+          ],
+          "artist_bio": [
+            "1. A British rock band.\n2. A U.S. psychedelic rock band.\n3. A K-pop girl group. (other tags include 레인보우)\n\n1. Rainbow was a British rock band formed by Deep Purple founder and former guitarist Ritchie Blackmore in 1975. In addition to Blackmore, the band originally consisted of former Elf lead singer Ronnie James Dio, bassist Craig Gruber, drummer Gary Driscoll, and keyboardist Micky Lee Soule. Over the years, Rainbow went through many lineup changes."
+          ],
+          "_version_": 1848878152363802628,
+          "_root_": "16180",
+          "score": 3.9088573
+        },
+        {
+          "id": "19398",
+          "song_name": [
+            "Cry Freedom"
+          ],
+          "song_lyrics": [
+            "She told the story  \nI listened with my eyes closed  \nSo sad but so true  \nShe whispered softly  \n  \nI asked her why she did so  \nShe knew that I knew  \nShe was a skater  \nThe ice was her second home  \n  \nThe country's finest  \nEveryone could see  \nShe had a plan  \n  \nTo break across the border  \nInstead of waiting for  \nThe powers that be  \n  \nCry freedom, sweet freedom  \nTell the whole world  \nTo get ready  \nCry freedom, sweet freedom  \nTell the whole world  \nThat we're ready  \n  \nShe said goodnight  \nBut just as I was leaving  \nA black car came into view  \nAnd waiting there  \nThey could hear me breathing  \nThey knew that I knew, cry freedom  \n  \nInsane questions  \nThey asked me what did I know  \nSo strange, they let me go  \nBut more they try  \nThe stronger our love grows  \nI know that I know, cry freedom  \n  \nCry freedom, sweet freedom\n\n"
+          ],
+          "album_name": [
+            "Raging Silence"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ],
+          "artist_bio": [
+            "Uriah Heep are an English rock band formed in London in 1969. Their current lineup consists of guitarist Mick Box, keyboardist Phil Lanzon, lead vocalist Bernie Shaw, drummer Russell Gilbrook, and bassist Dave Rimmer. They have experienced numerous lineup changes throughout their 53-year career, leaving Box as the only remaining original member. Notable former members of the band are vocalists David Byron, John Lawton, John Sloman and Peter Goalby"
+          ],
+          "_version_": 1848878152988753924,
+          "_root_": "19398",
+          "score": 3.9031074
+        },
+        {
+          "id": "18534",
+          "song_name": [
+            "Two Lanes Of Freedom"
+          ],
+          "song_lyrics": [
+            "Two hearts, two bucket seats, too much sun not to wear shades.  \nBoot to the pedal and pedal to the metal, we're the reason this road was paved\nyeah.  \nNow honey, how fast you wanna go, NASCAR driving Miss Daisy.  \nRadio loud, radio low, or I can sing if you want me to baby.  \nI can tell God's smiling down, I just get that feeling,  \nYou and me going town to town, on two lanes of freedom.  \n  \nOh, no red lights or stop signs around for miles,  \nJust swaying trees, your hair in the breeze, and that smile, and I know  \nGod made old country roads for driving and dreaming,  \nMine's coming true girl here with you on two lanes of freedom.  \nTwo lanes of freedom.  \n  \nBottle of wine and a cheap motel, door 12 feet from the road  \nWatch the sunset holding hands and talk about where we're gonna go  \nSo where you wanna go? (Where you wanna go?)  \nWhere you wanna go? (Where you wanna go?)  \nWhere you wanna go? (Where you wanna go?)  \nWhere you wanna go? (Where you wanna go?)  \n  \nBabe, there's no red lights or stop signs around for miles,  \nJust swaying trees, your hair in the breeze, and that smile, and I know  \nGod's working down from that sky blue ceiling,  \nHe made these old country roads for driving and dreaming,  \nMine's coming true girl here with you on two lanes of freedom.  \nTwo lanes of freedom.  \nTwo lanes of freedom.  \nTwo lanes of freedom.  \n  \nTwo lanes of freedom.  \nTwo lanes of freedom.  \nTwo lanes of freedom.  \nTwo lanes of freedom.  \nTwo lanes of freedom.\n\n"
+          ],
+          "album_name": [
+            "Two Lanes of Freedom"
+          ],
+          "artist_name": [
+            "Tim McGraw"
+          ],
+          "artist_bio": [
+            "Samuel Timothy \"Tim\" McGraw (born May 1, 1967 in Delhi, Louisiana) is an American country singer and actor. With many of his albums and singles topping the country music charts, Tim has achieved total album sales in excess of 40 million units. He is married to country singer Faith Hill and is the son of former baseball player Tug McGraw. His trademark hit songs include Indian Outlaw, Don't Take the Girl, I Like It, I Love It, Something Like That, It's Your Love (featuring his wife, Faith Hill), and Live Like You Were Dying."
+          ],
+          "_version_": 1848878152824127494,
+          "_root_": "18534",
+          "score": 3.8898048
+        },
+        {
+          "id": "9505",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Every dawn becomes a new day  \nA time to love, a time to cry  \nEvery river knows its own way  \nAnd it's the same for you and I  \nAnd every heart must have a reason  \nA winding road, a midnight flight  \n  \n[Chorus:]  \nFreedom, freedom  \nWhat we all need is freedom in our hearts  \nFreedom, freedom  \nWhat we all need is freedom in our hearts  \n  \nWe fight and die defending honor  \nThe pride and prejudice we hide  \nA mother's tears, a father's anger  \nFrom trying to stop the pain and lies  \nSo we pretend to look for answers  \nWhile I blame you and you blame me  \n  \n[Chorus]  \n  \nWe don't need the pain anymore  \nTo move our mountains, to reach our shores  \nWhat I've found is the choice I bring  \nWhat I can do to let freedom ring?  \n  \n[Chorus]  \n  \nFreedom from the darkness  \nFreedom from the violence  \nFreedom from the hate  \nFreedom from the fear  \nFreedom from the hunger  \nFreedom from the forgiveness  \nFreedom from the past  \nFreedom from the mistakes  \n  \n[Chorus]  \n  \nTell the people now  \nFreedom, freedom  \nWhat we all need is freedom in our hearts  \nFreedom, freedom  \nWhat we all need is freedom in our hearts\n\n"
+          ],
+          "album_name": [
+            "Rockin' with the Rhythm"
+          ],
+          "artist_name": [
+            "Judds"
+          ],
+          "artist_bio": [
+            "from jango.com\n\n\n\nOrigin: Nashville, TN\n\nDecades: 1980's and 1990's\n\nUp until the rise of Brooks & Dunn in the '90s, the Judds were the most commercially successful duo in country music history. Mother Naomi and daughter Wynonna enjoyed an astounding run of 14 number one singles from 1984 to 1989, ranking them as one of the most popular country acts of the '80s. Their music combined elements of traditional country harmony singing, bluegrass, and Appalachian folk with pop, rock, and polished contemporary production."
+          ],
+          "_version_": 1848878150428131331,
+          "_root_": "9505",
+          "score": 3.882856
+        },
+        {
+          "id": "11870",
+          "song_name": [
+            "Bells Of Freedom"
+          ],
+          "song_lyrics": [
+            "Way across the deep blue ocean  \nWay above the mountain so high  \nPeople sing and loitering's freely  \nSongs of joy reach up to the sky.  \nIn this time of worry and confusion  \nIn this world of trouble and pain  \nWe're so many and the road is so weary,  \nHow many people can tell you my name ?  \nBells of freedom ring  \nBells of freedom ring.  \nCome friends and people from every corner,  \nPeople, come from everywhere.  \nLet the bells of freedom ring loudly,  \nRing for those who know and care.  \nBells of freedom ring  \nBells of freedom ring.  \nWay across the deep blue ocean  \nWay above the mountain so high  \nPeople sing and loitering's freely  \nSongs of joy reach up to the sky.  \nBells of freedom ring  \nBells of freedom ring for us.  \n\n"
+          ],
+          "album_name": [
+            "Come My Way"
+          ],
+          "artist_name": [
+            "Marianne Faithfull"
+          ],
+          "artist_bio": [
+            "Marianne Evelyn Gabriel Faithfull (29 December 1946 – 30 January 2025) was an English singer and actress. She achieved popularity in the 1960s with the release of her hit single \"As Tears Go By\" and became one of the lead female artists during the British Invasion in the United States.\n\nBorn in Hampstead, London, Faithfull began her career in 1964 after attending a Rolling Stones party, where she was discovered by Andrew Loog Oldham. Her debut album Marianne Faithfull (released simultaneously with her album Come My Way on April 15"
+          ],
+          "_version_": 1848878151352975361,
+          "_root_": "11870",
+          "score": 3.8803275
         }
       ]
     }
@@ -1640,7 +1955,7 @@
   "8": {
     "responseHeader": {
       "status": 0,
-      "QTime": 12,
+      "QTime": 1,
       "params": {
         "q": "freedom american",
         "defType": "edismax",
@@ -2187,7 +2502,7 @@
   "9": {
     "responseHeader": {
       "status": 0,
-      "QTime": 11,
+      "QTime": 2,
       "params": {
         "mm": "75%",
         "ps": "3",
