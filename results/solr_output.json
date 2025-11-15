@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 54,
+      "QTime": 1,
       "params": {
         "q": "heartbreak",
         "defType": "edismax",
@@ -234,7 +234,7 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 123,
+      "QTime": 5,
       "params": {
         "q": "heartbreak",
         "defType": "edismax",
@@ -466,7 +466,7 @@
   "3": {
     "responseHeader": {
       "status": 0,
-      "QTime": 155,
+      "QTime": 6,
       "params": {
         "mm": "75%",
         "ps": "3",
@@ -705,7 +705,7 @@
   "4": {
     "responseHeader": {
       "status": 0,
-      "QTime": 10,
+      "QTime": 1,
       "params": {
         "q": "fear anxiety",
         "defType": "edismax",
@@ -937,7 +937,7 @@
   "5": {
     "responseHeader": {
       "status": 0,
-      "QTime": 37,
+      "QTime": 2,
       "params": {
         "q": "fear anxiety",
         "defType": "edismax",
@@ -1169,7 +1169,7 @@
   "6": {
     "responseHeader": {
       "status": 0,
-      "QTime": 102,
+      "QTime": 3,
       "params": {
         "mm": "75%",
         "ps": "3",
@@ -1408,7 +1408,7 @@
   "7": {
     "responseHeader": {
       "status": 0,
-      "QTime": 4,
+      "QTime": 1,
       "params": {
         "q": "freedom american",
         "defType": "edismax",
@@ -1640,13 +1640,13 @@
   "8": {
     "responseHeader": {
       "status": 0,
-      "QTime": 9,
+      "QTime": 12,
       "params": {
         "q": "freedom american",
         "defType": "edismax",
         "qf": "song_lyrics song_name artist_name artist_bio album_name",
         "fl": "*,score",
-        "rows": "10",
+        "rows": "25",
         "wt": "json"
       }
     },
@@ -1865,6 +1865,321 @@
           "_version_": 1848878177899773953,
           "_root_": "42005",
           "score": 5.71442
+        },
+        {
+          "id": "22467",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "We the people of the United States  \nIn order to form a more perfect union  \n  \nStop pretending that you've never been bad  \nYou're never wrong and you've never been dirty  \nYou're such a saint, that ain't the way we see you  \nAh, You want to rule us with an iron hand  \nYou change the lyrics and become Big Brother  \nThis ain't Russia, you ain't my Dad or Mother  \n(They never knew anyway)  \n'Cause I never walk away from what I know is right  \nBut I'm gonna turn my back on you  \n  \nFreedom, we're gonna ring the bell  \nFreedom to rock, freedom to talk  \nFreedom, raise your fist and yell  \nFreedom to rock, freedom to talk  \nFreedom - ring  \n  \nAaaah  \nYou're playing God from your ivory tower  \nBack off preacher, I don't care if it's Sunday  \nI ain't no angel, but I've never felt better  \nWe're a make-up metal generation  \nWe're not as stupid as you want to make us  \nYou better leave us, man  \n'Cause you sure can't take us  \nOh... Nobody better tell you how to live your life  \nOr you gotta do it on your own  \n  \nFreedom, we're gonna ring the bell  \nFreedom to rock, freedom to talk  \nFreedom, raise your fist and yell  \nFreedom to rock, freedom to talk  \nFreedom - Yeah...  \n  \nOh yeah  \n'Cause I never walk away from what I know is right  \nBut I'm gonna turn my back on you  \nFreedom, we're gonna ring the bell  \nFreedom to rock, freedom to talk  \nFreedom, raise your fist and yell  \nFreedom  \nFreedom, we're gonna ring the bell  \nFreedom to rock, freedom to talk  \nFreedom, raise your fist and yell  \nFreedom  \nFreedom, we're gonna ring that bell  \nFreedom to rock, freedom to talk  \nFreedom, come on, raise your fist and yell  \nFreedom  \nCome on, yell  \nCome on, yell  \nFreedom to rock, freedom to talk  \nFreedom  \nMake a fist  \nMake a fist  \nMake a fist  \nFreedom  \nAnd yell.......\n\n"
+          ],
+          "album_name": [
+            "Raise Your Fist And Yell"
+          ],
+          "artist_name": [
+            "Alice Cooper"
+          ],
+          "artist_bio": [
+            "Alice Cooper (born Vincent Damon Furnier, February 4, 1948) is an American rock singer whose career spans over five decades. With a raspy voice and a stage show that features numerous props and stage illusions, including pyrotechnics, guillotines, electric chairs, fake blood, reptiles, baby dolls, and dueling swords, Cooper is considered by many music journalists and peers to be \"The Godfather of Shock Rock\". He has drawn equally from horror films"
+          ],
+          "_version_": 1848878170962395136,
+          "_root_": "22467",
+          "score": 5.7059774
+        },
+        {
+          "id": "32989",
+          "song_name": [
+            "Don't Let 'em Take Your Gun"
+          ],
+          "song_lyrics": [
+            "Ohhh, people why don't you come in here and let me talk to you a while.  \nThat's right, step right up and listen to a concerned citizen speak his piece.  \n  \nI'll tell you a little something that my daddy told to me.  \nMy basic fundamentals if you want to be free.  \n'cause son, there's somthing wrong internally.  \nSo, if you want your freedom son.  \nDon't want your country to be overrun.  \nYou got to keep america number one.  \n  \n(chorus)  \nMy daddy told me \"son, don't let 'em take your gun.  \nThat's what they tryin' to do.  \nSon, don't let 'em take your gun.  \nThey're takin' your bill of rights away from you.\"  \nMy daddy said \"son, don't let 'em take your gun.  \nThat's what they tryin' to do.  \nSon, don't let 'em take your gun.  \nDon't let 'em take your gun away from you.\"  \n  \nOhhh, this year is our anniversary.  \nTwo hundred years, people we've been free.  \nWon't be nobody takin' over our land.  \nIf everybody's brother's got a gun in his hand.  \nI'm tellin' you we learned to fight for justice.  \nWe're willing to die for freedom.  \nHand in hand.  \nYou got to understand.  \nWe are american men.  \n  \nSaid they want your gun.  \nSaid they want your gun.  \nSend 'em on the run.  \nSend 'em on the run.  \nHip-hurray for fun.  \nHip-hurray for fun.  \nIf they do we're done.  \nIf they do we're done.  \n  \n(chorus)  \n\n"
+          ],
+          "album_name": [
+            "Good Singin', Good Playin'"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ],
+          "artist_bio": [
+            "Grand Funk Railroad is an American hard rock band that formed in 1969 in Flint, Michigan, United States. Known for iconic rock hits such as the number ones \"We're An American Band\" and their cover version of  \"The Loco-Motion\", the band initially consisted of Mark Farner (vocals, guitar), Mel Schacher (bass) and Don Brewer (drums), with Craig Frost (keyboards) joining in 1972. During their career, the group has released 14 studio albums and their career sales total over 25 million records sold, including 10 million records sold in 1970 alone."
+          ],
+          "_version_": 1848878174607245313,
+          "_root_": "32989",
+          "score": 5.703886
+        },
+        {
+          "id": "15237",
+          "song_name": [
+            "Freedom!"
+          ],
+          "song_lyrics": [
+            "[Verse 1]  \nHold on to me  \nDon't let me go  \nWho cares what they see?  \nWho cares what they know?  \nYour first name is Free  \nLast name is Dom  \nWe choose to believe  \nIn where we're from  \n  \n[Chorus]  \nMan's red flower  \nIt's in every living thing  \nMind, use your power  \nSpirit, use your wings  \nFreedom!  \nFreedom!  \nFreedom!  \nFreedom  \nFreedom  \nFreedom  \n  \n[Verse 2]  \nHold on to me  \nDon't let me go  \nCheetahs need to eat  \nRun, antelope  \nYour first name is King  \nLast name is Dom  \nCause you still believe  \nIn everyone  \n  \n[Chorus]  \nWhen a baby first breathes  \nWhen night sees sunrise  \nWhen the whale hunts in the sea  \nWhen man recognizes  \nFreedom!  \nFreedom!  \nFreedom!  \nFreedom  \nFreedom  \nBreathe in  \n  \n[Verse 3]  \nWe are from heat  \nThe electric one  \nDoes it shock you to see  \nHe left us the sun?  \nAtoms in the air  \nOrganisms in the sea  \nThe son and, yes, man  \nAre made of the same things  \n  \n[Outro]  \nFreedom!  \nFreedom!  \nFreedom!  \nFreedom  \nFreedom  \nFreedom  \nFreedom  \nFreedom\n\n"
+          ],
+          "album_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Pharrell Williams"
+          ],
+          "artist_bio": [
+            "Pharrell Williams (born April 5, 1973 in Virginia Beach, Virginia, United States), also known by his mononym Pharrell, is an American singer-songwriter, rapper, record producer, and fashion designer. Williams and Chad Hugo make up the record production duo the Neptunes, producing soul, hip hop and R&B music. He is also the lead vocalist and drummer of rock, funk, and hip hop band N*E*R*D, which he formed with Hugo and childhood friend Shay Haley."
+          ],
+          "_version_": 1848878168283283456,
+          "_root_": "15237",
+          "score": 5.697942
+        },
+        {
+          "id": "15424",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "[Intro]  \nHey, yeah, I like this right here  \nMakes me feel free  \nIt's got that, uh, you know, that  \nBom, ba-dum bum, ba-da-da-da-da (Mr.)  \nBom, ba-dum bum, ba-da-da-da-da (World...)  \nBom, ba-dum bum, ba-da-da-da-da (...wide)  \nLet's escape  \n  \n[Chorus]  \nI'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \nCause I'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \n  \n[Verse 1]  \nYour boy picked up a residency in Vegas  \nMaking history, performing amongst the greatest  \nMy father brought boats over in the 80s  \nNow I godfather my own ship, man, it's crazy  \nThis is all by design, 100 million and I\"m still on the grind  \n8 billion views and I'm still on the climb  \nCut a deal with Florida, now Miami's all mine  \nI'm free, baby, Bring the beat, baby  \nLet me show you how a living legend live, baby  \nLet's be free, baby, and cruise the world  \nAre you with it, girl?  \n  \n[Chorus]  \nI'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \nCause I'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \n  \n[Verse 2]  \nWent from a poor kid to a well-known all around the globe world-class citizen  \nMan, I payed my dues and earned my stripes  \nTook all the wrong in my life and made it right  \nFeel free, do whatever you want whenever you want with whoever you want  \nFeel free, who cares what they say?  \nJust live your life cause we don't live twice  \nFeel free, have the time of our live, let's all get wild tonight  \nFeel free, get on the ship and cruise the world  \nAre you with it, girl?  \n  \n[Chorus]  \nI'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \nCause I'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \n  \n[Bridge]  \nMiami, we were born to be free  \nUK, we were born to be free  \nSpain, let's escape and feel free, yeah  \nAustralia, , we were born to be free  \nBrazil, we were born to be free  \nChina, let's escape and feel free, yeah  \nMexico, we were born to be free  \nBahamas, we were born to be free  \nCuba, can't wait to live free, yeah  \n  \n[Chorus]  \nI'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \nCause I'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \nI'm free to do what I want and have a good time  \nNow somebody, anybody, everybody, say  \nCause I'm free to do what I want and have a good time\n\n"
+          ],
+          "album_name": [
+            "Climate Change"
+          ],
+          "artist_name": [
+            "Pitbull"
+          ],
+          "artist_bio": [
+            "Armando Christian Pérez (born January 15, 1981 in Miami, Florida), better known by the stage name Pitbull , is an American rapper signed to his own label, Mr 305 Inc. The Give Me Everything (Tonight) Songfacts reports that he adopted his canine moniker because, \"They bite to lock. The dog is too stupid to lose. And they're outlawed in Dade County. They're basically everything that I am. It's been a constant fight.\"\n\nHis first recorded performance was on Lil Jon & the East Side Boyz album Kings of Crunk in 2002"
+          ],
+          "_version_": 1848878168342003712,
+          "_root_": "15424",
+          "score": 5.697942
+        },
+        {
+          "id": "25707",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Free free  \nFree free  \n  \nI could be wrong but are you telling me that you're leaving (ooh),  \nAnd so then you've temporally lost your mind,  \nAnd now you're checking your phone and you've noticed  \nIt's not ringing (waoh),  \nAnd the one that you wanted to call you pushed out your life,  \n  \nNow you're telling me it's me that you're needing,  \nFunny you didn't say that when you where leaving oh,  \nYou just walked out the door,  \n  \nI gave you all the love that you wanted from me,  \nNow tell me are you really free,  \nTell me are you really free,  \nCause you wanted freedom, (x2)  \n  \nYou said our love was a cell so I gave you the key to break out,  \nI would have done it before it saved us both some time,  \nBut isn't it ironic don't you think,  \nYou couldn't stay to long without me,  \nI know your gonna miss miss miss my kiss kiss kiss  \nSo why'd you kiss this this away,  \n  \nNow you're telling me it's me that you're needing,  \nFunny you didn't say that when you where leaving oh,  \nYou just walked out the door,  \n  \nI gave you all the love that you wanted from me,  \nNow tell me are you really free,  \nTell me are you really free,  \nCause you wanted freedom, (x2)  \n  \nLooks like it's not going your way,  \nLooks like you got just what you asked for babe,  \nYou know you read what you saw,  \n  \nNow you're in the land of a broken heart,  \nGirl I can escape out where you are,  \nBaby what's wrong,  \n  \nI gave you all the love that you wanted from me,  \nNow tell me are you really free,  \nTell me are you really free,  \nCause you wanted freedom, (x2)\n\n"
+          ],
+          "album_name": [
+            "No Album"
+          ],
+          "artist_name": [
+            "Bruno Mars"
+          ],
+          "artist_bio": [
+            "Peter Gene Hernandez (born October 8, 1985 in Honolulu, Hawaii, USA), known professionally as Bruno Mars, is an American singer, songwriter, record producer, musician, and dancer. He is known for his stage performances, retro showmanship, and for performing in a wide range of musical styles, including pop, R&B, funk, soul, reggae, disco, and rock. Mars is accompanied by his band, the Hooligans, who play a variety of instruments, such as electric guitar, bass, piano, keyboards, drums, and horns, and also serve as backup singers and dancers."
+          ],
+          "_version_": 1848878172109537280,
+          "_root_": "25707",
+          "score": 5.697942
+        },
+        {
+          "id": "36057",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "You got my pride  \nHanging out of my bed  \nYou're messin' around with my life  \nSo I bought my lead  \nYou even mess with my children  \nAnd you're screamin' at my wife, baby  \nGet off my back,  \nIf you want to get outta here alive  \n  \nFreedom, give it to me  \nThat's what I want now  \nFreedom, that's what I need now  \nFreedom to live  \nFreedom, so I can give  \n  \nYou got my heart  \nSpeak electric water  \nYou got my soul  \nScreamin' and howlin'  \nYou know you hook my girlfriend  \nYou know the drugstore man  \nBut I don't need it now  \nI was trying to slap it out of her head  \n  \nFreedom, so I can give  \nFreedom, yeah  \nFreedom, that's what I need  \nYou don't have to say that you love  \nIf you don't mean it  \nYou'd better believe  \nIf you need me  \nOr you just want to bleed me  \nYou'd better stickin' your dagger in someone else  \nSo I can leave  \nSet me free  \n(Yeah)  \n  \nRight on, straight ahead  \nStay up and straight ahead  \nFreedom\n\n"
+          ],
+          "album_name": [
+            "Experience Hendrix: The Best of Jimi Hendrix"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ],
+          "artist_bio": [
+            "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter. Although his mainstream career spanned only four years, he is widely regarded as one of the most influential electric guitarists in the history of popular music, and one of the most celebrated musicians of the 20th century. The Rock and Roll Hall of Fame describes him as \"arguably the greatest instrumentalist in the history of rock music\"."
+          ],
+          "_version_": 1848878175736561667,
+          "_root_": "36057",
+          "score": 5.697942
+        },
+        {
+          "id": "47787",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Uggh!  \nPull, pull  \nWuh! (Sung sorta like Michael Jackson)  \nCome on!  \nUggh!  \nSolo, I'm a soloist on a solo list  \nAl live, never on a floppy disk  \nInka, inka, bottle of ink  \nPaintings of rebellion  \nDrawn up by the thoughts I think  \n  \nYeah!  \nCome on!  \nThe militant poet in once again, check it  \n  \nIt's set up like a deck of cards  \nThey're sending us to early graves  \nFor all the diamonds  \nThey'll use a pair of clubs to beat the spades  \nWith poetry I paint the pictures that hit  \nMore like the murals that fit  \nDon't turn away  \nGet in front of it  \n  \nBrotha, did ya forget ya name?  \nDid ya lose it on the wall  \nPlayin' tic-tac-toe?  \n  \nYo, check the diagonal  \nThree brothers gone  \nCome on  \nDoesn't that make it three in a row?  \n  \nSpoken quietly: 'Anger is a gift'  \nCome on!  \nUggh!  \n  \nCheck that!  \nUggh!  \nCome on  \nYeah  \nUggh  \n  \nBrotha, did ya forget ya name?  \nDid ya lose it on the wall  \nPlayin' tic-tac-toe?  \n  \nYo, check the diagonal  \nThree million gone  \nCome on  \n'Cause they're counting backwards to zero  \n  \nEnvironment  \nThe environment exceeding on the level  \nOf our unconsciousness  \nFor example  \nWhat does the billboard say  \nCome and play, come and play  \nForget about the movement  \n  \nSpoken quietly: 'Anger is a gift'  \nYeah!  \nUggh!  \nAwww, bring that shit in!  \nUggh!  \nHey!  \n  \nFreedom yea  \nFreedom yea right  \nFreedom yeah!  \nFreedom!  \nYea!  \nFreedom!  \nYea right!  \nFreedom!  \nYea!  \nFreedom!  \nYea!  \nRight!\n\n"
+          ],
+          "album_name": [
+            "Rage Against the Machine"
+          ],
+          "artist_name": [
+            "Rage Against The Machine"
+          ],
+          "artist_bio": [
+            "Rage Against the Machine was an American rock band from Los Angeles, California. Formed in 1991, the group consisted of vocalist Zack de la Rocha, bassist and backing vocalist Tim Commerford, guitarist Tom Morello, and drummer Brad Wilk. Their songs express revolutionary left-wing political views. As of 2010, they had sold over 16 million records worldwide. In 2023, the band was inducted into the Rock and Roll Hall of Fame.\n\nRage Against the Machine released its eponymous debut album in 1992 to commercial and critical success"
+          ],
+          "_version_": 1848878180047257601,
+          "_root_": "47787",
+          "score": 5.690285
+        },
+        {
+          "id": "38142",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "People always tell me their life story  \nLove they lost, their taste of glory  \nHe sat next to me at the counter in the diner  \nSaid I used to be wall street but this is much finer  \n  \nHe had a leather look on a steal horse harley  \nA dark eyed girlfriend he called charlie  \nHe looked a little lost walking out the door  \nI think I knew what he was looking for  \n  \nFreedom, sweet Freedom  \n  \nI gassed her up climbed back in my cab  \nTo my wife I'm a husband, to my kids I'm a dad  \nTo the credit card companies I'm just another sucker  \nTo the IRS a long hall trucker  \n  \nSome say that freedoms the power do one pleases  \nYou can live like the devil or hold on to Jesus  \nI found the one thing I was born to do  \nGirl that's why I'm running back to you  \n  \nFreedom, sweet freedom  \n  \nOooh,  \nHe climbed up in my truck with his green duffel bag  \nI knew he was a soldier cause I saw his dog tags  \nWe talked about it  \nWe cried about it  \nThen a steel horse Harley came roaring on past  \nI knew it was charlie hangin' on real fast  \nWe talked about it  \nWe laughed about it  \n  \nThrough the joy and pain that living brings  \nJust know we all own the same thing  \n  \nFreedom, sweet freedom  \n  \nIts what the junkie needs that the needle can't give  \nDepressed and forgotten are praying for it  \nIts what the brave and courageous are fighting for  \nAn open sail on a distant shore  \n  \nFreedom\n\n"
+          ],
+          "album_name": [
+            "The Road and the Radio"
+          ],
+          "artist_name": [
+            "Kenny Chesney"
+          ],
+          "artist_bio": [
+            "Kenneth Arnold Chesney (born March 26, 1968) is an American country music singer, songwriter, and record producer. He has recorded 20 albums, all of which have been certified Gold or higher by the RIAA. He has also produced more than 40 Top 10 singles on the US Billboard Hot Country Songs and Country Airplay charts, 30 of which have reached number one. Many of these have also charted within the Top 40 of the US Billboard Hot 100, making him one of the most successful crossover country artists. He has sold over 30 million albums worldwide.[2]"
+          ],
+          "_version_": 1848878176465321986,
+          "_root_": "38142",
+          "score": 5.676006
+        },
+        {
+          "id": "53244",
+          "song_name": [
+            "War Cry"
+          ],
+          "song_lyrics": [
+            "Oh I, I was marked from the day I was born  \nA rebel and I was the one who I am  \nMy father could not understand the fire in me  \nThere was, there was times I was crazy for real  \nSo crazy I just couldn't feel, no, no, no  \nConfusion would stand in the door and tell me lies  \nBut now I stand on my feet so alive  \nI'm a metal warrior, I need their cries, War Cry  \n  \nI'm a soldier, soldier, a soldier of fortune  \nAhh, come take a stand  \nTogether we'll let out a cry  \nI'm a soldier, soldier, a soldier of fortune  \nAhh, come take a stand  \nTogether we'll never say die  \n  \nOh I, I did not choose, the music chose me  \nI was christened and destined to be who I am  \nThe one that they said would be damned  \nA hellion child that...?  \nI stand at the mirror and sing  \nI dare to be different and dream, now I am  \nBig thunder that rolls on the land forever wild  \nBut still, this feeling inside never die  \nI'm a metal warrior, I need their cries, War Cry  \n  \nI'm a soldier, soldier, a soldier of fortune  \nAhh, come take a stand  \nTogether we'll let out a cry  \nI'm a soldier, soldier, a soldier of fortune  \nAhh, Come take a stand  \nTogether we'll never say die  \n  \nRaise your fist and support your rebel outlaws  \nCause nobody rides for free  \nThe freedom we lose today, you lose tomorrow  \nBecause freedom means something to us...  \n  \nI'm a soldier, soldier, a soldier of fortune  \nAhh, come take a stand  \nTogether we'll let out a cry  \nI'm a soldier, soldier, a soldier of fortune  \nAhh, come take a stand  \nTogether we'll never say die  \n\n"
+          ],
+          "album_name": [
+            "Business the american way"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ],
+          "artist_bio": [
+            "W.A.S.P. is an American heavy metal band formed in 1982. They emerged from the same Los Angeles scene that spawned Van Halen, Mötley Crüe, Ratt, Quiet Riot, Guns N' Roses and others.\n\nW.A.S.P. began following the demise of Circus Circus, a Los Angeles-based band featuring Blackie Lawless and Randy Piper. The original lineup of W.A.S.P. was formed in Los Angeles, California, in 1982 by Lawless, Piper, Rik Fox, and Tony Richards.\n\nThe first lineup did not last for long"
+          ],
+          "_version_": 1848878181989220352,
+          "_root_": "53244",
+          "score": 5.651428
+        },
+        {
+          "id": "3916",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Oh, my honey, take my money  \nI do what I wanna do  \nDon't you know the sun is shining  \nI'm sure trying, I ain't crying  \nMy feet won't touch the ground  \nI ain't got no more misery  \n  \nSpread the word I'm living again  \nTell the world I'm loving again  \nDon't you know I feel like giving again  \nFreedom, oh  \n  \nNo more walking or fast talking  \nNo things are gonna wear me out  \nI'm sure glad I wasn't born a fool, yeah  \nSome day, baby, you'll be my lady  \nI know that it won't be long  \nWe ain't got no more misery  \n  \nSpread the word I'm living again  \nTell the world I'm loving again  \nDon't you know I feel like giving again  \nFreedom  \n  \nOh, honey honey honey, taking all my money  \nI do what I really wanna do  \nOh, the sun is shining  \nI tried, I tried, I tried, I tried, I never never cried  \nOh, my feet won't touch the ground  \nI ain't got no more misery  \n  \nSpread the word I'm living again  \nTell the world I'm loving again  \nDon't you know I feel like giving again  \nFreedom\n\n"
+          ],
+          "album_name": [
+            "Fireball - 25th Anniversary Edition"
+          ],
+          "artist_name": [
+            "Deep Purple"
+          ],
+          "artist_bio": [
+            "Deep Purple is an English rock band formed in London, in 1968. They are considered to be among the pioneers of heavy metal and modern hard rock but their musical approach has changed over the years. Originally formed as a psychedelic rock and progressive rock band, they shifted to a heavier sound with their 1970 album Deep Purple in Rock. Deep Purple (together with Led Zeppelin and Black Sabbath) have been referred to as the \"unholy trinity\" of British hard rock and heavy metal in the early to mid-seventies."
+          ],
+          "_version_": 1848878164195934210,
+          "_root_": "3916",
+          "score": 5.373004
+        },
+        {
+          "id": "8400",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Freedom, this is what I call freedom  \n  \nWell, I wanna say, I wanna tell you  \nI wanna say when you can do what you wanna do  \nAnd go where you wanna go  \nAnd live where you wanna live  \nAnd love who you wanna love  \n  \nAnd be what you wanna be  \nJoin what you wanna join  \nWell, well, well, that's freedom  \nYeah, yeah, freedom, yes sir  \n  \nWhen you can learn what you wanna learn  \nAnd read what you wanna read  \n(Free, free, free)  \n  \nAnd write what you wanna write  \n(Free, free, free)  \nDo what you feel is right  \n(Free, free, free)  \n  \nHey, hey, hey, hey, freedom, freedom  \nOh yeah, freedom, freedom, freedom  \nOh yeah, freedom, oh that's freedom, freedom  \nFreedom, freedom, freedom, freedom, oh yeah  \n  \nFree, free, free  \nFree, free, free  \nFree, free, free  \nFree, free, free  \n  \nWhen you can eat what you wanna eat  \nAnd sleep where you wanna sleep  \nAnd say what you wanna say  \nI like the children play what they wanna play  \n  \nAnd work when you wanna work  \nFlirt when you wanna flirt  \nOh, that's freedom, freedom, freedom, freedom  \nFreedom, freedom, freedom, freedom  \n  \nWhen you can laugh when you wanna laugh  \nAnd cry when you wanna cry  \n(Free, free, free)  \n  \nAnd don't have to feel ashamed  \n(Free, free, free)  \nSing the song you wanna sing  \n(Free, free, free)  \n  \nWhen you can buy what you wanna buy  \n(Free, free, free)  \nWhen no one to ask you why  \n(Free, free, free)  \n  \nDress the way you wanna dress  \n(Free, free, free)  \nJust because you feel the space  \n(Free, free, free)  \n  \nRock the way you wanna rock  \n(Free, free, free)  \nTalk the way you wanna talk  \n(Free, free, free)  \n  \nShake the way you wanna shake  \n(Free, free, free)  \nNo one to put you at  \n(Free, free, free)  \n  \nOh, that's freedom, freedom  \nFreedom, freedom, oh yeah  \nFreedom, that's freedom, freedom, freedom  \nFreedom, freedom, freedom, freedom  \n  \nFreedom, oh, freedom, freedom, freedom  \nFreedom, freedom, freedom\n\n"
+          ],
+          "album_name": [
+            "The Essential Isley Brothers"
+          ],
+          "artist_name": [
+            "Isley Brothers"
+          ],
+          "artist_bio": [
+            "First formed in the early ’50s, the Isley Brothers enjoyed one of the longest, most influential, and most diverse careers in the pantheon of popular music — over the course of nearly a half century of performing, the group’s distinguished history spanned not only two generations of Isley siblings but also massive cultural shifts which heralded their music’s transformation from gritty R&B to Motown soul to blistering funk.\n\nand a Soundtrack of Beverly Hills Cop (1984)"
+          ],
+          "_version_": 1848878165873655809,
+          "_root_": "8400",
+          "score": 5.373004
+        },
+        {
+          "id": "9505",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "Every dawn becomes a new day  \nA time to love, a time to cry  \nEvery river knows its own way  \nAnd it's the same for you and I  \nAnd every heart must have a reason  \nA winding road, a midnight flight  \n  \n[Chorus:]  \nFreedom, freedom  \nWhat we all need is freedom in our hearts  \nFreedom, freedom  \nWhat we all need is freedom in our hearts  \n  \nWe fight and die defending honor  \nThe pride and prejudice we hide  \nA mother's tears, a father's anger  \nFrom trying to stop the pain and lies  \nSo we pretend to look for answers  \nWhile I blame you and you blame me  \n  \n[Chorus]  \n  \nWe don't need the pain anymore  \nTo move our mountains, to reach our shores  \nWhat I've found is the choice I bring  \nWhat I can do to let freedom ring?  \n  \n[Chorus]  \n  \nFreedom from the darkness  \nFreedom from the violence  \nFreedom from the hate  \nFreedom from the fear  \nFreedom from the hunger  \nFreedom from the forgiveness  \nFreedom from the past  \nFreedom from the mistakes  \n  \n[Chorus]  \n  \nTell the people now  \nFreedom, freedom  \nWhat we all need is freedom in our hearts  \nFreedom, freedom  \nWhat we all need is freedom in our hearts\n\n"
+          ],
+          "album_name": [
+            "Rockin' with the Rhythm"
+          ],
+          "artist_name": [
+            "Judds"
+          ],
+          "artist_bio": [
+            "from jango.com\n\n\n\nOrigin: Nashville, TN\n\nDecades: 1980's and 1990's\n\nUp until the rise of Brooks & Dunn in the '90s, the Judds were the most commercially successful duo in country music history. Mother Naomi and daughter Wynonna enjoyed an astounding run of 14 number one singles from 1984 to 1989, ranking them as one of the most popular country acts of the '80s. Their music combined elements of traditional country harmony singing, bluegrass, and Appalachian folk with pop, rock, and polished contemporary production."
+          ],
+          "_version_": 1848878166277357569,
+          "_root_": "9505",
+          "score": 5.373004
+        },
+        {
+          "id": "16989",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "I won't let you down  \nI will not give you up  \nGotta have some faith in the sound  \nIt's the one good thing that I've got  \n  \nI won't let you down  \nSo please don't give me up  \nBecause I would really, really love to stick around, stick around  \n  \nHeaven knows I was such a young boy  \nI didn't know what I wanted to be  \n  \nI was every little hungry schoolgirl's pride and joy  \nAnd I guess it was enough for me  \n  \nTo win the race? A prettier face  \nBrand new clothes and a big fat place  \nOn your rock and roll TV  \n  \nBut today the way I play the game has got to change  \nOh yeah  \nAnd now I'm gonna get me so happy  \n  \nI think there's something you should know  \nI think it's time I told you so  \nThere's something deep inside of me  \nThere's someone else I've got to be  \nTake back your picture in a frame  \nTake back your singing in the rain  \nI just hope you understand  \nSomehow the clothes do not make the man  \n  \nAll we have to do now  \nIs take these lies and make them true somehow  \nAll we have to see  \nIs that I don't belong to you  \nAnd you don't belong to me yeah yeah  \n  \n[Chorus]  \n(Freedom) I won't let you down  \n(Freedom) I will not give you up  \n(Freedom) You've gotta have some faith in the sound  \n(You've gotta give for what you take) it's the one good thing that I've got  \n(Freedom) I won't let you down  \n(Freedom) So please don't give me up  \n(Freedom) Because I would really really love to stick around, stick around  \n(You've gotta give for what you take)  \n  \nHeaven knows we sure had some fun boy  \nWhat a kick just my buddies and me  \n  \n(What a kick just my buddies and me)  \nWe won the race  \nGot out of the place  \nI went back home got a brand new face  \nFor the boys on M-T-V (boys on M-T-V)  \n  \nBut today the way I play the game has got to change  \nOh yeah  \nAnd now I'm gonna get myself happy  \n  \nI think there's something you should know  \nI think it's time I stopped the show  \nThere's something deep inside of me  \nThere's someone I forgot to be  \nTake back your picture in a frame  \nDon't think that I'll be back again  \nI just hope you understand  \nSometimes the clothes do not make the man  \n  \nAll we have to do now  \nIs take these lies and make them true somehow  \nAll we have to see  \nIs that I don't belong to you  \nAnd you don't belong to me yeah yeah  \n  \n(Freedom) I won't let you down  \n(Freedom) I will not give you up  \n(Freedom) You've gotta have some faith in the sound  \n(You've gotta give for what you take) it's the one good thing that I've got  \n(Freedom) I won't let you down  \n(Freedom) So please don't give me up  \n  \n(Freedom) Because I would really really love to stick around,stick around  \n(You've gotta give for what you take)  \n  \nWell it looks like the road to heaven  \nBut it feels like the road to hell  \nAnd when you shake your ass  \nThey notice fast  \nSome mistakes were built to last  \nThat's what you get  \nThat's what you get  \nI just hope you understand sometimes the clothes do not make theman  \nAll we have to see now  \n  \nIs that I don't belong to you  \nAnd you don't belong to me yeah yeah  \n  \n[Chorus]\n\n"
+          ],
+          "album_name": [
+            "Supreme Angels and Millionaires"
+          ],
+          "artist_name": [
+            "Robbie Williams"
+          ],
+          "artist_bio": [
+            "Robert Peter Williams (born 13 February 1974) is an English singer and songwriter. He found fame as a member of the pop group Take That from 1990 to 1995, and achieved commercial success after launching a solo career in 1996. His debut studio album, Life thru a Lens, was released in 1997, and included his signature song, \"Angels\". His second album, I've Been Expecting You, featured the songs \"Millennium\" and \"She's the One\", his first number one singles."
+          ],
+          "_version_": 1848878168962760707,
+          "_root_": "16989",
+          "score": 5.373004
+        },
+        {
+          "id": "32375",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "I won't let you down  \nI will not give you up  \nGotta have some faith in the sound  \nIt's the one good thing that I've got  \nI won't let you down  \nSo please don't give me up  \nBecause I would really, really love to stick around, oh yeah  \n  \nHeaven knows I was just a young boy  \nDidn't know what I wanted to be  \nI was every little hungry schoolgirl's pride and joy  \nAnd I guess it was enough for me  \nTo win the race? A prettier face!  \nBrand new clothes and a big fat place  \nOn your rock and roll TV  \nBut today the way I play the game is not the same  \nNo way  \nThink I'm gonna get me some happy  \n  \nI think there's something you should know  \nI think it's time I told you so  \nThere's something deep inside of me  \nThere's someone else I've got to be  \nTake back your picture in a frame  \nTake back your singing in the rain  \nI just hope you understand  \nSometimes the clothes do not make the man  \n  \nAll we have to do now  \nIs take these lies and make them true somehow  \nAll we have to see  \nIs that I don't belong to you  \nAnd you don't belong to me, yeah yeah  \n  \nFreedom, freedom, freedom  \nYou've gotta give for what you take  \nFreedom, freedom, freedom  \nYou've gotta give for what you take  \n  \nHeaven knows we sure had some fun boy  \nWhat a kick just a buddy and me  \nWe had every big shot good-time band on the run boy  \nWe were living in a fantasy  \nWe won the race  \nGot out of the place  \nI went back home got a brand new face  \nFor the boys at MTV  \nBut today the way I play the game has got to change  \nOh yeah  \nNow I'm gonna get myself happy  \n  \nI think there's something you should know  \nI think it's time I stopped the show  \nThere's something deep inside of me  \nThere's someone I forgot to be  \nTake back your picture in a frame  \nDon't think that I'll be back again  \nI just hope you understand  \nSometimes the clothes do not make the man  \n  \nAll we have to do now  \nIs take these lies and make them true somehow  \nAll we have to see  \nIs that I don't belong to you  \nAnd you don't belong to me, yeah yeah  \n  \nFreedom, freedom, freedom  \nYou've gotta give for what you take  \nFreedom, freedom, freedom  \nYou've gotta give for what you take  \n  \nWell it looks like the road to heaven  \nBut it feels like the road to hell  \nWhen I knew which side my bread was buttered  \nI took the knife as well  \nPosing for another picture  \nEverybody's got to sell  \nBut when you shake your ass  \nThey notice fast  \nAnd some mistakes were built to last  \n  \nThat's what you get  \nI say that's what you get  \nThat's what you get for changing your mind  \nAnd after all this time  \nI just hope you understand  \nSometimes the clothes  \nDo not make the man  \n  \nAll we have to do now  \nIs take these lies and make them true somehow  \nAll we have to see  \nIs that I don't belong to you  \nAnd you don't belong to me, yeah yeah  \n  \nFreedom, freedom, freedom  \nYou've gotta give for what you take  \nFreedom, freedom, freedom  \nYou've gotta give for what you take  \n  \nYeah you've gotta do what you do, what you do  \nMay not be what you want from me  \nJust the way it's got to be  \nLose the face now  \nI've got to live, got to live, got to live\n\n"
+          ],
+          "album_name": [
+            "Symphonica Royal Albert Hall 2012"
+          ],
+          "artist_name": [
+            "George Michael"
+          ],
+          "artist_bio": [
+            "George Michael (born Georgios Kyriacos Panayiotou; 25 June 1963 – 25 December 2016) was an English singer, songwriter, and record producer. He is one of the best-selling musicians of all time, with his sales estimated at between 100 million to 125 million records worldwide. A prominent figure in popular music, Michael was known as a creative force in songwriting, vocal performance, and visual presentation. He achieved 10 number-one songs on the US Billboard Hot 100 and 13 number-one songs on the UK Singles Chart."
+          ],
+          "_version_": 1848878174402772992,
+          "_root_": "32375",
+          "score": 5.373004
+        },
+        {
+          "id": "35054",
+          "song_name": [
+            "Freedom"
+          ],
+          "song_lyrics": [
+            "[Verse:]  \nI wanna clap a little louder than before  \nI wanna sing a little louder than before, Oh  \nI wanna jump higher than before  \nI wanna shout a little louder before, Oh  \n  \n[Chorus:]  \nFreedom  \n  \n[Verse 2:]  \nI wanna clap a little louder than before  \nI wanna sing a little louder than before, Oh  \nI wanna jump higher than before  \nI gotta scream a little louder than before, Oh  \n  \n[Verse 3:]  \nI wanna lift my hands higher than before  \nI wanna love you more than before, Oh  \nI wanna worship deeper than before  \nI wanna shout a little louder than before, Oh  \n  \n[Bridge:]  \nNo more shackles, no more chains  \nNo more bondage, I am free  \nYeah  \n  \n[Bridge 2]  \nHallelujah  \n  \n[Tag]  \nI am free to run, I am free\n\n"
+          ],
+          "album_name": [
+            "Changing Times"
+          ],
+          "artist_name": [
+            "Indiana Bible College"
+          ],
+          "artist_bio": [
+            "Indiana Bible College (IBC) is a praise and worship group made of the Choir, Chorale and Praise sectors of the IBC located in Indianapolis, Indiana. It is majorly focused on creating praise and worship music that abides by the Holy Ghost and glorifies Jesus. They aren't limited to a single genre, often experimenting with style."
+          ],
+          "_version_": 1848878175354880004,
+          "_root_": "35054",
+          "score": 5.373004
         }
       ]
     }
@@ -1872,12 +2187,12 @@
   "9": {
     "responseHeader": {
       "status": 0,
-      "QTime": 12,
+      "QTime": 11,
       "params": {
         "mm": "75%",
         "ps": "3",
         "fl": "*,score",
-        "rows": "10",
+        "rows": "25",
         "ps2": "2",
         "q": "freedom american",
         "tie": "0.1",
@@ -2104,6 +2419,321 @@
           "_version_": 1848878170877460482,
           "_root_": "22224",
           "score": 25.4315
+        },
+        {
+          "id": "33042",
+          "song_name": [
+            "We're An American Band"
+          ],
+          "song_lyrics": [
+            "Out on the road for forty days  \nLast night in Little Rock, put me in a haze  \nSweet, sweet Connie was doin' her act  \nShe had the whole show and that's a natural fact  \n  \nUp all night with Freddie King  \nI got to tell you, poker's his thing  \nBooze and ladies, keep me right  \nAs long as we can make it to the show tonight  \n  \nWe're an American Band  \nWe're an American Band  \nWe're comin' to your town  \nWe'll help you party it down  \nWe're an American band  \n  \nFour young chiquitas in Omaha  \nWaitin' for the band to return from the show  \nA feelin' good, feelin' right and it's Saturday night  \nThe hotel detective, he was outta sight  \n  \nNow these fine ladies, they had a plan  \nThey was out to meet the boys in the band  \nThey said, \"Come on dudes, let's get it on!\"  \nAnd we proceeded to tear that hotel down  \n  \nWe're an American Band  \nWe're an American Band  \nWe're comin' to your town  \nWe'll help you party it down  \nWe're an American band  \n  \nWe're an American band  \nWe're an American band  \nWe're comin' to your town  \nWe'll help you party it down  \nWe're an American band  \n  \n[Break]  \n  \nWe're an American Band  \nWe're an American Band  \nWe're comin' to your town  \nWe'll help you party it down  \nWe're an American band  \n  \nWe're an American band  \nWe're an American band  \nWe're comin' to your town  \nWe'll help you party it down  \nWe're an American band  \n  \nWe're an American Band (whooo)  \nWe're an American Band (whooo)  \nWe're an American Band (whooo)\n\n"
+          ],
+          "album_name": [
+            "Capitol Collectors Series"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ],
+          "artist_bio": [
+            "Grand Funk Railroad is an American hard rock band that formed in 1969 in Flint, Michigan, United States. Known for iconic rock hits such as the number ones \"We're An American Band\" and their cover version of  \"The Loco-Motion\", the band initially consisted of Mark Farner (vocals, guitar), Mel Schacher (bass) and Don Brewer (drums), with Craig Frost (keyboards) joining in 1972. During their career, the group has released 14 studio albums and their career sales total over 25 million records sold, including 10 million records sold in 1970 alone."
+          ],
+          "_version_": 1848878174628216834,
+          "_root_": "33042",
+          "score": 25.401537
+        },
+        {
+          "id": "23401",
+          "song_name": [
+            "I Am Not American"
+          ],
+          "song_lyrics": [
+            "I am not American,  \nThough I live in North America  \nWhich is part of the Americas  \nWhich should make me an American  \nGeographically Canadians,  \nAre certainly Americans  \nAs are Venisallians,  \nBut not Hawaiians  \nThey're out in the middle of the Ocean  \nJust like the you. S. Virgin Islands,  \nWho shoudn't say they are Americans,  \nOr even Virgins  \nHow could two whole continents,  \nLose their name to one Constitute  \nWhere were we when the you. S. Went,  \nAnd took the word American away?  \nBut to be fair to them,  \nTheir other name options,  \nLike you. S. A. Ers or United Statesians,  \nWere pretty bad  \nStill I want to be as American,  \nAs the French are European,  \nOr those in Antarctica are Antarctican  \nEven if they're just penguins  \nThat leaves us Canadians as Northern North American,  \nBut Alaskas Norther curse them  \nWe're surrounded by Americans  \nAmericans, Americans!  \nI just called those you. S. A. Ers Americans  \nA name meant for two continents not just them  \nFor if I said I was American,  \nPeople would probably think I came from Maine  \nStill I think I have a plan,  \nLet's become Antarctican,  \nAnd join up with the penguins  \nFor just like them, we're not American!\n\n"
+          ],
+          "album_name": [
+            "Toast!"
+          ],
+          "artist_name": [
+            "Arrogant Worms"
+          ],
+          "artist_bio": [
+            "Canada's Secret Weapon #1.\n\nThe Arrogant Worms are a Canadian musical comedy trio that parodies many musical genres. They are well known for their humorous on-stage banter in addition to their music.\n\nThe Worms came together in 1991 to do a few spots on campus radio station CFRC in Kingston, Ontario, and quickly moved to doing spots on the CBC Radio One. Since 1992, the troupe has released 11 albums on their own label and one compilation album under Oglio Records."
+          ],
+          "_version_": 1848878171258093568,
+          "_root_": "23401",
+          "score": 25.145874
+        },
+        {
+          "id": "9105",
+          "song_name": [
+            "American Son"
+          ],
+          "song_lyrics": [
+            "Stuck inside a jigsaw  \nOf the Midwestern modern midtown  \nFeeling like a trophy  \nThat the old man's been passing around  \nJust another suit back  \nFrom a old time college degree  \nAnd when I walked by I heard 'em  \nSaying that he was something to see  \nWell, now don't you know that I'm the American Son?  \nLiving out the old man's fantasy of being number one  \nDaddy used to tell me, \"Son, you'll never kiss ass\"  \nI'm the last of the American Son and it's such a, such a gasp  \nIt's like a shot of silicon  \nThe way the conversation grew  \nAnd everybody was telling me something  \nThat I already, already knew  \nWell, I might be dumb but it didn't take that long  \nFor me to get out of that room and bills  \nAnd when I ran into the streets  \nThe crowd was yelling he's such a, such a gasp  \nNow don't you know that I'm the American Son?  \nLiving out the old man's fantasy of being number one  \nDaddy used to tell me, \"Son, you'll never kiss ass\"  \nI'm the last of the American Son and it's such a, such a  \nSuch a gasp, well, now kiss ass  \nYou know that Eddy's in danger of  \nOf a self indulgent fool  \nTo mesmerize himself into thinking  \nThat he is just to cool for school  \nWell, you know that it's fun to carry a gun  \nAnd shoot down what you never could be  \nAnd when the dealer calls and has got you by the balls  \nYou tell him that ya, you tell that ya had it from me  \nNow don't you know that I'm the American Son?  \nLiving out the old man's fantasy of being number one  \nDaddy used to tell me, \"Son, you'll never kiss ass\"  \nI'm the last of the American Son  \nAnd it's a, it's a, it's a, it's a, it's a  \nIt's such a, it's such a, it's such a gasp  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last, I'm the last  \nI'm the last, I'm the last  \nI'm the last, I'm the last  \nI'm the last, I'm the last  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last of the American Son  \nI'm the last of the American Son  \n\n"
+          ],
+          "album_name": [
+            "The Kid Inside"
+          ],
+          "artist_name": [
+            "John Mellencamp"
+          ],
+          "artist_bio": [
+            "John Mellencamp (born 7 October 1951 in Seymour, Indiana) is an American singer and a songwriter, known for a long and successful recording and performing career highlighted by a series of 1980s hits, including \"Jack & Diane\", and by his role in the Farm Aid charity event. Mellencamp currently lives in Bloomington, Indiana.\n\nJohn's first record released was under the stage name \"Johnny Cougar\" at the behest of Tony DeFries, his first manager.  Mellencamp claims it was against his knowledge and will, and he hated the name."
+          ],
+          "_version_": 1848878166141042690,
+          "_root_": "9105",
+          "score": 24.956858
+        },
+        {
+          "id": "52870",
+          "song_name": [
+            "American Music"
+          ],
+          "song_lyrics": [
+            "Do you like American music  \nI like American music  \nDon't you like American music baby  \nI want you to hold me  \nI want your arms around me  \nI want you to hold me baby  \nDid you do too many drugs  \nI did too many drugs  \nDid you do too many drugs too baby  \nYou were born too late  \nI was born too soon  \nBut every time I look at that ugly moon  \nIt reminds me of you  \nIt reminds me of you ooh ooh ooh  \nI need a date to the prom  \nWould you like to come along  \nBut nobody would go to the prom with me baby  \nThey didn't like American music  \nThey never heard American music  \nThey didn't know the music was in my soul baby  \nYou were born too soon  \nI was born too late  \nBut every time I look at that ugly lake  \nIt reminds me of me  \nIt reminds me of me  \nDo you like American music  \nWe like American music  \nI like American music baby  \nDo you like American music  \nWe like all kinds of music  \nBut I like American music best  \nBaby you were born too late  \nAnd I was born too late  \nBut every time I look at that ugly lake  \nIt reminds me of me  \nIt reminds me of me  \nDo you like American music  \nIt reminds me of me  \nDo you like American music\n\n"
+          ],
+          "album_name": [
+            "Permanent Record: The Very Best Of The Violent Femmes (GH)"
+          ],
+          "artist_name": [
+            "Violent Femmes"
+          ],
+          "artist_bio": [
+            "Violent Femmes is an alternative rock band, formed in Milwaukee, Wisconsin, United States in 1980. The band originally consisted of Gordon Gano (vocals, guitar), Brian Ritchie (bass), and Victor DeLorenzo (drums), with Guy Hoffman replacing DeLorenzo following his departure starting in 1993 and up until his return in 2002. The band split in early 2009, their last recording being a cover of the Gnarls Barkley song \"Crazy\", a response to Gnarls Barkley's cover of the Femmes song \"Gone Daddy Gone\" released the previous year."
+          ],
+          "_version_": 1848878181880168450,
+          "_root_": "52870",
+          "score": 24.863998
+        },
+        {
+          "id": "10812",
+          "song_name": [
+            "American Woman"
+          ],
+          "song_lyrics": [
+            "American woman, stay away from me  \nAmerican woman, mama let me be  \nDon't come hanging around my door  \nI don't want to see your face no more  \n  \nI got more important things to do  \nThan spend my time growin' old with you  \nNow woman, stay away  \nAmerican woman, listen what I say  \n  \nAmerican woman, get away from me  \nAmerican woman, mama let me be  \nDon't come knocking around my door  \nI don't want to see your shadow no more  \n  \nColored lights can hypnotize  \nSparkle someone else's eyes  \nNow woman, get away  \nAmerican woman, listen what I say  \n  \nAmerican woman, I said get way  \nAmerican woman, listen what I say  \nDon't come hanging around my door  \nDon't want to see your face no more  \n  \nI don't need your war machines  \nI don't need your ghetto scenes  \nColored lights can hypnotize  \nSparkle someone else's eyes  \n  \nNow woman, get away  \nAmerican woman, listen what I say  \nAmerican woman, stay away from me  \nAmerican woman, mama let me be  \n  \nI gotta go  \nI gotta getta away  \nThink I gotta go  \nI want to fly away  \n  \nI'm gonna leave you woman  \nI'm gonna leave you woman  \nI'm gonna leave you woman  \nI'm gonna leave you woman  \n  \nBye bye, bye bye  \nBye bye, bye bye  \nAmerican woman  \nYou're no good for me  \n  \nI'm no good for you  \nLooking at you right in the eye  \nTell you what I'm gonna do  \nI'm gonna leave you woman  \n  \nYou know I gotta go  \nI'm gonna leave you woman  \nI gotta go  \nI gotta go  \n  \nI gotta go  \nAmerican woman  \nYeah\n\n"
+          ],
+          "album_name": [
+            "Greatest Hits"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ],
+          "artist_bio": [
+            "Leonard Albert \"Lenny\" Kravitz (born May 26, 1964. New York, USA) is an American singer-songwriter, record producer, guitarist and actor whose retro amalgam of rock, pop, funk, and even techno is inspired by such music icons as David Bowie, Jimi Hendrix and John Lennon. Like Prince and Sly Stone before him, Kravitz uses a multi-ethnic, mixed-gender backing band.\n\nKravitz plays guitar, bass, drums, keyboards, percussion, and sitar. He often plays these instruments on each recorded track"
+          ],
+          "_version_": 1848878166750265346,
+          "_root_": "10812",
+          "score": 24.733149
+        },
+        {
+          "id": "5457",
+          "song_name": [
+            "American Girl"
+          ],
+          "song_lyrics": [
+            "Well she was an American girl  \nRaised on promises  \nShe couldn't help thinkin' that there  \nWas a little more to life  \nSomewhere else  \nAfter all it was a great big world  \nWith lots of places to run to  \nYeah, and if she had to die  \nTryin' she had one little promise  \nShe was gonna keep  \n  \n[Chorus]  \nOh yeah, all right  \nTake it easy baby  \nMake it last all night  \nShe was an American girl  \n  \nIt was kind of cold that night  \nShe stood alone on her balcony  \nShe could the cars roll by  \nOut on 441  \nLike waves crashin' in the beach  \n  \nAnd for one desperate moment there  \nHe crept back in her memory  \nGod it's so painful  \nSomething that's so close  \nAnd still so far out of reach  \n  \n[Chorus]  \n  \nOh yeah, all right  \nTake it easy baby  \nMake it last all god damn night  \nShe was an American girl  \n  \nAmerican girl  \nAmerican girl  \nAmerican girl  \nAmerican girl  \nAmerican girl\n\n"
+          ],
+          "album_name": [
+            "The Vegas Years"
+          ],
+          "artist_name": [
+            "Everclear"
+          ],
+          "artist_bio": [
+            "Everclear are an alternative rock band formed in Portland, Oregon, USA, in 1992. For most of its existence, Everclear consisted of Art Alexakis (b. 12 April 1962, Los Angeles, California, USA; vocals, guitar), Craig Montoya (b. 14 September 1970; bass, vocals) and Greg Eklund (b. 18 April 1970; drums). Eklund replaced original drummer Scott Cuthbert in 1994. Montoya and Eklund departed the band in 2003, but Alexakis has continued performing as Everclear with a new lineup."
+          ],
+          "_version_": 1848878164706590720,
+          "_root_": "5457",
+          "score": 24.720583
+        },
+        {
+          "id": "27650",
+          "song_name": [
+            "American Baby"
+          ],
+          "song_lyrics": [
+            "If these walls came crumbling down  \nAnd fell so hard to make us lose our faith  \nFrom what's left you'd figure it out  \nStill make lemonade taste like a sunny day  \nStay beautiful baby  \nI hope you stay American baby  \nAmerican baby  \nNobody?s laughing now  \nGod?s grace lost and the devil is proud  \nBut I've been walking for a thousand miles  \nOne last time I could see you smile  \nI, I hold, hold on to you  \nYou bring me hope I'll see you soon  \nAnd if I don't see you  \nOh, I'm afraid we've lost the way  \nStay beautiful baby  \nI hope you stay American baby  \nAmerican baby  \nAmerican baby  \nI hold on to you  \nYou lift me up  \nAnd always will  \nI see you in light  \nHope I don't get left behind  \nI, I hold, hold on to you  \nYou bring me hope I'll see you soon  \nAnd if I don't see you  \nOh, I'm afraid we've lost the way  \nStay beautiful baby  \nI hope you stay American baby  \nI hope you stay beautiful baby  \nI hope you stay American baby  \nAmerican baby  \nAmerican baby\n\n"
+          ],
+          "album_name": [
+            "Stand Up"
+          ],
+          "artist_name": [
+            "Dave Matthews Band"
+          ],
+          "artist_bio": [
+            "Dave Matthews Band was formed in Charlottesville, VA in 1991 by South African native singer and guitarist Dave Matthews, bassist Stefan Lessard, the late LeRoi Moore, who played a wide variety of instruments from the saxophone to the flute, violin player Boyd Tinsley, drummer Carter Beauford, and keyboardist Peter Griesar (who left the band in 1993), all of whom Dave met in Charlottesville. In 1998, the band played shows with keyboardist Butch Taylor, although he was not officially a member of the band."
+          ],
+          "_version_": 1848878172741828609,
+          "_root_": "27650",
+          "score": 24.539623
+        },
+        {
+          "id": "31622",
+          "song_name": [
+            "Early American"
+          ],
+          "song_lyrics": [
+            "The dream I'm building is early American,  \nSomething that won't go out of style,  \nIt makes you feel that life's worth living,  \nThe way they must have felt that first Thanksgiving.  \nYou sure get sold on this early American,  \nAfter you've looked around a while,  \nSo I'm building a dream for someone who  \nLike early Americans do.  \nThe dream I'm building is early American,  \nSomething that won't go out of style,  \nIt makes you feel that life's worth living,  \nThe way they must have felt that first Thanksgiving.  \nYou sure get sold on this early American,  \nAfter you've looked around a while,  \nSo I'm building a dream for someone who  \nLike early Americans do.\n\n"
+          ],
+          "album_name": [
+            "The Complete Reprise Studio Recordings"
+          ],
+          "artist_name": [
+            "Frank Sinatra"
+          ],
+          "artist_bio": [
+            "Francis Albert Sinatra (December 12, 1915 – May 14, 1998) was an American singer, actor, and producer who was one of the most popular and influential musical artists of the 20th century. He is one of the best-selling music artists of all time, having sold more than 150 million records worldwide. \n\nBorn in Hoboken, New Jersey, to Italian immigrants, Sinatra began his musical career in the swing era with bandleaders Harry James and Tommy Dorsey. Sinatra found success as a solo artist after he signed with Columbia Records in 1943"
+          ],
+          "_version_": 1848878174125948928,
+          "_root_": "31622",
+          "score": 24.520647
+        },
+        {
+          "id": "39279",
+          "song_name": [
+            "American"
+          ],
+          "song_lyrics": [
+            "Play house, put my favorite record on  \nGet down, get your crystal method on  \nYou were like dark tan driving round the city  \nFlirting with the girls like you're so pretty  \nSpringsteen is the king don't you think  \nI was like, \"hell yeah that guy can sing\"  \n  \nLike ooh, ooh, ooh, ooh, ooh, whoa  \n  \nYou make me crazy, you make me wild.  \nJust like a baby, spin me 'round like a child.  \nYour skin so golden brown  \nBe young, be dope be proud.  \nLike an American.  \nOoh, ooh, ooh, ooh, like an American.  \nOoh, ooh, ooh, ooh  \n  \nDrive fast, I can almost taste it now.  \nLA, I don't even have to fake it now.  \nYou're like so sick, everybody said it  \nYou're way ahead of the trend ge-get it.  \nElvis is the best, hell yes.  \nHoney put on that party dress  \n  \nLike ooh, ooh, ooh, ooh, ooh, whoa  \n  \nYou make me crazy, you make me wild.  \nJust like a baby, spin me 'round like a child.  \nYour skin so golden brown  \nBe young, be dope be proud.  \nLike an American.  \nOoh, ooh, ooh, ooh, like an American.  \nOoh, ooh, ooh, ooh  \n  \nEverybody wants to go fast but they cant compare  \nI don't really want the rest, only you can take me there  \nI don't eve know what I'm saying but I'm praying for you  \n  \nYou make me crazy, you make me wild.  \nJust like a baby, spin me 'round like a child.  \nYour skin so golden brown  \nBe young, be dope be proud.  \nLike an American.  \nOoh, ooh, ooh, ooh, like an American.  \nOoh, ooh, ooh, ooh, like an American.  \nOoh, ooh, ooh, ooh, like an American.  \nOoh, ooh, ooh, ooh, like an American.  \nOoh, ooh, ooh, ooh, like an American.\n\n"
+          ],
+          "album_name": [
+            "Born to Die - The Paradise Edition"
+          ],
+          "artist_name": [
+            "Lana Del Rey"
+          ],
+          "artist_bio": [
+            "Elizabeth Woolridge Grant, known professionally as Lana Del Rey, is an American singer-songwriter and producer. Her music is noted for its cinematic quality and exploration of tragic romance, glamour, and melancholia, with frequent references to contemporary pop culture and 1950s–1960s Americana.\n\nRaised in upstate New York, Del Rey moved to New York City in 2005 to pursue a music career. After numerous projects, including her self-titled debut studio album"
+          ],
+          "_version_": 1848878176882655234,
+          "_root_": "39279",
+          "score": 24.272955
+        },
+        {
+          "id": "12618",
+          "song_name": [
+            "American Nightmare"
+          ],
+          "song_lyrics": [
+            "Hot cherry on Friday night  \nWhen the sun goes down my spine  \nI put an axe in my baby's head  \nI'm gonna end up doing time  \n  \nShe looks so good in red  \nAmerican nightmare running scared  \n  \nShe shoulda been hard to get  \nShe shoulda been hard to kill  \nShe shoulda been hard to kill, hey  \n  \nI had to split your head  \nAmerican nighmare running scared  \n  \nI'm heading down the highway  \nSign has three inverted nines  \nIf the lord don't get me the devil will  \nBut not without a fight  \n  \nDoes this highway never fucking ends  \nAmerican nightmare running scared  \nAmerican nightmare running scared  \n  \nI'm heading down the highway  \nSign has three inverted nines  \nIf the lord don't get me the devil will  \nBut not without a fight  \n  \nThis highway never fucking ends  \nAmerican nightmare running scared  \nHey, American nightmare running scared  \n\n"
+          ],
+          "album_name": [
+            "Walk Among Us"
+          ],
+          "artist_name": [
+            "Misfits"
+          ],
+          "artist_bio": [
+            "The Misfits is an American punk rock band formed in Lodi, New Jersey in 1977. Often recognized as the progenitors of the horror punk subgenre, blending punk and other musical influences with horror film themes and imagery. The group was founded in 1977 in Lodi, New Jersey, by vocalist, songwriter and keyboardist Glenn Danzig, and drummer Manny Martínez. Jerry Only joined on bass guitar shortly after. Over the next six years, membership would change frequently with Danzig and Only the only consistent members."
+          ],
+          "_version_": 1848878167408771073,
+          "_root_": "12618",
+          "score": 24.100975
+        },
+        {
+          "id": "1727",
+          "song_name": [
+            "American Dreams"
+          ],
+          "song_lyrics": [
+            "I used to see you on every tv  \nYour smiling face looked back at me.  \nI used to see you on every tv  \nYour smiling face looked back at me.  \n  \nThen they caught you with the girl next door,  \nPeople's money piled on the floor,  \nAccusations that you try to deny,  \nRevelations and rumours begin to fly.  \n  \nNow you think about reaching out  \nTry to get some help from above.  \nNow you think about reaching out  \nTry to get some help from above.  \n  \nReporters crowd around your house.  \nGoing through your garbage like a pack of hounds,  \nSpeculating what they may find out,  \nIt don't matter now, you're all washed up.  \n  \nYou wake up in the middle of the night.  \nYour sheets are wet and your face is white,  \nYou tried to make a good thing last,  \nHow could something so good, go bad, so fast?  \n  \nAmerican dream, American dream,  \nAmerican dream, American dream.  \n  \nDon't know when things went wrong,  \nMight have been when you were young and strong. (X 2)  \n  \nReporters crowd around your house.  \nGoing through your garbage like a pack of hounds,  \nSpeculating what they may find out,  \nIt don't matter now, you're all washed up.  \n  \nDon't know when things went wrong,  \nMight have been when you were young and strong.  \nAmerican dream, American dream.  \nDon't know when things went wrong,  \nMight have been when you were young and strong.  \nAmerican dream, American dream.\n\n"
+          ],
+          "album_name": [
+            "No Album"
+          ],
+          "artist_name": [
+            "Bon Jovi"
+          ],
+          "artist_bio": [
+            "Bon Jovi is an American rock band formed in 1983 in Sayreville, New Jersey. It consists of singer Jon Bon Jovi, keyboardist David Bryan, drummer Tico Torres, guitarist Phil X, and bassist Hugh McDonald. Original bassist Alec John Such quit the band in 1994, and longtime guitarist and co-songwriter Richie Sambora left in 2013. The band has been credited with \"[bridging] the gap between heavy metal and pop with style and ease\".\n\nIn 1984 and 1985, Bon"
+          ],
+          "_version_": 1848878163435716609,
+          "_root_": "1727",
+          "score": 23.796247
+        },
+        {
+          "id": "43455",
+          "song_name": [
+            "American Dream"
+          ],
+          "song_lyrics": [
+            "I used to see you  \nOn every T. V.  \nYour smiling face  \nLooked back at me.  \nI used to see you  \nOn every T. V.  \nYour smiling face  \nLooked back at me.  \nThen they caught you  \nWith the girl next door,  \nPeople's money  \nPiled on the floor,  \nAccusations  \nThat you try to deny,  \nRevelations  \nAnd rumors begin to fly.  \n  \nNow you think about  \nReaching out  \nMaybe get some help  \nFrom above.  \nNow you think about  \nReaching out  \nMaybe get some help  \nFrom above.  \nReporters crowd around  \nYour house.  \nGoing through your garbage  \nLike a pack of hounds,  \nSpeculating what they  \nMay find out,  \nIt don't matter now,  \nYou're all washed up.  \n  \nYou wake up in the middle  \nOf the night.  \nYour sheets are wet  \nAnd your face is white,  \nYou tried to make  \nA good thing last,  \nHow could something so good,  \nGo bad, so fast?  \n  \nAmerican dream, American dream  \nAmerican dream, American dream.  \n  \nDon't know when  \nThings went wrong,  \nMight have been when you  \nWere young and strong.  \nDon't know when  \nThings went wrong,  \nMight have been when you  \nWere young and strong.  \nReporters crowd around  \nYour house.  \nGoing through your garbage  \nLike a pack of hounds,  \nSpeculating what they  \nMay find out,  \nIt don't matter now,  \nYou're all washed up.  \n  \nDon't know when  \nThings went wrong,  \nMight have been when you  \nWere young and strong.  \nAmerican dream, American dream.  \nDon't know when  \nThings went wrong,  \nMight have been when you  \nWere young and strong.  \nAmerican dream, American dream.\n\n"
+          ],
+          "album_name": [
+            "Summer Songs"
+          ],
+          "artist_name": [
+            "Neil Young"
+          ],
+          "artist_bio": [
+            "Neil Percival Young (born November 12, 1945) is a Canadian singer, guitarist, songwriter, and social activist who is widely regarded as one of the most influential musicians of his generation, particularly as Neil Young & Crazy Horse. Young was born in Toronto, but he moved to the family home of Winnipeg as a child, which is where his music career began. Young began performing as a solo artist in Canada in 1960, before moving to California in 1966, where he co-founded the band Buffalo Springfield along with Stephen Stills and Richie Furay."
+          ],
+          "_version_": 1848878178504802305,
+          "_root_": "43455",
+          "score": 23.729654
+        },
+        {
+          "id": "42223",
+          "song_name": [
+            "American Psycho"
+          ],
+          "song_lyrics": [
+            "Whoa-oh, whoa-oh,  \nOh-Oh-Oh,  \nwhoa  \nGo  \n  \nInside a Wall Street mind a psycho lurks  \nLines of cocaine cut in Hell  \nObsessive hands gently grab your neck  \nCompulsively you'll die.  \nI hate people  \n  \nWhoa-oh, whoa-oh, Oh-Oh-Oh, whoa-oh  \nStruggling to breathe, go  \n  \nThe sweet asphyxiation and dismemberment  \nSex puts me in the mood to make you die  \nObsessive hands gently grab your neck  \nLook into sick eyes  \nI hate people  \n  \nWhoa-oh, whoa-oh, Oh-Oh-Oh, whoa-oh  \nStruggling to breathe  \n  \nGo  \nA machine of penalty  \nGo  \nThe sweet insanity  \nGo  \nFade to black tranquility  \n  \nGo  \nYou're looking through the eyes of a psycho, whoa-oh  \nAn American Psycho, whoa-oh  \nAn American Psycho, whoa-oh  \nAn American Psycho  \n  \nPsycho  \nInside a Wall Street mind a psycho lurks  \nLines of cocaine cut in Hell  \nObsessive hands gently grab your neck  \nCompulsively you'll die... I hate people  \n  \nWhoa-oh, whoa-oh, Oh-Oh-Oh, whoa-oh  \nStruggling to breathe  \n  \nGo  \nA machine of penalty  \nGo  \nThe sweet insanity  \nGo  \nFade to black tranquility  \nGo  \nYou're looking through the eyes of a psycho, whoa-oh  \nAn American Psycho, whoa-oh  \nAn American Psycho, whoa-oh  \nAn American Psycho  \n  \nPsycho, psycho, psycho, psycho\n\n"
+          ],
+          "album_name": [
+            "American Psycho"
+          ],
+          "artist_name": [
+            "Misfits"
+          ],
+          "artist_bio": [
+            "The Misfits is an American punk rock band formed in Lodi, New Jersey in 1977. Often recognized as the progenitors of the horror punk subgenre, blending punk and other musical influences with horror film themes and imagery. The group was founded in 1977 in Lodi, New Jersey, by vocalist, songwriter and keyboardist Glenn Danzig, and drummer Manny Martínez. Jerry Only joined on bass guitar shortly after. Over the next six years, membership would change frequently with Danzig and Only the only consistent members."
+          ],
+          "_version_": 1848878177972125697,
+          "_root_": "42223",
+          "score": 23.613459
+        },
+        {
+          "id": "22958",
+          "song_name": [
+            "My American Dream"
+          ],
+          "song_lyrics": [
+            "Author unknown (sung by Dan Peek)  \nFound on Heard.  \n  \nI always thought that I wanted a long, new, shiny Cadillac  \nThat a real man wears five hundred dollar suits upon his back  \nI always thought that I needed a big, old house with a million dollar view  \nBut baby, since we fell in love, all I needed is you  \n  \nWaking up (waking up) to my American dream  \nShe's a long haired, blue eyed, country girl  \nShe's better than a fantasy  \nWaking up (waking up) to my American dream  \nAnd I would not trade the whole wide world  \nFor what she means to me  \n  \nShe's pretty as the moonlight on the gulf of Mexico  \nAnd her heart is pure and true as any California gold  \nI put her on a pedastel like Lady Liberty  \nKnow there is no finer girl from sea to shining sea  \n  \nI'm waking up (waking up) to my American dream  \nShe's a long haired, blue eyed, country girl  \nShe's better than a fantasy  \nWaking up (waking up) to my American dream  \nAnd I would not trade the whole wide world  \nFor what she means to me  \n  \nWaking up (waking up) to my American dream  \nShe's a real live, blue eyed, country girl  \nThe best thing I've ever seen  \nAnd I would not trade the whole wide world  \nFor what she means to me  \nI'm waking up (waking up) to my American dream  \nI'm waking up (I'm waking up) to my American dream\n\n"
+          ],
+          "album_name": [
+            "Back Pages"
+          ],
+          "artist_name": [
+            "America"
+          ],
+          "artist_bio": [
+            "America is a rock band, most popular in the early and mid 1970s, that had many hits including the #1 hits \"A Horse With No Name\" and \"Sister Golden Hair.\" Comprised of Gerry Beckley (September 12, 1952 - ), Dewey Bunnell (January 19,1952 - ), and Dan Peek (November 1, 1950 - July 24, 2011), they were seldom a favorite with critics, but were exceptionally successful commercially selling both singles and albums. Despite the presence of other heavyweight acts like James Taylor and Rod Stewart on their roster"
+          ],
+          "_version_": 1848878171119681536,
+          "_root_": "22958",
+          "score": 23.384954
+        },
+        {
+          "id": "27938",
+          "song_name": [
+            "I'm Afraid Of Americans"
+          ],
+          "song_lyrics": [
+            "Uh-uh-uh uh, uh, uh-uh uh-uh-uh  \nJohnny's in America  \nLow techs at the wheel  \nUh-uh-uh uh, uh, uh-uh uh-uh-uh  \nNobody needs anyone  \nThey don't even just pretend  \nUh-uh-uh uh, uh, uh-uh uh-uh-uh  \nJohnny's in America  \n  \n[Chorus:Repeat x2]  \nI'm afraid of Americans  \nI'm afraid of the world  \nI'm afraid I can't help it  \nI'm afraid I can't  \n  \nI'm afraid of Americans  \n  \nJohnny's in America  \nUh-uh-uh uh, uh, uh-uh uh-uh-uh  \n  \nJohnny wants a brain  \nJohnny wants to suck on a Coke  \nJohnny wants a woman  \nJohnny wants to think of a joke  \n  \nUh-uh-uh uh, uh, uh-uh uh-uh-uh  \nJohnny's in America  \nUh-uh-uh uh, uh, uh-uh uh-uh-uh  \n  \n[Chorus:Repeat x2]  \n  \nI'm afraid of Americans  \n  \nUh-uh-uh uh, uh, uh-uh uh-uh-uh  \n  \nJohnny's in America  \nJohnny looks up at the stars  \nJohnny combs his hair  \nAnd Johnny wants pussy in cars  \n  \nJohnny's in America, uh-uh-uh uh, uh, uh-uh uh-uh-uh  \nJohnny's in America, uh-uh-uh uh, uh, uh-uh uh-uh-uh  \n  \n[Chorus:Repeat x2]  \n  \nI'm afraid of Americans  \n  \nGod is an American  \nGod is an American  \n  \n[Chorus:Repeat x2]CHORUS (x2)  \n  \nYeah, I'm afraid of Americans  \nI'm afraid of the world  \nI'm afraid I can't help it  \nI'm afraid I can't  \n  \nI'm afraid of Americans  \n  \nJohnny's an American  \nJohnny's an American  \n  \nJohnny's an American, uh-uh-uh uh, uh, uh-uh uh-uh-uh\n\n"
+          ],
+          "album_name": [
+            "Earthling"
+          ],
+          "artist_name": [
+            "David Bowie"
+          ],
+          "artist_bio": [
+            "David Robert Jones (8 January 1947 – 10 January 2016), known professionally as David Bowie, was an English singer-songwriter and actor. A leading figure in the music industry, he is regarded as one of the most influential musicians of the 20th century. Bowie was acclaimed by critics and musicians, particularly for his innovative work during the 1970s. His career was marked by reinvention and visual presentation, and his music and stagecraft had a significant impact on popular music."
+          ],
+          "_version_": 1848878172839346176,
+          "_root_": "27938",
+          "score": 23.382439
         }
       ]
     }
