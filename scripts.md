@@ -56,3 +56,7 @@ docker exec -it song_solr sh -c 'bin/solr post -c <CORENAME> /data/dataset.csv'
 curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=songs_test&deleteInstanceDir=true" 
 
 
+
+
+
+## Relatorio:;
