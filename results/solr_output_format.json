@@ -680,6 +680,4074 @@
       ]
     }
   },
+  "10": {
+    "response": {
+      "docs": [
+        {
+          "id": "48982",
+          "song_name": [
+            "Just Another Name For Rock And Roll"
+          ],
+          "artist_name": [
+            "Roy Orbison"
+          ]
+        },
+        {
+          "id": "13417",
+          "song_name": [
+            "Rock Of Gibraltar"
+          ],
+          "artist_name": [
+            "Nick Cave"
+          ]
+        },
+        {
+          "id": "48991",
+          "song_name": [
+            "Let The Good Times Roll"
+          ],
+          "artist_name": [
+            "Roy Orbison"
+          ]
+        },
+        {
+          "id": "36977",
+          "song_name": [
+            "love only knows"
+          ],
+          "artist_name": [
+            "Josh Groban"
+          ]
+        },
+        {
+          "id": "5338",
+          "song_name": [
+            "The Man I love"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "30653",
+          "song_name": [
+            "Fools Rush In"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "17952",
+          "song_name": [
+            "I Love Rock And Roll"
+          ],
+          "artist_name": [
+            "Status Quo"
+          ]
+        },
+        {
+          "id": "33787",
+          "song_name": [
+            "Rockin' Chair Money"
+          ],
+          "artist_name": [
+            "Hank Williams"
+          ]
+        },
+        {
+          "id": "33928",
+          "song_name": [
+            "Rockin' Chair Money"
+          ],
+          "artist_name": [
+            "Hank Williams Jr."
+          ]
+        },
+        {
+          "id": "37247",
+          "song_name": [
+            "Rock Forever"
+          ],
+          "artist_name": [
+            "Judas Priest"
+          ]
+        },
+        {
+          "id": "48950",
+          "song_name": [
+            "Hound Dog Man"
+          ],
+          "artist_name": [
+            "Roy Orbison"
+          ]
+        },
+        {
+          "id": "47659",
+          "song_name": [
+            "I love the DJ"
+          ],
+          "artist_name": [
+            "R. Kelly"
+          ]
+        },
+        {
+          "id": "25534",
+          "song_name": [
+            "I Love Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "19869",
+          "song_name": [
+            "A House With Love In It"
+          ],
+          "artist_name": [
+            "Vera Lynn"
+          ]
+        },
+        {
+          "id": "41398",
+          "song_name": [
+            "Softly As I Leave You"
+          ],
+          "artist_name": [
+            "Matt Monro"
+          ]
+        },
+        {
+          "id": "51003",
+          "song_name": [
+            "Don't Rush The Good Things"
+          ],
+          "artist_name": [
+            "Tina Turner"
+          ]
+        },
+        {
+          "id": "30354",
+          "song_name": [
+            "It's Only Rock 'n Roll"
+          ],
+          "artist_name": [
+            "Emmylou Harris"
+          ]
+        },
+        {
+          "id": "12533",
+          "song_name": [
+            "Rock With You"
+          ],
+          "artist_name": [
+            "Michael Jackson"
+          ]
+        },
+        {
+          "id": "19973",
+          "song_name": [
+            "The Rock Of Your Love"
+          ],
+          "artist_name": [
+            "Vince Gill"
+          ]
+        },
+        {
+          "id": "26226",
+          "song_name": [
+            "Baby Loves To Rock"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "24981",
+          "song_name": [
+            "Mellow Mood"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "18049",
+          "song_name": [
+            "Rock Love"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "10346",
+          "song_name": [
+            "Rock Hard"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "10788",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "Leann Rimes"
+          ]
+        },
+        {
+          "id": "11566",
+          "song_name": [
+            "I Believe In Love"
+          ],
+          "artist_name": [
+            "Lou Reed"
+          ]
+        },
+        {
+          "id": "38159",
+          "song_name": [
+            "Life On A Rock"
+          ],
+          "artist_name": [
+            "Kenny Chesney"
+          ]
+        },
+        {
+          "id": "1998",
+          "song_name": [
+            "Rock Me In"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "19583",
+          "song_name": [
+            "Rock Love"
+          ],
+          "artist_name": [
+            "Utopia"
+          ]
+        },
+        {
+          "id": "4000",
+          "song_name": [
+            "Rock! Rock! Till You Drop"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "28399",
+          "song_name": [
+            "We Rock"
+          ],
+          "artist_name": [
+            "Demi Lovato"
+          ]
+        },
+        {
+          "id": "30452",
+          "song_name": [
+            "You Rock Me"
+          ],
+          "artist_name": [
+            "Enrique Iglesias"
+          ]
+        },
+        {
+          "id": "13376",
+          "song_name": [
+            "Cannibal's Hymn"
+          ],
+          "artist_name": [
+            "Nick Cave"
+          ]
+        },
+        {
+          "id": "34821",
+          "song_name": [
+            "Still Love Rock N Roll"
+          ],
+          "artist_name": [
+            "Ian Hunter"
+          ]
+        },
+        {
+          "id": "53840",
+          "song_name": [
+            "Come On"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "16796",
+          "song_name": [
+            "Love Is A Rock"
+          ],
+          "artist_name": [
+            "Reo Speedwagon"
+          ]
+        },
+        {
+          "id": "50645",
+          "song_name": [
+            "Stay"
+          ],
+          "artist_name": [
+            "The Temptations"
+          ]
+        },
+        {
+          "id": "42606",
+          "song_name": [
+            "Rock 'n' Roll Over You"
+          ],
+          "artist_name": [
+            "Moody Blues"
+          ]
+        },
+        {
+          "id": "45860",
+          "song_name": [
+            "How I Learned To Hate Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Pet Shop Boys"
+          ]
+        },
+        {
+          "id": "29655",
+          "song_name": [
+            "Rock 'n' Roll Blues"
+          ],
+          "artist_name": [
+            "Eddie Cochran"
+          ]
+        },
+        {
+          "id": "14445",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Otis Redding"
+          ]
+        },
+        {
+          "id": "10609",
+          "song_name": [
+            "Rock Show"
+          ],
+          "artist_name": [
+            "Lady Gaga"
+          ]
+        },
+        {
+          "id": "21758",
+          "song_name": [
+            "Baby Let's Rock!"
+          ],
+          "artist_name": [
+            "Zwan"
+          ]
+        },
+        {
+          "id": "32301",
+          "song_name": [
+            "Bony Maronie"
+          ],
+          "artist_name": [
+            "George Jones"
+          ]
+        },
+        {
+          "id": "46861",
+          "song_name": [
+            "Rebel Rock Me"
+          ],
+          "artist_name": [
+            "Pretenders"
+          ]
+        },
+        {
+          "id": "6993",
+          "song_name": [
+            "Rock'n'roll Party"
+          ],
+          "artist_name": [
+            "Grease"
+          ]
+        },
+        {
+          "id": "11774",
+          "song_name": [
+            "Autotune Baby"
+          ],
+          "artist_name": [
+            "Madonna"
+          ]
+        },
+        {
+          "id": "17335",
+          "song_name": [
+            "It's Only Rock N Roll"
+          ],
+          "artist_name": [
+            "Rolling Stones"
+          ]
+        },
+        {
+          "id": "17741",
+          "song_name": [
+            "Hurricane 2000"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "52512",
+          "song_name": [
+            "One Way To Rock"
+          ],
+          "artist_name": [
+            "Van Halen"
+          ]
+        },
+        {
+          "id": "52381",
+          "song_name": [
+            "Love You Gently"
+          ],
+          "artist_name": [
+            "Usher"
+          ]
+        },
+        {
+          "id": "11329",
+          "song_name": [
+            "Seen The Future"
+          ],
+          "artist_name": [
+            "Lloyd Cole"
+          ]
+        },
+        {
+          "id": "38463",
+          "song_name": [
+            "Ya' Keep On"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "7532",
+          "song_name": [
+            "Keep Falling In Love"
+          ],
+          "artist_name": [
+            "Hillsong"
+          ]
+        },
+        {
+          "id": "34488",
+          "song_name": [
+            "Keep Falling In Love"
+          ],
+          "artist_name": [
+            "Hillsong United"
+          ]
+        },
+        {
+          "id": "43282",
+          "song_name": [
+            "Sign Me Up"
+          ],
+          "artist_name": [
+            "Ne-Yo"
+          ]
+        },
+        {
+          "id": "3015",
+          "song_name": [
+            "Louis To Frisco"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "26183",
+          "song_name": [
+            "Love Of A Lifetime"
+          ],
+          "artist_name": [
+            "Chaka Khan"
+          ]
+        },
+        {
+          "id": "26359",
+          "song_name": [
+            "Dead Ringer For Love"
+          ],
+          "artist_name": [
+            "Cher"
+          ]
+        },
+        {
+          "id": "28274",
+          "song_name": [
+            "Let It Go"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "38009",
+          "song_name": [
+            "The Luv (The Bounce)"
+          ],
+          "artist_name": [
+            "Kelly Clarkson"
+          ]
+        },
+        {
+          "id": "47976",
+          "song_name": [
+            "Rock 'n Roll High School"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "14731",
+          "song_name": [
+            "Never Know Why"
+          ],
+          "artist_name": [
+            "Ozzy Osbourne"
+          ]
+        },
+        {
+          "id": "18890",
+          "song_name": [
+            "The First Person On Earth"
+          ],
+          "artist_name": [
+            "Tracy Chapman"
+          ]
+        },
+        {
+          "id": "38448",
+          "song_name": [
+            "Son Of Detroit"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "50832",
+          "song_name": [
+            "The Rocker"
+          ],
+          "artist_name": [
+            "Thin Lizzy"
+          ]
+        },
+        {
+          "id": "54887",
+          "song_name": [
+            "The Bogeyman"
+          ],
+          "artist_name": [
+            "Yngwie Malmsteen"
+          ]
+        },
+        {
+          "id": "20360",
+          "song_name": [
+            "Simple Pages"
+          ],
+          "artist_name": [
+            "Weezer"
+          ]
+        },
+        {
+          "id": "10332",
+          "song_name": [
+            "Kissin' Time"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "44718",
+          "song_name": [
+            "Rocking"
+          ],
+          "artist_name": [
+            "Olivia Newton-John"
+          ]
+        },
+        {
+          "id": "52273",
+          "song_name": [
+            "Rollin' The Rock"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "3985",
+          "song_name": [
+            "Make Love Like A Man"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "1012",
+          "song_name": [
+            "Do The Mermaid"
+          ],
+          "artist_name": [
+            "Barbie"
+          ]
+        },
+        {
+          "id": "47526",
+          "song_name": [
+            "Get Your Kicks"
+          ],
+          "artist_name": [
+            "Quiet Riot"
+          ]
+        },
+        {
+          "id": "30202",
+          "song_name": [
+            "Good Rockin' Tonight"
+          ],
+          "artist_name": [
+            "Elvis Presley"
+          ]
+        },
+        {
+          "id": "20138",
+          "song_name": [
+            "Rock Your Baby"
+          ],
+          "artist_name": [
+            "Wanda Jackson"
+          ]
+        },
+        {
+          "id": "39287",
+          "song_name": [
+            "Big Bad Wolf"
+          ],
+          "artist_name": [
+            "Lana Del Rey"
+          ]
+        },
+        {
+          "id": "22598",
+          "song_name": [
+            "Lip Lock Rock"
+          ],
+          "artist_name": [
+            "Alice In Chains"
+          ]
+        },
+        {
+          "id": "14313",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "One Direction"
+          ]
+        },
+        {
+          "id": "45531",
+          "song_name": [
+            "Good Rocking Tonight"
+          ],
+          "artist_name": [
+            "Paul McCartney"
+          ]
+        },
+        {
+          "id": "49675",
+          "song_name": [
+            "I Wanna Rock"
+          ],
+          "artist_name": [
+            "Snoop Dogg"
+          ]
+        },
+        {
+          "id": "38220",
+          "song_name": [
+            "A Love Song"
+          ],
+          "artist_name": [
+            "Kenny Loggins"
+          ]
+        },
+        {
+          "id": "20560",
+          "song_name": [
+            "I Go To The Rock"
+          ],
+          "artist_name": [
+            "Whitney Houston"
+          ]
+        },
+        {
+          "id": "17735",
+          "song_name": [
+            "321"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "1641",
+          "song_name": [
+            "Rocking Steady"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "26301",
+          "song_name": [
+            "Rock All Night"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "38319",
+          "song_name": [
+            "Goin' Home To Rock"
+          ],
+          "artist_name": [
+            "Kenny Rogers"
+          ]
+        },
+        {
+          "id": "11630",
+          "song_name": [
+            "Rock My Soul"
+          ],
+          "artist_name": [
+            "Louis Armstrong"
+          ]
+        },
+        {
+          "id": "51968",
+          "song_name": [
+            "Rock Bottom"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "13872",
+          "song_name": [
+            "Destination"
+          ],
+          "artist_name": [
+            "O.A.R."
+          ]
+        },
+        {
+          "id": "31158",
+          "song_name": [
+            "Rock Me Amadeus"
+          ],
+          "artist_name": [
+            "Falco"
+          ]
+        },
+        {
+          "id": "33194",
+          "song_name": [
+            "Rock 'N Roll Is Here To Stay"
+          ],
+          "artist_name": [
+            "Grease"
+          ]
+        },
+        {
+          "id": "17918",
+          "song_name": [
+            "Caroline"
+          ],
+          "artist_name": [
+            "Status Quo"
+          ]
+        },
+        {
+          "id": "50956",
+          "song_name": [
+            "Southern Girl"
+          ],
+          "artist_name": [
+            "Tim McGraw"
+          ]
+        },
+        {
+          "id": "7886",
+          "song_name": [
+            "Dead Rock Star"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "43193",
+          "song_name": [
+            "Sweet Little Rock And Roller"
+          ],
+          "artist_name": [
+            "Nazareth"
+          ]
+        },
+        {
+          "id": "946",
+          "song_name": [
+            "The Punk Show"
+          ],
+          "artist_name": [
+            "Avril Lavigne"
+          ]
+        },
+        {
+          "id": "10306",
+          "song_name": [
+            "God Gave Rock 'n' Roll To You"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "1696",
+          "song_name": [
+            "Like A Rock"
+          ],
+          "artist_name": [
+            "Bob Seger"
+          ]
+        },
+        {
+          "id": "38731",
+          "song_name": [
+            "And On The 8Th Day"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "42371",
+          "song_name": [
+            "Let's Talk About Love"
+          ],
+          "artist_name": [
+            "Modern Talking"
+          ]
+        },
+        {
+          "id": "25008",
+          "song_name": [
+            "Trenchtown Rock"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "23713",
+          "song_name": [
+            "Do You Like Worms?"
+          ],
+          "artist_name": [
+            "Beach Boys"
+          ]
+        },
+        {
+          "id": "47977",
+          "song_name": [
+            "Rockaway Beach"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "48873",
+          "song_name": [
+            "Rock Dj"
+          ],
+          "artist_name": [
+            "Robbie Williams"
+          ]
+        },
+        {
+          "id": "46799",
+          "song_name": [
+            "Say It"
+          ],
+          "artist_name": [
+            "Poison"
+          ]
+        },
+        {
+          "id": "24259",
+          "song_name": [
+            "Sold My Soul To Rock And Roll"
+          ],
+          "artist_name": [
+            "Bette Midler"
+          ]
+        },
+        {
+          "id": "10344",
+          "song_name": [
+            "Rock And Roll All Nite"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "18566",
+          "song_name": [
+            "Fool For Rock 'N' Roll"
+          ],
+          "artist_name": [
+            "Tom Jones"
+          ]
+        },
+        {
+          "id": "21725",
+          "song_name": [
+            "Stupid Song"
+          ],
+          "artist_name": [
+            "Zox"
+          ]
+        },
+        {
+          "id": "53030",
+          "song_name": [
+            "I Go To The Rock"
+          ],
+          "artist_name": [
+            "Wanda Jackson"
+          ]
+        },
+        {
+          "id": "49785",
+          "song_name": [
+            "Rock Myself To Sleep"
+          ],
+          "artist_name": [
+            "Starship"
+          ]
+        },
+        {
+          "id": "29658",
+          "song_name": [
+            "Sarah Lee"
+          ],
+          "artist_name": [
+            "Eddie Cochran"
+          ]
+        },
+        {
+          "id": "32750",
+          "song_name": [
+            "Let Go"
+          ],
+          "artist_name": [
+            "Glen Campbell"
+          ]
+        },
+        {
+          "id": "17175",
+          "song_name": [
+            "Move Me"
+          ],
+          "artist_name": [
+            "Rod Stewart"
+          ]
+        },
+        {
+          "id": "41502",
+          "song_name": [
+            "Dead Ringer For Love"
+          ],
+          "artist_name": [
+            "Meat Loaf"
+          ]
+        },
+        {
+          "id": "25108",
+          "song_name": [
+            "Old Time Rock And Roll"
+          ],
+          "artist_name": [
+            "Bob Seger"
+          ]
+        },
+        {
+          "id": "33560",
+          "song_name": [
+            "Nice Boys"
+          ],
+          "artist_name": [
+            "Guns N' Roses"
+          ]
+        },
+        {
+          "id": "44398",
+          "song_name": [
+            "Rock 'n' Roll Star"
+          ],
+          "artist_name": [
+            "Oasis"
+          ]
+        },
+        {
+          "id": "19179",
+          "song_name": [
+            "Rock Boyz, Rock"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "53874",
+          "song_name": [
+            "Rock 'n' Roll Women"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "3998",
+          "song_name": [
+            "Rock Brigade"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "8576",
+          "song_name": [
+            "Takin My Love"
+          ],
+          "artist_name": [
+            "The Jam"
+          ]
+        },
+        {
+          "id": "35364",
+          "song_name": [
+            "Face The Change"
+          ],
+          "artist_name": [
+            "INXS"
+          ]
+        },
+        {
+          "id": "54016",
+          "song_name": [
+            "Long Live Rock"
+          ],
+          "artist_name": [
+            "Who"
+          ]
+        },
+        {
+          "id": "10315",
+          "song_name": [
+            "Hooked On Rock'n'roll"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "22482",
+          "song_name": [
+            "Hard Rock Summer"
+          ],
+          "artist_name": [
+            "Alice Cooper"
+          ]
+        },
+        {
+          "id": "47834",
+          "song_name": [
+            "If You Don't Like Rock N Roll"
+          ],
+          "artist_name": [
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "11385",
+          "song_name": [
+            "Big Sister Little Sister"
+          ],
+          "artist_name": [
+            "Loretta Lynn"
+          ]
+        },
+        {
+          "id": "26270",
+          "song_name": [
+            "I'm The Man"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "15979",
+          "song_name": [
+            "(We Were) Born To Rock"
+          ],
+          "artist_name": [
+            "Quiet Riot"
+          ]
+        },
+        {
+          "id": "26910",
+          "song_name": [
+            "Rock Cradle Rock"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "46433",
+          "song_name": [
+            "Party Dance"
+          ],
+          "artist_name": [
+            "Pitbull"
+          ]
+        },
+        {
+          "id": "36892",
+          "song_name": [
+            "In France They Kiss On Main Street"
+          ],
+          "artist_name": [
+            "Joni Mitchell"
+          ]
+        },
+        {
+          "id": "43569",
+          "song_name": [
+            "Rock The Shack"
+          ],
+          "artist_name": [
+            "New Order"
+          ]
+        },
+        {
+          "id": "12163",
+          "song_name": [
+            "Rock N Roll Mercenaries"
+          ],
+          "artist_name": [
+            "Meat Loaf"
+          ]
+        },
+        {
+          "id": "53070",
+          "song_name": [
+            "Old Time Rock And Roll"
+          ],
+          "artist_name": [
+            "Wanda Jackson"
+          ]
+        },
+        {
+          "id": "26987",
+          "song_name": [
+            "Revolution Rock"
+          ],
+          "artist_name": [
+            "Clash"
+          ]
+        },
+        {
+          "id": "52211",
+          "song_name": [
+            "Falling In Love"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "52472",
+          "song_name": [
+            "And The Cradle Will Rock"
+          ],
+          "artist_name": [
+            "Van Halen"
+          ]
+        },
+        {
+          "id": "38835",
+          "song_name": [
+            "Rock Me, Baby"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "6785",
+          "song_name": [
+            "Coming Out Of The Dark"
+          ],
+          "artist_name": [
+            "Gloria Estefan"
+          ]
+        },
+        {
+          "id": "3037",
+          "song_name": [
+            "School Days"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "53218",
+          "song_name": [
+            "Scream Until You Like It"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "18048",
+          "song_name": [
+            "Rock It"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "48040",
+          "song_name": [
+            "Jingle Bell Rock"
+          ],
+          "artist_name": [
+            "Randy Travis"
+          ]
+        },
+        {
+          "id": "27074",
+          "song_name": [
+            "Learning How To Rock'n'roll"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "5335",
+          "song_name": [
+            "That's All"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "53872",
+          "song_name": [
+            "Ready To Rock"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "41538",
+          "song_name": [
+            "Rock N Roll Hero"
+          ],
+          "artist_name": [
+            "Meat Loaf"
+          ]
+        },
+        {
+          "id": "49280",
+          "song_name": [
+            "Blood Too Hot"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        }
+      ]
+    }
+  },
+  "11": {
+    "response": {
+      "docs": [
+        {
+          "id": "18049",
+          "song_name": [
+            "Rock Love"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "31587",
+          "song_name": [
+            "Castle Rock"
+          ],
+          "artist_name": [
+            "Frank Sinatra"
+          ]
+        },
+        {
+          "id": "26910",
+          "song_name": [
+            "Rock Cradle Rock"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "19583",
+          "song_name": [
+            "Rock Love"
+          ],
+          "artist_name": [
+            "Utopia"
+          ]
+        },
+        {
+          "id": "51053",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Tina Turner"
+          ]
+        },
+        {
+          "id": "17952",
+          "song_name": [
+            "I Love Rock And Roll"
+          ],
+          "artist_name": [
+            "Status Quo"
+          ]
+        },
+        {
+          "id": "49354",
+          "song_name": [
+            "Rock You Like A Hurricane"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "19179",
+          "song_name": [
+            "Rock Boyz, Rock"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "40112",
+          "song_name": [
+            "You'll Rock"
+          ],
+          "artist_name": [
+            "LL Cool J"
+          ]
+        },
+        {
+          "id": "44718",
+          "song_name": [
+            "Rocking"
+          ],
+          "artist_name": [
+            "Olivia Newton-John"
+          ]
+        },
+        {
+          "id": "25534",
+          "song_name": [
+            "I Love Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "7933",
+          "song_name": [
+            "Rock Show"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "19113",
+          "song_name": [
+            "Johnny Too Bad"
+          ],
+          "artist_name": [
+            "UB40"
+          ]
+        },
+        {
+          "id": "50689",
+          "song_name": [
+            "Rock Roll Music To The World"
+          ],
+          "artist_name": [
+            "Ten Years After"
+          ]
+        },
+        {
+          "id": "11630",
+          "song_name": [
+            "Rock My Soul"
+          ],
+          "artist_name": [
+            "Louis Armstrong"
+          ]
+        },
+        {
+          "id": "43193",
+          "song_name": [
+            "Sweet Little Rock And Roller"
+          ],
+          "artist_name": [
+            "Nazareth"
+          ]
+        },
+        {
+          "id": "26359",
+          "song_name": [
+            "Dead Ringer For Love"
+          ],
+          "artist_name": [
+            "Cher"
+          ]
+        },
+        {
+          "id": "7886",
+          "song_name": [
+            "Dead Rock Star"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "39287",
+          "song_name": [
+            "Big Bad Wolf"
+          ],
+          "artist_name": [
+            "Lana Del Rey"
+          ]
+        },
+        {
+          "id": "11566",
+          "song_name": [
+            "I Believe In Love"
+          ],
+          "artist_name": [
+            "Lou Reed"
+          ]
+        },
+        {
+          "id": "12597",
+          "song_name": [
+            "I Love Rock N' Roll"
+          ],
+          "artist_name": [
+            "Miley Cyrus"
+          ]
+        },
+        {
+          "id": "19973",
+          "song_name": [
+            "The Rock Of Your Love"
+          ],
+          "artist_name": [
+            "Vince Gill"
+          ]
+        },
+        {
+          "id": "37293",
+          "song_name": [
+            "Rock Bottom"
+          ],
+          "artist_name": [
+            "Judds"
+          ]
+        },
+        {
+          "id": "48982",
+          "song_name": [
+            "Just Another Name For Rock And Roll"
+          ],
+          "artist_name": [
+            "Roy Orbison"
+          ]
+        },
+        {
+          "id": "4000",
+          "song_name": [
+            "Rock! Rock! Till You Drop"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "5335",
+          "song_name": [
+            "That's All"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "49370",
+          "song_name": [
+            "The Same Thrill"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "5326",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "34821",
+          "song_name": [
+            "Still Love Rock N Roll"
+          ],
+          "artist_name": [
+            "Ian Hunter"
+          ]
+        },
+        {
+          "id": "18017",
+          "song_name": [
+            "Blues With Out Blame"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "18059",
+          "song_name": [
+            "The Gangster Is Back"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "49964",
+          "song_name": [
+            "Harbor Lights"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "49978",
+          "song_name": [
+            "Let Me Serve You"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "49980",
+          "song_name": [
+            "Love Shock"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "46481",
+          "song_name": [
+            "Holding On"
+          ],
+          "artist_name": [
+            "Planetshakers"
+          ]
+        },
+        {
+          "id": "37247",
+          "song_name": [
+            "Rock Forever"
+          ],
+          "artist_name": [
+            "Judas Priest"
+          ]
+        },
+        {
+          "id": "10609",
+          "song_name": [
+            "Rock Show"
+          ],
+          "artist_name": [
+            "Lady Gaga"
+          ]
+        },
+        {
+          "id": "25584",
+          "song_name": [
+            "Rock Star"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "15839",
+          "song_name": [
+            "Brighton Rock"
+          ],
+          "artist_name": [
+            "Queen"
+          ]
+        },
+        {
+          "id": "6993",
+          "song_name": [
+            "Rock'n'roll Party"
+          ],
+          "artist_name": [
+            "Grease"
+          ]
+        },
+        {
+          "id": "78",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "ABBA"
+          ]
+        },
+        {
+          "id": "6219",
+          "song_name": [
+            "Cradle Rock"
+          ],
+          "artist_name": [
+            "Frank Zappa"
+          ]
+        },
+        {
+          "id": "10346",
+          "song_name": [
+            "Rock Hard"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "10788",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "Leann Rimes"
+          ]
+        },
+        {
+          "id": "32750",
+          "song_name": [
+            "Let Go"
+          ],
+          "artist_name": [
+            "Glen Campbell"
+          ]
+        },
+        {
+          "id": "8013",
+          "song_name": [
+            "Solid Rock"
+          ],
+          "artist_name": [
+            "Indiana Bible College"
+          ]
+        },
+        {
+          "id": "35554",
+          "song_name": [
+            "It's A Disco Night (Rock Don't Stop)"
+          ],
+          "artist_name": [
+            "Isley Brothers"
+          ]
+        },
+        {
+          "id": "21040",
+          "song_name": [
+            "Rock Stop"
+          ],
+          "artist_name": [
+            "Yello"
+          ]
+        },
+        {
+          "id": "27843",
+          "song_name": [
+            "Son Of The South"
+          ],
+          "artist_name": [
+            "David Allan Coe"
+          ]
+        },
+        {
+          "id": "48873",
+          "song_name": [
+            "Rock Dj"
+          ],
+          "artist_name": [
+            "Robbie Williams"
+          ]
+        },
+        {
+          "id": "41502",
+          "song_name": [
+            "Dead Ringer For Love"
+          ],
+          "artist_name": [
+            "Meat Loaf"
+          ]
+        },
+        {
+          "id": "1998",
+          "song_name": [
+            "Rock Me In"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "36468",
+          "song_name": [
+            "Jailhouse Rock"
+          ],
+          "artist_name": [
+            "John Mellencamp"
+          ]
+        },
+        {
+          "id": "28399",
+          "song_name": [
+            "We Rock"
+          ],
+          "artist_name": [
+            "Demi Lovato"
+          ]
+        },
+        {
+          "id": "38442",
+          "song_name": [
+            "Rock Star"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "38463",
+          "song_name": [
+            "Ya' Keep On"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "33787",
+          "song_name": [
+            "Rockin' Chair Money"
+          ],
+          "artist_name": [
+            "Hank Williams"
+          ]
+        },
+        {
+          "id": "33928",
+          "song_name": [
+            "Rockin' Chair Money"
+          ],
+          "artist_name": [
+            "Hank Williams Jr."
+          ]
+        },
+        {
+          "id": "26987",
+          "song_name": [
+            "Revolution Rock"
+          ],
+          "artist_name": [
+            "Clash"
+          ]
+        },
+        {
+          "id": "48407",
+          "song_name": [
+            "Little Rock"
+          ],
+          "artist_name": [
+            "Reba Mcentire"
+          ]
+        },
+        {
+          "id": "50666",
+          "song_name": [
+            "Baby Won't You Let Me Rock'n Roll You"
+          ],
+          "artist_name": [
+            "Ten Years After"
+          ]
+        },
+        {
+          "id": "5156",
+          "song_name": [
+            "Rock Me Gently"
+          ],
+          "artist_name": [
+            "Erasure"
+          ]
+        },
+        {
+          "id": "13417",
+          "song_name": [
+            "Rock Of Gibraltar"
+          ],
+          "artist_name": [
+            "Nick Cave"
+          ]
+        },
+        {
+          "id": "40092",
+          "song_name": [
+            "Rock The Bells"
+          ],
+          "artist_name": [
+            "LL Cool J"
+          ]
+        },
+        {
+          "id": "43189",
+          "song_name": [
+            "Somebody To Roll"
+          ],
+          "artist_name": [
+            "Nazareth"
+          ]
+        },
+        {
+          "id": "26226",
+          "song_name": [
+            "Baby Loves To Rock"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "33136",
+          "song_name": [
+            "Let It Rock"
+          ],
+          "artist_name": [
+            "Grateful Dead"
+          ]
+        },
+        {
+          "id": "20138",
+          "song_name": [
+            "Rock Your Baby"
+          ],
+          "artist_name": [
+            "Wanda Jackson"
+          ]
+        },
+        {
+          "id": "30471",
+          "song_name": [
+            "Rockaway Beach"
+          ],
+          "artist_name": [
+            "Eppu Normaali"
+          ]
+        },
+        {
+          "id": "43142",
+          "song_name": [
+            "Just To Get Into It"
+          ],
+          "artist_name": [
+            "Nazareth"
+          ]
+        },
+        {
+          "id": "36855",
+          "song_name": [
+            "Blonde In The Bleachers"
+          ],
+          "artist_name": [
+            "Joni Mitchell"
+          ]
+        },
+        {
+          "id": "12533",
+          "song_name": [
+            "Rock With You"
+          ],
+          "artist_name": [
+            "Michael Jackson"
+          ]
+        },
+        {
+          "id": "47976",
+          "song_name": [
+            "Rock 'n Roll High School"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "16796",
+          "song_name": [
+            "Love Is A Rock"
+          ],
+          "artist_name": [
+            "Reo Speedwagon"
+          ]
+        },
+        {
+          "id": "30354",
+          "song_name": [
+            "It's Only Rock 'n Roll"
+          ],
+          "artist_name": [
+            "Emmylou Harris"
+          ]
+        },
+        {
+          "id": "49289",
+          "song_name": [
+            "Coming Home"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "31158",
+          "song_name": [
+            "Rock Me Amadeus"
+          ],
+          "artist_name": [
+            "Falco"
+          ]
+        },
+        {
+          "id": "38416",
+          "song_name": [
+            "Feel Like Makin' Love"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "930",
+          "song_name": [
+            "Rock N Roll"
+          ],
+          "artist_name": [
+            "Avril Lavigne"
+          ]
+        },
+        {
+          "id": "14445",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Otis Redding"
+          ]
+        },
+        {
+          "id": "10098",
+          "song_name": [
+            "Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "3686",
+          "song_name": [
+            "Rock And Roll Holiday"
+          ],
+          "artist_name": [
+            "David Allan Coe"
+          ]
+        },
+        {
+          "id": "14731",
+          "song_name": [
+            "Never Know Why"
+          ],
+          "artist_name": [
+            "Ozzy Osbourne"
+          ]
+        },
+        {
+          "id": "3160",
+          "song_name": [
+            "'cos I Love That Rock'n'roll"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "17735",
+          "song_name": [
+            "321"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "17335",
+          "song_name": [
+            "It's Only Rock N Roll"
+          ],
+          "artist_name": [
+            "Rolling Stones"
+          ]
+        },
+        {
+          "id": "12151",
+          "song_name": [
+            "Hot Patootie"
+          ],
+          "artist_name": [
+            "Meat Loaf"
+          ]
+        },
+        {
+          "id": "53840",
+          "song_name": [
+            "Come On"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "3114",
+          "song_name": [
+            "Lover's Rock"
+          ],
+          "artist_name": [
+            "Clash"
+          ]
+        },
+        {
+          "id": "3998",
+          "song_name": [
+            "Rock Brigade"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "3999",
+          "song_name": [
+            "Rock On"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "10345",
+          "song_name": [
+            "Rock Bottom"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "12404",
+          "song_name": [
+            "Jailhouse Rock"
+          ],
+          "artist_name": [
+            "Michael Bolton"
+          ]
+        },
+        {
+          "id": "14313",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "One Direction"
+          ]
+        },
+        {
+          "id": "15860",
+          "song_name": [
+            "Jailhouse Rock"
+          ],
+          "artist_name": [
+            "Queen"
+          ]
+        },
+        {
+          "id": "18048",
+          "song_name": [
+            "Rock It"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "19506",
+          "song_name": [
+            "Rock Wit'cha"
+          ],
+          "artist_name": [
+            "Usher"
+          ]
+        },
+        {
+          "id": "25008",
+          "song_name": [
+            "Trenchtown Rock"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "25374",
+          "song_name": [
+            "Rock Steady"
+          ],
+          "artist_name": [
+            "Bonnie Raitt"
+          ]
+        },
+        {
+          "id": "25583",
+          "song_name": [
+            "Rock Boy"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "28768",
+          "song_name": [
+            "Solid Rock"
+          ],
+          "artist_name": [
+            "Dire Straits"
+          ]
+        },
+        {
+          "id": "29995",
+          "song_name": [
+            "Crocodile Rock"
+          ],
+          "artist_name": [
+            "Elton John"
+          ]
+        },
+        {
+          "id": "30915",
+          "song_name": [
+            "Rock Star"
+          ],
+          "artist_name": [
+            "Everclear"
+          ]
+        },
+        {
+          "id": "33667",
+          "song_name": [
+            "Hula Rock"
+          ],
+          "artist_name": [
+            "Hank Snow"
+          ]
+        },
+        {
+          "id": "38410",
+          "song_name": [
+            "Classic Rock"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "38441",
+          "song_name": [
+            "Rock On"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "42183",
+          "song_name": [
+            "Rock Star"
+          ],
+          "artist_name": [
+            "Miley Cyrus"
+          ]
+        },
+        {
+          "id": "44306",
+          "song_name": [
+            "Black Rock"
+          ],
+          "artist_name": [
+            "O.A.R."
+          ]
+        },
+        {
+          "id": "47905",
+          "song_name": [
+            "Chinese Rock"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "51968",
+          "song_name": [
+            "Rock Bottom"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "53528",
+          "song_name": [
+            "Space Rock"
+          ],
+          "artist_name": [
+            "Weezer"
+          ]
+        },
+        {
+          "id": "28800",
+          "song_name": [
+            "Native Love"
+          ],
+          "artist_name": [
+            "Divine"
+          ]
+        },
+        {
+          "id": "2125",
+          "song_name": [
+            "Rock 'n' Roll Lifestyle"
+          ],
+          "artist_name": [
+            "Cake"
+          ]
+        },
+        {
+          "id": "52273",
+          "song_name": [
+            "Rollin' The Rock"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "1641",
+          "song_name": [
+            "Rocking Steady"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "47977",
+          "song_name": [
+            "Rockaway Beach"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "1197",
+          "song_name": [
+            "Mona"
+          ],
+          "artist_name": [
+            "Beach Boys"
+          ]
+        },
+        {
+          "id": "49274",
+          "song_name": [
+            "As Soon As The Good Times Roll"
+          ],
+          "artist_name": [
+            "Scorpions"
+          ]
+        },
+        {
+          "id": "33194",
+          "song_name": [
+            "Rock 'N Roll Is Here To Stay"
+          ],
+          "artist_name": [
+            "Grease"
+          ]
+        },
+        {
+          "id": "30657",
+          "song_name": [
+            "Hey Henry"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "18566",
+          "song_name": [
+            "Fool For Rock 'N' Roll"
+          ],
+          "artist_name": [
+            "Tom Jones"
+          ]
+        },
+        {
+          "id": "1012",
+          "song_name": [
+            "Do The Mermaid"
+          ],
+          "artist_name": [
+            "Barbie"
+          ]
+        },
+        {
+          "id": "10879",
+          "song_name": [
+            "Rock 'n' Roll Is Dead"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ]
+        },
+        {
+          "id": "52381",
+          "song_name": [
+            "Love You Gently"
+          ],
+          "artist_name": [
+            "Usher"
+          ]
+        },
+        {
+          "id": "11774",
+          "song_name": [
+            "Autotune Baby"
+          ],
+          "artist_name": [
+            "Madonna"
+          ]
+        },
+        {
+          "id": "22598",
+          "song_name": [
+            "Lip Lock Rock"
+          ],
+          "artist_name": [
+            "Alice In Chains"
+          ]
+        },
+        {
+          "id": "30202",
+          "song_name": [
+            "Good Rockin' Tonight"
+          ],
+          "artist_name": [
+            "Elvis Presley"
+          ]
+        },
+        {
+          "id": "20560",
+          "song_name": [
+            "I Go To The Rock"
+          ],
+          "artist_name": [
+            "Whitney Houston"
+          ]
+        },
+        {
+          "id": "45531",
+          "song_name": [
+            "Good Rocking Tonight"
+          ],
+          "artist_name": [
+            "Paul McCartney"
+          ]
+        },
+        {
+          "id": "34783",
+          "song_name": [
+            "All The Way From Memphis"
+          ],
+          "artist_name": [
+            "Ian Hunter"
+          ]
+        },
+        {
+          "id": "38319",
+          "song_name": [
+            "Goin' Home To Rock"
+          ],
+          "artist_name": [
+            "Kenny Rogers"
+          ]
+        },
+        {
+          "id": "6134",
+          "song_name": [
+            "Shake Your Blood"
+          ],
+          "artist_name": [
+            "Foo Fighters"
+          ]
+        },
+        {
+          "id": "44003",
+          "song_name": [
+            "Sinnerman"
+          ],
+          "artist_name": [
+            "Nina Simone"
+          ]
+        },
+        {
+          "id": "53874",
+          "song_name": [
+            "Rock 'n' Roll Women"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "27015",
+          "song_name": [
+            "Born To Rock'n'roll"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "23713",
+          "song_name": [
+            "Do You Like Worms?"
+          ],
+          "artist_name": [
+            "Beach Boys"
+          ]
+        },
+        {
+          "id": "49675",
+          "song_name": [
+            "I Wanna Rock"
+          ],
+          "artist_name": [
+            "Snoop Dogg"
+          ]
+        },
+        {
+          "id": "26301",
+          "song_name": [
+            "Rock All Night"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "36892",
+          "song_name": [
+            "In France They Kiss On Main Street"
+          ],
+          "artist_name": [
+            "Joni Mitchell"
+          ]
+        },
+        {
+          "id": "16800",
+          "song_name": [
+            "Rock And Roll Music"
+          ],
+          "artist_name": [
+            "Reo Speedwagon"
+          ]
+        },
+        {
+          "id": "38731",
+          "song_name": [
+            "And On The 8Th Day"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "34231",
+          "song_name": [
+            "If God Loves Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Helloween"
+          ]
+        },
+        {
+          "id": "3047",
+          "song_name": [
+            "Viva Viva Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "54016",
+          "song_name": [
+            "Long Live Rock"
+          ],
+          "artist_name": [
+            "Who"
+          ]
+        },
+        {
+          "id": "29655",
+          "song_name": [
+            "Rock 'n' Roll Blues"
+          ],
+          "artist_name": [
+            "Eddie Cochran"
+          ]
+        },
+        {
+          "id": "29658",
+          "song_name": [
+            "Sarah Lee"
+          ],
+          "artist_name": [
+            "Eddie Cochran"
+          ]
+        },
+        {
+          "id": "10306",
+          "song_name": [
+            "God Gave Rock 'n' Roll To You"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "52472",
+          "song_name": [
+            "And The Cradle Will Rock"
+          ],
+          "artist_name": [
+            "Van Halen"
+          ]
+        },
+        {
+          "id": "38448",
+          "song_name": [
+            "Son Of Detroit"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "21758",
+          "song_name": [
+            "Baby Let's Rock!"
+          ],
+          "artist_name": [
+            "Zwan"
+          ]
+        }
+      ]
+    }
+  },
+  "12": {
+    "response": {
+      "docs": [
+        {
+          "id": "18049",
+          "song_name": [
+            "Rock Love"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "19583",
+          "song_name": [
+            "Rock Love"
+          ],
+          "artist_name": [
+            "Utopia"
+          ]
+        },
+        {
+          "id": "17952",
+          "song_name": [
+            "I Love Rock And Roll"
+          ],
+          "artist_name": [
+            "Status Quo"
+          ]
+        },
+        {
+          "id": "25534",
+          "song_name": [
+            "I Love Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "12151",
+          "song_name": [
+            "Hot Patootie"
+          ],
+          "artist_name": [
+            "Meat Loaf"
+          ]
+        },
+        {
+          "id": "12597",
+          "song_name": [
+            "I Love Rock N' Roll"
+          ],
+          "artist_name": [
+            "Miley Cyrus"
+          ]
+        },
+        {
+          "id": "30852",
+          "song_name": [
+            "You Have Placed A Chill In My Heart"
+          ],
+          "artist_name": [
+            "Eurythmics"
+          ]
+        },
+        {
+          "id": "34821",
+          "song_name": [
+            "Still Love Rock N Roll"
+          ],
+          "artist_name": [
+            "Ian Hunter"
+          ]
+        },
+        {
+          "id": "16796",
+          "song_name": [
+            "Love Is A Rock"
+          ],
+          "artist_name": [
+            "Reo Speedwagon"
+          ]
+        },
+        {
+          "id": "33928",
+          "song_name": [
+            "Rockin' Chair Money"
+          ],
+          "artist_name": [
+            "Hank Williams Jr."
+          ]
+        },
+        {
+          "id": "33787",
+          "song_name": [
+            "Rockin' Chair Money"
+          ],
+          "artist_name": [
+            "Hank Williams"
+          ]
+        },
+        {
+          "id": "3160",
+          "song_name": [
+            "'cos I Love That Rock'n'roll"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "50832",
+          "song_name": [
+            "The Rocker"
+          ],
+          "artist_name": [
+            "Thin Lizzy"
+          ]
+        },
+        {
+          "id": "17316",
+          "song_name": [
+            "I Love Rock N' Roll"
+          ],
+          "artist_name": [
+            "Rolling Stones"
+          ]
+        },
+        {
+          "id": "53590",
+          "song_name": [
+            "Polka Your Eyes Out"
+          ],
+          "artist_name": [
+            "Weird Al Yankovic"
+          ]
+        },
+        {
+          "id": "3108",
+          "song_name": [
+            "Janie Jones"
+          ],
+          "artist_name": [
+            "Clash"
+          ]
+        },
+        {
+          "id": "2544",
+          "song_name": [
+            "Favourite Scars"
+          ],
+          "artist_name": [
+            "Cher"
+          ]
+        },
+        {
+          "id": "51732",
+          "song_name": [
+            "All I Want To Do Is Rock"
+          ],
+          "artist_name": [
+            "Travis"
+          ]
+        },
+        {
+          "id": "19973",
+          "song_name": [
+            "The Rock Of Your Love"
+          ],
+          "artist_name": [
+            "Vince Gill"
+          ]
+        },
+        {
+          "id": "17175",
+          "song_name": [
+            "Move Me"
+          ],
+          "artist_name": [
+            "Rod Stewart"
+          ]
+        },
+        {
+          "id": "40005",
+          "song_name": [
+            "Crazy Mixed Up World"
+          ],
+          "artist_name": [
+            "Little Walter"
+          ]
+        },
+        {
+          "id": "42642",
+          "song_name": [
+            "Veteran Cosmic Rocker"
+          ],
+          "artist_name": [
+            "Moody Blues"
+          ]
+        },
+        {
+          "id": "22795",
+          "song_name": [
+            "Ocean Awash The Gunwale"
+          ],
+          "artist_name": [
+            "Allman Brothers Band"
+          ]
+        },
+        {
+          "id": "36260",
+          "song_name": [
+            "Dancing With The Mountains"
+          ],
+          "artist_name": [
+            "John Denver"
+          ]
+        },
+        {
+          "id": "40103",
+          "song_name": [
+            "The Breakthrough"
+          ],
+          "artist_name": [
+            "LL Cool J"
+          ]
+        },
+        {
+          "id": "3051",
+          "song_name": [
+            "You Never Can Tell"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "52381",
+          "song_name": [
+            "Love You Gently"
+          ],
+          "artist_name": [
+            "Usher"
+          ]
+        },
+        {
+          "id": "37247",
+          "song_name": [
+            "Rock Forever"
+          ],
+          "artist_name": [
+            "Judas Priest"
+          ]
+        },
+        {
+          "id": "48809",
+          "song_name": [
+            "Cheap Love Song"
+          ],
+          "artist_name": [
+            "Robbie Williams"
+          ]
+        },
+        {
+          "id": "17878",
+          "song_name": [
+            "In Love With A Thug"
+          ],
+          "artist_name": [
+            "Snoop Dogg"
+          ]
+        },
+        {
+          "id": "36644",
+          "song_name": [
+            "You Never Can Tell"
+          ],
+          "artist_name": [
+            "John Prine"
+          ]
+        },
+        {
+          "id": "25051",
+          "song_name": [
+            "C'est La Vie"
+          ],
+          "artist_name": [
+            "Bob Seger"
+          ]
+        },
+        {
+          "id": "4395",
+          "song_name": [
+            "Dangerous"
+          ],
+          "artist_name": [
+            "Doobie Brothers"
+          ]
+        },
+        {
+          "id": "54",
+          "song_name": [
+            "Love Isn't Easy"
+          ],
+          "artist_name": [
+            "ABBA"
+          ]
+        },
+        {
+          "id": "46861",
+          "song_name": [
+            "Rebel Rock Me"
+          ],
+          "artist_name": [
+            "Pretenders"
+          ]
+        },
+        {
+          "id": "16964",
+          "song_name": [
+            "The One"
+          ],
+          "artist_name": [
+            "Rihanna"
+          ]
+        },
+        {
+          "id": "26226",
+          "song_name": [
+            "Baby Loves To Rock"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "52242",
+          "song_name": [
+            "Love Stealer"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "5625",
+          "song_name": [
+            "Pachanga"
+          ],
+          "artist_name": [
+            "Fabolous"
+          ]
+        },
+        {
+          "id": "46641",
+          "song_name": [
+            "Lorelei"
+          ],
+          "artist_name": [
+            "Pogues"
+          ]
+        },
+        {
+          "id": "15596",
+          "song_name": [
+            "Love On The Rocks"
+          ],
+          "artist_name": [
+            "Poison"
+          ]
+        },
+        {
+          "id": "39737",
+          "song_name": [
+            "Banned From TV"
+          ],
+          "artist_name": [
+            "Lil Wayne"
+          ]
+        },
+        {
+          "id": "6785",
+          "song_name": [
+            "Coming Out Of The Dark"
+          ],
+          "artist_name": [
+            "Gloria Estefan"
+          ]
+        },
+        {
+          "id": "41807",
+          "song_name": [
+            "Paper Doll"
+          ],
+          "artist_name": [
+            "Michael Buble"
+          ]
+        },
+        {
+          "id": "27192",
+          "song_name": [
+            "I Can't Love You Enough"
+          ],
+          "artist_name": [
+            "Conway Twitty"
+          ]
+        },
+        {
+          "id": "44050",
+          "song_name": [
+            "Love Is Not Enough"
+          ],
+          "artist_name": [
+            "Nine Inch Nails"
+          ]
+        },
+        {
+          "id": "12582",
+          "song_name": [
+            "Ain't Worried About Nothing Remix Lyrics"
+          ],
+          "artist_name": [
+            "Miley Cyrus"
+          ]
+        },
+        {
+          "id": "23499",
+          "song_name": [
+            "Push"
+          ],
+          "artist_name": [
+            "Avril Lavigne"
+          ]
+        },
+        {
+          "id": "36219",
+          "song_name": [
+            "Makin' Music For Money"
+          ],
+          "artist_name": [
+            "Jimmy Buffett"
+          ]
+        },
+        {
+          "id": "10305",
+          "song_name": [
+            "Gimme More"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "10098",
+          "song_name": [
+            "Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "33137",
+          "song_name": [
+            "Let Me Sing Your Blues Away"
+          ],
+          "artist_name": [
+            "Grateful Dead"
+          ]
+        },
+        {
+          "id": "39093",
+          "song_name": [
+            "Bury Me Deep In Love"
+          ],
+          "artist_name": [
+            "Kylie Minogue"
+          ]
+        },
+        {
+          "id": "29035",
+          "song_name": [
+            "Cold Love"
+          ],
+          "artist_name": [
+            "Donna Summer"
+          ]
+        },
+        {
+          "id": "49437",
+          "song_name": [
+            "Cheap Thrills"
+          ],
+          "artist_name": [
+            "Sia"
+          ]
+        },
+        {
+          "id": "29073",
+          "song_name": [
+            "It's Not The Way"
+          ],
+          "artist_name": [
+            "Donna Summer"
+          ]
+        },
+        {
+          "id": "19049",
+          "song_name": [
+            "Please"
+          ],
+          "artist_name": [
+            "U2"
+          ]
+        },
+        {
+          "id": "16903",
+          "song_name": [
+            "Do Ya Thing"
+          ],
+          "artist_name": [
+            "Rihanna"
+          ]
+        },
+        {
+          "id": "51599",
+          "song_name": [
+            "Country Day"
+          ],
+          "artist_name": [
+            "Tragically Hip"
+          ]
+        },
+        {
+          "id": "30406",
+          "song_name": [
+            "Break Me, Shake Me"
+          ],
+          "artist_name": [
+            "Enrique Iglesias"
+          ]
+        },
+        {
+          "id": "51963",
+          "song_name": [
+            "Outlaw Man"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "6808",
+          "song_name": [
+            "I Got No Love"
+          ],
+          "artist_name": [
+            "Gloria Estefan"
+          ]
+        },
+        {
+          "id": "37301",
+          "song_name": [
+            "The Wyld Unknown"
+          ],
+          "artist_name": [
+            "Judds"
+          ]
+        },
+        {
+          "id": "34916",
+          "song_name": [
+            "Look Away"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "7085",
+          "song_name": [
+            "I Smoke Kush"
+          ],
+          "artist_name": [
+            "Gucci Mane"
+          ]
+        },
+        {
+          "id": "34231",
+          "song_name": [
+            "If God Loves Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Helloween"
+          ]
+        },
+        {
+          "id": "33441",
+          "song_name": [
+            "Money On The Floor"
+          ],
+          "artist_name": [
+            "Gucci Mane"
+          ]
+        },
+        {
+          "id": "11033",
+          "song_name": [
+            "Fly In"
+          ],
+          "artist_name": [
+            "Lil Wayne"
+          ]
+        },
+        {
+          "id": "20854",
+          "song_name": [
+            "Reunited"
+          ],
+          "artist_name": [
+            "Wu-Tang Clan"
+          ]
+        },
+        {
+          "id": "33292",
+          "song_name": [
+            "Dominated Love Slave"
+          ],
+          "artist_name": [
+            "Green Day"
+          ]
+        },
+        {
+          "id": "37601",
+          "song_name": [
+            "The Glory"
+          ],
+          "artist_name": [
+            "Kanye West"
+          ]
+        },
+        {
+          "id": "31715",
+          "song_name": [
+            "Delirious"
+          ],
+          "artist_name": [
+            "Frankie Goes To Hollywood"
+          ]
+        },
+        {
+          "id": "16634",
+          "song_name": [
+            "Love Trilogy"
+          ],
+          "artist_name": [
+            "Red Hot Chili Peppers"
+          ]
+        },
+        {
+          "id": "47546",
+          "song_name": [
+            "The Pump"
+          ],
+          "artist_name": [
+            "Quiet Riot"
+          ]
+        },
+        {
+          "id": "43830",
+          "song_name": [
+            "Murda Murda"
+          ],
+          "artist_name": [
+            "Nicki Minaj"
+          ]
+        },
+        {
+          "id": "54456",
+          "song_name": [
+            "Low Income"
+          ],
+          "artist_name": [
+            "Wyclef Jean"
+          ]
+        },
+        {
+          "id": "25660",
+          "song_name": [
+            "I'm A Rocker"
+          ],
+          "artist_name": [
+            "Bruce Springsteen"
+          ]
+        },
+        {
+          "id": "30960",
+          "song_name": [
+            "Next Man"
+          ],
+          "artist_name": [
+            "Everlast"
+          ]
+        },
+        {
+          "id": "14445",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Otis Redding"
+          ]
+        },
+        {
+          "id": "6069",
+          "song_name": [
+            "Sweet Spot"
+          ],
+          "artist_name": [
+            "Flo-Rida"
+          ]
+        },
+        {
+          "id": "42968",
+          "song_name": [
+            "St. Louis Blues"
+          ],
+          "artist_name": [
+            "Natalie Cole"
+          ]
+        },
+        {
+          "id": "54741",
+          "song_name": [
+            "Going For The One"
+          ],
+          "artist_name": [
+            "Yes"
+          ]
+        },
+        {
+          "id": "47135",
+          "song_name": [
+            "Makin' It Hard"
+          ],
+          "artist_name": [
+            "Puff Daddy"
+          ]
+        },
+        {
+          "id": "29751",
+          "song_name": [
+            "Rock 'n' Roll Is King"
+          ],
+          "artist_name": [
+            "Electric Light Orchestra"
+          ]
+        },
+        {
+          "id": "31587",
+          "song_name": [
+            "Castle Rock"
+          ],
+          "artist_name": [
+            "Frank Sinatra"
+          ]
+        },
+        {
+          "id": "52021",
+          "song_name": [
+            "Poppa Large"
+          ],
+          "artist_name": [
+            "Ultramagnetic Mc's"
+          ]
+        },
+        {
+          "id": "49665",
+          "song_name": [
+            "Gangsta Walk"
+          ],
+          "artist_name": [
+            "Snoop Dogg"
+          ]
+        },
+        {
+          "id": "7933",
+          "song_name": [
+            "Rock Show"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "7886",
+          "song_name": [
+            "Dead Rock Star"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "1421",
+          "song_name": [
+            "Uptown Girl"
+          ],
+          "artist_name": [
+            "Billy Joel"
+          ]
+        },
+        {
+          "id": "31382",
+          "song_name": [
+            "Roots"
+          ],
+          "artist_name": [
+            "Flo-Rida"
+          ]
+        },
+        {
+          "id": "53687",
+          "song_name": [
+            "Uptown Girl"
+          ],
+          "artist_name": [
+            "Westlife"
+          ]
+        },
+        {
+          "id": "5326",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "36855",
+          "song_name": [
+            "Blonde In The Bleachers"
+          ],
+          "artist_name": [
+            "Joni Mitchell"
+          ]
+        },
+        {
+          "id": "43803",
+          "song_name": [
+            "Can Anybody Hear Me"
+          ],
+          "artist_name": [
+            "Nicki Minaj"
+          ]
+        },
+        {
+          "id": "25118",
+          "song_name": [
+            "She Can't Do Anything Wrong"
+          ],
+          "artist_name": [
+            "Bob Seger"
+          ]
+        },
+        {
+          "id": "36892",
+          "song_name": [
+            "In France They Kiss On Main Street"
+          ],
+          "artist_name": [
+            "Joni Mitchell"
+          ]
+        },
+        {
+          "id": "28399",
+          "song_name": [
+            "We Rock"
+          ],
+          "artist_name": [
+            "Demi Lovato"
+          ]
+        },
+        {
+          "id": "4000",
+          "song_name": [
+            "Rock! Rock! Till You Drop"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "1998",
+          "song_name": [
+            "Rock Me In"
+          ],
+          "artist_name": [
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "5335",
+          "song_name": [
+            "That's All"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "38463",
+          "song_name": [
+            "Ya' Keep On"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "20138",
+          "song_name": [
+            "Rock Your Baby"
+          ],
+          "artist_name": [
+            "Wanda Jackson"
+          ]
+        },
+        {
+          "id": "50689",
+          "song_name": [
+            "Rock Roll Music To The World"
+          ],
+          "artist_name": [
+            "Ten Years After"
+          ]
+        },
+        {
+          "id": "11630",
+          "song_name": [
+            "Rock My Soul"
+          ],
+          "artist_name": [
+            "Louis Armstrong"
+          ]
+        },
+        {
+          "id": "31158",
+          "song_name": [
+            "Rock Me Amadeus"
+          ],
+          "artist_name": [
+            "Falco"
+          ]
+        },
+        {
+          "id": "12533",
+          "song_name": [
+            "Rock With You"
+          ],
+          "artist_name": [
+            "Michael Jackson"
+          ]
+        },
+        {
+          "id": "38441",
+          "song_name": [
+            "Rock On"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "43193",
+          "song_name": [
+            "Sweet Little Rock And Roller"
+          ],
+          "artist_name": [
+            "Nazareth"
+          ]
+        },
+        {
+          "id": "36468",
+          "song_name": [
+            "Jailhouse Rock"
+          ],
+          "artist_name": [
+            "John Mellencamp"
+          ]
+        },
+        {
+          "id": "23883",
+          "song_name": [
+            "Love These Goon Shows!"
+          ],
+          "artist_name": [
+            "The Beatles"
+          ]
+        },
+        {
+          "id": "12133",
+          "song_name": [
+            "One Mo' Time"
+          ],
+          "artist_name": [
+            "Mc Hammer"
+          ]
+        },
+        {
+          "id": "17335",
+          "song_name": [
+            "It's Only Rock N Roll"
+          ],
+          "artist_name": [
+            "Rolling Stones"
+          ]
+        },
+        {
+          "id": "26910",
+          "song_name": [
+            "Rock Cradle Rock"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "47976",
+          "song_name": [
+            "Rock 'n Roll High School"
+          ],
+          "artist_name": [
+            "Ramones"
+          ]
+        },
+        {
+          "id": "52273",
+          "song_name": [
+            "Rollin' The Rock"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "51968",
+          "song_name": [
+            "Rock Bottom"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "30354",
+          "song_name": [
+            "It's Only Rock 'n Roll"
+          ],
+          "artist_name": [
+            "Emmylou Harris"
+          ]
+        },
+        {
+          "id": "3999",
+          "song_name": [
+            "Rock On"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "9331",
+          "song_name": [
+            "Ray's Dad's Cadillac"
+          ],
+          "artist_name": [
+            "Joni Mitchell"
+          ]
+        },
+        {
+          "id": "10346",
+          "song_name": [
+            "Rock Hard"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "51053",
+          "song_name": [
+            "Rock Me Baby"
+          ],
+          "artist_name": [
+            "Tina Turner"
+          ]
+        },
+        {
+          "id": "3998",
+          "song_name": [
+            "Rock Brigade"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "78",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "ABBA"
+          ]
+        },
+        {
+          "id": "26301",
+          "song_name": [
+            "Rock All Night"
+          ],
+          "artist_name": [
+            "Cheap Trick"
+          ]
+        },
+        {
+          "id": "19179",
+          "song_name": [
+            "Rock Boyz, Rock"
+          ],
+          "artist_name": [
+            "Ufo"
+          ]
+        },
+        {
+          "id": "10879",
+          "song_name": [
+            "Rock 'n' Roll Is Dead"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ]
+        },
+        {
+          "id": "7092",
+          "song_name": [
+            "Ridiculous"
+          ],
+          "artist_name": [
+            "Gucci Mane"
+          ]
+        },
+        {
+          "id": "53874",
+          "song_name": [
+            "Rock 'n' Roll Women"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "48982",
+          "song_name": [
+            "Just Another Name For Rock And Roll"
+          ],
+          "artist_name": [
+            "Roy Orbison"
+          ]
+        },
+        {
+          "id": "14313",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "One Direction"
+          ]
+        },
+        {
+          "id": "22598",
+          "song_name": [
+            "Lip Lock Rock"
+          ],
+          "artist_name": [
+            "Alice In Chains"
+          ]
+        },
+        {
+          "id": "18566",
+          "song_name": [
+            "Fool For Rock 'N' Roll"
+          ],
+          "artist_name": [
+            "Tom Jones"
+          ]
+        },
+        {
+          "id": "26987",
+          "song_name": [
+            "Revolution Rock"
+          ],
+          "artist_name": [
+            "Clash"
+          ]
+        },
+        {
+          "id": "35554",
+          "song_name": [
+            "It's A Disco Night (Rock Don't Stop)"
+          ],
+          "artist_name": [
+            "Isley Brothers"
+          ]
+        },
+        {
+          "id": "3047",
+          "song_name": [
+            "Viva Viva Rock 'n' Roll"
+          ],
+          "artist_name": [
+            "Chuck Berry"
+          ]
+        },
+        {
+          "id": "12404",
+          "song_name": [
+            "Jailhouse Rock"
+          ],
+          "artist_name": [
+            "Michael Bolton"
+          ]
+        },
+        {
+          "id": "16800",
+          "song_name": [
+            "Rock And Roll Music"
+          ],
+          "artist_name": [
+            "Reo Speedwagon"
+          ]
+        },
+        {
+          "id": "33194",
+          "song_name": [
+            "Rock 'N Roll Is Here To Stay"
+          ],
+          "artist_name": [
+            "Grease"
+          ]
+        },
+        {
+          "id": "27015",
+          "song_name": [
+            "Born To Rock'n'roll"
+          ],
+          "artist_name": [
+            "Cliff Richard"
+          ]
+        },
+        {
+          "id": "21758",
+          "song_name": [
+            "Baby Let's Rock!"
+          ],
+          "artist_name": [
+            "Zwan"
+          ]
+        },
+        {
+          "id": "10788",
+          "song_name": [
+            "Rock Me"
+          ],
+          "artist_name": [
+            "Leann Rimes"
+          ]
+        },
+        {
+          "id": "49675",
+          "song_name": [
+            "I Wanna Rock"
+          ],
+          "artist_name": [
+            "Snoop Dogg"
+          ]
+        },
+        {
+          "id": "30657",
+          "song_name": [
+            "Hey Henry"
+          ],
+          "artist_name": [
+            "Etta James"
+          ]
+        },
+        {
+          "id": "53872",
+          "song_name": [
+            "Ready To Rock"
+          ],
+          "artist_name": [
+            "Whitesnake"
+          ]
+        },
+        {
+          "id": "38319",
+          "song_name": [
+            "Goin' Home To Rock"
+          ],
+          "artist_name": [
+            "Kenny Rogers"
+          ]
+        },
+        {
+          "id": "20560",
+          "song_name": [
+            "I Go To The Rock"
+          ],
+          "artist_name": [
+            "Whitney Houston"
+          ]
+        },
+        {
+          "id": "54016",
+          "song_name": [
+            "Long Live Rock"
+          ],
+          "artist_name": [
+            "Who"
+          ]
+        },
+        {
+          "id": "29655",
+          "song_name": [
+            "Rock 'n' Roll Blues"
+          ],
+          "artist_name": [
+            "Eddie Cochran"
+          ]
+        },
+        {
+          "id": "38448",
+          "song_name": [
+            "Son Of Detroit"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        }
+      ]
+    }
+  },
   "2": {
     "response": {
       "docs": [
@@ -2269,6 +6337,456 @@
           "artist_name": [
             "Megadeth"
           ]
+        },
+        {
+          "id": "24472",
+          "song_name": [
+            "Running On Ice"
+          ],
+          "artist_name": [
+            "Billy Joel"
+          ]
+        },
+        {
+          "id": "34713",
+          "song_name": [
+            "Nothing To Fear"
+          ],
+          "artist_name": [
+            "Howard Jones"
+          ]
+        },
+        {
+          "id": "39538",
+          "song_name": [
+            "Fear"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ]
+        },
+        {
+          "id": "44865",
+          "song_name": [
+            "Fear"
+          ],
+          "artist_name": [
+            "OneRepublic"
+          ]
+        },
+        {
+          "id": "11556",
+          "song_name": [
+            "Guardian Angel"
+          ],
+          "artist_name": [
+            "Lou Reed"
+          ]
+        },
+        {
+          "id": "27549",
+          "song_name": [
+            "This Kind Of Love"
+          ],
+          "artist_name": [
+            "Cyndi Lauper"
+          ]
+        },
+        {
+          "id": "35519",
+          "song_name": [
+            "The Mercenary"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "17790",
+          "song_name": [
+            "Fear"
+          ],
+          "artist_name": [
+            "Sia"
+          ]
+        },
+        {
+          "id": "12323",
+          "song_name": [
+            "The Frayed Ends Of Sanity"
+          ],
+          "artist_name": [
+            "Metallica"
+          ]
+        },
+        {
+          "id": "52034",
+          "song_name": [
+            "Fear In The Western World"
+          ],
+          "artist_name": [
+            "Ultravox"
+          ]
+        },
+        {
+          "id": "33239",
+          "song_name": [
+            "Sea Of No Cares"
+          ],
+          "artist_name": [
+            "Great Big Sea"
+          ]
+        },
+        {
+          "id": "23922",
+          "song_name": [
+            "Don't Fear The Reaper"
+          ],
+          "artist_name": [
+            "Beautiful South"
+          ]
+        },
+        {
+          "id": "7739",
+          "song_name": [
+            "Pearl In The Shell"
+          ],
+          "artist_name": [
+            "Howard Jones"
+          ]
+        },
+        {
+          "id": "47878",
+          "song_name": [
+            "Dalai Lama (English)"
+          ],
+          "artist_name": [
+            "Rammstein"
+          ]
+        },
+        {
+          "id": "38911",
+          "song_name": [
+            "Layla"
+          ],
+          "artist_name": [
+            "Korn"
+          ]
+        },
+        {
+          "id": "15169",
+          "song_name": [
+            "And I Think Of You"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15170",
+          "song_name": [
+            "Big Mistake"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15171",
+          "song_name": [
+            "Daddy's Girl"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15172",
+          "song_name": [
+            "Forever Tonight"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15173",
+          "song_name": [
+            "Scheherazade"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15174",
+          "song_name": [
+            "She Doesn't Need Me Anymore"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15175",
+          "song_name": [
+            "Something That Santa Claus Left Behind"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15176",
+          "song_name": [
+            "S.O.S."
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15177",
+          "song_name": [
+            "Stay With Me"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15178",
+          "song_name": [
+            "Still Getting Over You"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15179",
+          "song_name": [
+            "The Christmas Song"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15180",
+          "song_name": [
+            "The End Of Camelot"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15181",
+          "song_name": [
+            "The Last Place God Made"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15182",
+          "song_name": [
+            "The Lucky Ones"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15183",
+          "song_name": [
+            "They Don't Make 'em Like They Used To"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15184",
+          "song_name": [
+            "Wake Up To Love"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15185",
+          "song_name": [
+            "Wanna Be There"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15186",
+          "song_name": [
+            "What Ever Gets You Through"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15187",
+          "song_name": [
+            "Where There's No Tomorrow"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "15188",
+          "song_name": [
+            "Wild Ways"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45948",
+          "song_name": [
+            "Alone For The Holidays"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45949",
+          "song_name": [
+            "Apple Of Your Daddy's Eye"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45950",
+          "song_name": [
+            "Baby What A Big Surprise"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45951",
+          "song_name": [
+            "Best Of Times"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45952",
+          "song_name": [
+            "Body Language"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45953",
+          "song_name": [
+            "Deck The Halls"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45954",
+          "song_name": [
+            "Dip Your Wings"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45955",
+          "song_name": [
+            "Do You Love Me That Much"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45956",
+          "song_name": [
+            "Even A Fool Can See"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45957",
+          "song_name": [
+            "Faithfully"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45958",
+          "song_name": [
+            "Feels Like Heaven"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45959",
+          "song_name": [
+            "Feels Like Rain"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45960",
+          "song_name": [
+            "Glory Of Love"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45961",
+          "song_name": [
+            "God Rest You Merry Gentlemen"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
+        },
+        {
+          "id": "45962",
+          "song_name": [
+            "Happy Man"
+          ],
+          "artist_name": [
+            "Peter Cetera"
+          ]
         }
       ]
     }
@@ -2499,6 +7017,456 @@
           ],
           "artist_name": [
             "Yngwie Malmsteen"
+          ]
+        },
+        {
+          "id": "8269",
+          "song_name": [
+            "Fear Of The Dark"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "23922",
+          "song_name": [
+            "Don't Fear The Reaper"
+          ],
+          "artist_name": [
+            "Beautiful South"
+          ]
+        },
+        {
+          "id": "35474",
+          "song_name": [
+            "Fear Is The Key"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "41135",
+          "song_name": [
+            "Man That You Fear"
+          ],
+          "artist_name": [
+            "Marilyn Manson"
+          ]
+        },
+        {
+          "id": "10192",
+          "song_name": [
+            "But The Blood"
+          ],
+          "artist_name": [
+            "Kirk Franklin"
+          ]
+        },
+        {
+          "id": "20226",
+          "song_name": [
+            "Hate To Love Me"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "38606",
+          "song_name": [
+            "A God Like You"
+          ],
+          "artist_name": [
+            "Kirk Franklin"
+          ]
+        },
+        {
+          "id": "38626",
+          "song_name": [
+            "Everyone Hurts"
+          ],
+          "artist_name": [
+            "Kirk Franklin"
+          ]
+        },
+        {
+          "id": "38641",
+          "song_name": [
+            "I Smile"
+          ],
+          "artist_name": [
+            "Kirk Franklin"
+          ]
+        },
+        {
+          "id": "53175",
+          "song_name": [
+            "Charisma"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53182",
+          "song_name": [
+            "Evermore"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53193",
+          "song_name": [
+            "Let It Roar"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53195",
+          "song_name": [
+            "Loco-Motive Man"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53209",
+          "song_name": [
+            "Raven Heart"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53245",
+          "song_name": [
+            "Wasted White Boys"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53247",
+          "song_name": [
+            "Who Slayed Baby Jane?"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "35367",
+          "song_name": [
+            "Firma Terror (Unavailable On LP)"
+          ],
+          "artist_name": [
+            "INXS"
+          ]
+        },
+        {
+          "id": "41462",
+          "song_name": [
+            "Where Angels Fear To Tread"
+          ],
+          "artist_name": [
+            "Matt Redman"
+          ]
+        },
+        {
+          "id": "41576",
+          "song_name": [
+            "Dread And The Fugitive Mind"
+          ],
+          "artist_name": [
+            "Megadeth"
+          ]
+        },
+        {
+          "id": "52034",
+          "song_name": [
+            "Fear In The Western World"
+          ],
+          "artist_name": [
+            "Ultravox"
+          ]
+        },
+        {
+          "id": "14145",
+          "song_name": [
+            "Why'd We Come"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "18332",
+          "song_name": [
+            "Air"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "18334",
+          "song_name": [
+            "Cities"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "44562",
+          "song_name": [
+            "Grey Matter"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "44566",
+          "song_name": [
+            "Insects"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "44568",
+          "song_name": [
+            "Islands"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "44585",
+          "song_name": [
+            "Private Life"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "44586",
+          "song_name": [
+            "Reptiles And Samurai"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "44588",
+          "song_name": [
+            "Running On A Treadmill"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "44604",
+          "song_name": [
+            "Whole Day Off"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "50417",
+          "song_name": [
+            "Animals"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "50428",
+          "song_name": [
+            "Drugs"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "50429",
+          "song_name": [
+            "Electric Guitar"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "50435",
+          "song_name": [
+            "Heaven"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "50443",
+          "song_name": [
+            "Memories Can't Wait"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "50444",
+          "song_name": [
+            "Mind"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "50451",
+          "song_name": [
+            "Paper"
+          ],
+          "artist_name": [
+            "Talking Heads"
+          ]
+        },
+        {
+          "id": "7522",
+          "song_name": [
+            "I Stand In Awe Of You"
+          ],
+          "artist_name": [
+            "Hillsong"
+          ]
+        },
+        {
+          "id": "10366",
+          "song_name": [
+            "Fear Is A Place To Live"
+          ],
+          "artist_name": [
+            "Korn"
+          ]
+        },
+        {
+          "id": "8274",
+          "song_name": [
+            "From Here To Eternity"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "8315",
+          "song_name": [
+            "The Fugitive"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "8328",
+          "song_name": [
+            "Wasting Love"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "35449",
+          "song_name": [
+            "Afraid To Shoot Strangers"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "35454",
+          "song_name": [
+            "Be Quick Or Be Dead"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "35460",
+          "song_name": [
+            "Chains Of Misery"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "35511",
+          "song_name": [
+            "The Apparition"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "35526",
+          "song_name": [
+            "Weekend Warrior"
+          ],
+          "artist_name": [
+            "Iron Maiden"
+          ]
+        },
+        {
+          "id": "49443",
+          "song_name": [
+            "Elastic Heart"
+          ],
+          "artist_name": [
+            "Sia"
+          ]
+        },
+        {
+          "id": "989",
+          "song_name": [
+            "Panic"
+          ],
+          "artist_name": [
+            "Backstreet Boys"
+          ]
+        },
+        {
+          "id": "49602",
+          "song_name": [
+            "Panic"
+          ],
+          "artist_name": [
+            "Smiths"
           ]
         }
       ]
@@ -2731,6 +7699,456 @@
           "artist_name": [
             "Oingo Boingo"
           ]
+        },
+        {
+          "id": "52138",
+          "song_name": [
+            "Panic Attack"
+          ],
+          "artist_name": [
+            "Unkle"
+          ]
+        },
+        {
+          "id": "262",
+          "song_name": [
+            "Don't Be Afraid"
+          ],
+          "artist_name": [
+            "Air Supply"
+          ]
+        },
+        {
+          "id": "51542",
+          "song_name": [
+            "Be And Be Not Afraid"
+          ],
+          "artist_name": [
+            "Tracy Chapman"
+          ]
+        },
+        {
+          "id": "5144",
+          "song_name": [
+            "Hideaway"
+          ],
+          "artist_name": [
+            "Erasure"
+          ]
+        },
+        {
+          "id": "9438",
+          "song_name": [
+            "The Only Mistake"
+          ],
+          "artist_name": [
+            "Joy Division"
+          ]
+        },
+        {
+          "id": "37760",
+          "song_name": [
+            "Firework"
+          ],
+          "artist_name": [
+            "Katy Perry"
+          ]
+        },
+        {
+          "id": "39136",
+          "song_name": [
+            "Jump"
+          ],
+          "artist_name": [
+            "Kylie Minogue"
+          ]
+        },
+        {
+          "id": "34211",
+          "song_name": [
+            "Far In The Future"
+          ],
+          "artist_name": [
+            "Helloween"
+          ]
+        },
+        {
+          "id": "46029",
+          "song_name": [
+            "Mother Of Violence"
+          ],
+          "artist_name": [
+            "Peter Gabriel"
+          ]
+        },
+        {
+          "id": "37658",
+          "song_name": [
+            "Hammer Horror"
+          ],
+          "artist_name": [
+            "Kate Bush"
+          ]
+        },
+        {
+          "id": "51618",
+          "song_name": [
+            "Gus: The Polar Bear From Central Park"
+          ],
+          "artist_name": [
+            "Tragically Hip"
+          ]
+        },
+        {
+          "id": "10623",
+          "song_name": [
+            "Afraid"
+          ],
+          "artist_name": [
+            "Lana Del Rey"
+          ]
+        },
+        {
+          "id": "14121",
+          "song_name": [
+            "I'm Afraid"
+          ],
+          "artist_name": [
+            "Oingo Boingo"
+          ]
+        },
+        {
+          "id": "10595",
+          "song_name": [
+            "Ink"
+          ],
+          "artist_name": [
+            "Lady Gaga"
+          ]
+        },
+        {
+          "id": "1642",
+          "song_name": [
+            "Roots"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "22085",
+          "song_name": [
+            "Bright Light Fright"
+          ],
+          "artist_name": [
+            "Aerosmith"
+          ]
+        },
+        {
+          "id": "29918",
+          "song_name": [
+            "Don't Panic"
+          ],
+          "artist_name": [
+            "Ellie Goulding"
+          ]
+        },
+        {
+          "id": "2243",
+          "song_name": [
+            "Another Saturday Night"
+          ],
+          "artist_name": [
+            "Cat Stevens"
+          ]
+        },
+        {
+          "id": "9903",
+          "song_name": [
+            "Scare Me"
+          ],
+          "artist_name": [
+            "Kenny Chesney"
+          ]
+        },
+        {
+          "id": "4874",
+          "song_name": [
+            "God's Comic"
+          ],
+          "artist_name": [
+            "Elvis Costello"
+          ]
+        },
+        {
+          "id": "13418",
+          "song_name": [
+            "Running Scared"
+          ],
+          "artist_name": [
+            "Nick Cave"
+          ]
+        },
+        {
+          "id": "18377",
+          "song_name": [
+            "Johnny Panic And The Bible Of Dreams"
+          ],
+          "artist_name": [
+            "Tears For Fears"
+          ]
+        },
+        {
+          "id": "48566",
+          "song_name": [
+            "It Happened Today"
+          ],
+          "artist_name": [
+            "Rem"
+          ]
+        },
+        {
+          "id": "15694",
+          "song_name": [
+            "The Return Of Sathington Willoughby"
+          ],
+          "artist_name": [
+            "Primus"
+          ]
+        },
+        {
+          "id": "44919",
+          "song_name": [
+            "Don't Be Afraid Of Love"
+          ],
+          "artist_name": [
+            "Otis Redding"
+          ]
+        },
+        {
+          "id": "39701",
+          "song_name": [
+            "We Told You So"
+          ],
+          "artist_name": [
+            "Leonard Cohen"
+          ]
+        },
+        {
+          "id": "2385",
+          "song_name": [
+            "In Love We Grow"
+          ],
+          "artist_name": [
+            "Chaka Khan"
+          ]
+        },
+        {
+          "id": "24972",
+          "song_name": [
+            "Jah Live"
+          ],
+          "artist_name": [
+            "Bob Marley"
+          ]
+        },
+        {
+          "id": "40973",
+          "song_name": [
+            "Afraid Of Sunrise"
+          ],
+          "artist_name": [
+            "Marillion"
+          ]
+        },
+        {
+          "id": "5484",
+          "song_name": [
+            "Nervous And Weird"
+          ],
+          "artist_name": [
+            "Everclear"
+          ]
+        },
+        {
+          "id": "36560",
+          "song_name": [
+            "Crooked Piece Of Time"
+          ],
+          "artist_name": [
+            "John Prine"
+          ]
+        },
+        {
+          "id": "7907",
+          "song_name": [
+            "Hate"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "17794",
+          "song_name": [
+            "Judge Me"
+          ],
+          "artist_name": [
+            "Sia"
+          ]
+        },
+        {
+          "id": "23918",
+          "song_name": [
+            "Bell-Bottomed Tear"
+          ],
+          "artist_name": [
+            "Beautiful South"
+          ]
+        },
+        {
+          "id": "38017",
+          "song_name": [
+            "Up To The Mountains"
+          ],
+          "artist_name": [
+            "Kelly Clarkson"
+          ]
+        },
+        {
+          "id": "28738",
+          "song_name": [
+            "Brothers In Arms"
+          ],
+          "artist_name": [
+            "Dire Straits"
+          ]
+        },
+        {
+          "id": "54911",
+          "song_name": [
+            "Beautiful Boys"
+          ],
+          "artist_name": [
+            "Yoko Ono"
+          ]
+        },
+        {
+          "id": "52926",
+          "song_name": [
+            "We Rule The Night"
+          ],
+          "artist_name": [
+            "Virgin Steele"
+          ]
+        },
+        {
+          "id": "26092",
+          "song_name": [
+            "Beautiful Boy"
+          ],
+          "artist_name": [
+            "Celine Dion"
+          ]
+        },
+        {
+          "id": "38702",
+          "song_name": [
+            "Roll Um Easy"
+          ],
+          "artist_name": [
+            "Kirsty Maccoll"
+          ]
+        },
+        {
+          "id": "47815",
+          "song_name": [
+            "Vietnow"
+          ],
+          "artist_name": [
+            "Rage Against The Machine"
+          ]
+        },
+        {
+          "id": "22532",
+          "song_name": [
+            "No Tricks"
+          ],
+          "artist_name": [
+            "Alice Cooper"
+          ]
+        },
+        {
+          "id": "20818",
+          "song_name": [
+            "It's The Fear"
+          ],
+          "artist_name": [
+            "Within Temptation"
+          ]
+        },
+        {
+          "id": "52153",
+          "song_name": [
+            "Live In Fear"
+          ],
+          "artist_name": [
+            "Unseen"
+          ]
+        },
+        {
+          "id": "31614",
+          "song_name": [
+            "Don't Ever Be Afraid To Go Home"
+          ],
+          "artist_name": [
+            "Frank Sinatra"
+          ]
+        },
+        {
+          "id": "3594",
+          "song_name": [
+            "The Power Of Gold"
+          ],
+          "artist_name": [
+            "Dan Fogelberg"
+          ]
+        },
+        {
+          "id": "35904",
+          "song_name": [
+            "Brave"
+          ],
+          "artist_name": [
+            "Jennifer Lopez"
+          ]
+        },
+        {
+          "id": "21274",
+          "song_name": [
+            "Turn Of The Wheel"
+          ],
+          "artist_name": [
+            "Yoko Ono"
+          ]
+        },
+        {
+          "id": "22575",
+          "song_name": [
+            "Fear The Voices"
+          ],
+          "artist_name": [
+            "Alice In Chains"
+          ]
+        },
+        {
+          "id": "40854",
+          "song_name": [
+            "The One"
+          ],
+          "artist_name": [
+            "Mariah Carey"
+          ]
         }
       ]
     }
@@ -2961,6 +8379,456 @@
           ],
           "artist_name": [
             "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53216",
+          "song_name": [
+            "Savage"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "53248",
+          "song_name": [
+            "Whole Lotta Rosie"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "54363",
+          "song_name": [
+            "Sounds Of Freedom"
+          ],
+          "artist_name": [
+            "Within Temptation"
+          ]
+        },
+        {
+          "id": "41121",
+          "song_name": [
+            "Irresponsible Hate Anthem"
+          ],
+          "artist_name": [
+            "Marilyn Manson"
+          ]
+        },
+        {
+          "id": "35162",
+          "song_name": [
+            "Make It Easier"
+          ],
+          "artist_name": [
+            "Indigo Girls"
+          ]
+        },
+        {
+          "id": "46937",
+          "song_name": [
+            "Avalanche"
+          ],
+          "artist_name": [
+            "Prince"
+          ]
+        },
+        {
+          "id": "25043",
+          "song_name": [
+            "American Storm"
+          ],
+          "artist_name": [
+            "Bob Seger"
+          ]
+        },
+        {
+          "id": "50790",
+          "song_name": [
+            "Freedom Song"
+          ],
+          "artist_name": [
+            "Thin Lizzy"
+          ]
+        },
+        {
+          "id": "53190",
+          "song_name": [
+            "Kill Your Pretty Face"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "52235",
+          "song_name": [
+            "Kiss Of Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "35998",
+          "song_name": [
+            "Railroads And Riverboats"
+          ],
+          "artist_name": [
+            "Jim Croce"
+          ]
+        },
+        {
+          "id": "38082",
+          "song_name": [
+            "Rock 'n' Roll Stole My Soul"
+          ],
+          "artist_name": [
+            "Kelly Family"
+          ]
+        },
+        {
+          "id": "43507",
+          "song_name": [
+            "God Save The Queen"
+          ],
+          "artist_name": [
+            "Neil Young"
+          ]
+        },
+        {
+          "id": "13893",
+          "song_name": [
+            "Redemption Song"
+          ],
+          "artist_name": [
+            "O.A.R."
+          ]
+        },
+        {
+          "id": "8400",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Isley Brothers"
+          ]
+        },
+        {
+          "id": "41004",
+          "song_name": [
+            "Holloway Girl"
+          ],
+          "artist_name": [
+            "Marillion"
+          ]
+        },
+        {
+          "id": "15452",
+          "song_name": [
+            "Free"
+          ],
+          "artist_name": [
+            "Planetshakers"
+          ]
+        },
+        {
+          "id": "52294",
+          "song_name": [
+            "Sweet Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "43495",
+          "song_name": [
+            "Flags Of Freedom"
+          ],
+          "artist_name": [
+            "Neil Young"
+          ]
+        },
+        {
+          "id": "5135",
+          "song_name": [
+            "Let's See Action"
+          ],
+          "artist_name": [
+            "Eppu Normaali"
+          ]
+        },
+        {
+          "id": "3901",
+          "song_name": [
+            "Anya"
+          ],
+          "artist_name": [
+            "Deep Purple"
+          ]
+        },
+        {
+          "id": "36377",
+          "song_name": [
+            "Woke Up This Morning"
+          ],
+          "artist_name": [
+            "John Legend"
+          ]
+        },
+        {
+          "id": "42005",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Michael W. Smith"
+          ]
+        },
+        {
+          "id": "28526",
+          "song_name": [
+            "Freedom Of Choice"
+          ],
+          "artist_name": [
+            "Devo"
+          ]
+        },
+        {
+          "id": "52286",
+          "song_name": [
+            "Spirit Of Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "19927",
+          "song_name": [
+            "I See Houses"
+          ],
+          "artist_name": [
+            "Verve"
+          ]
+        },
+        {
+          "id": "28252",
+          "song_name": [
+            "Good Morning Freedom"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "42302",
+          "song_name": [
+            "Spook City U.S.A."
+          ],
+          "artist_name": [
+            "Misfits"
+          ]
+        },
+        {
+          "id": "34284",
+          "song_name": [
+            "Time"
+          ],
+          "artist_name": [
+            "Helloween"
+          ]
+        },
+        {
+          "id": "36071",
+          "song_name": [
+            "Jam Back At The House"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ]
+        },
+        {
+          "id": "36072",
+          "song_name": [
+            "Jam Back At The House (Beginnings)"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ]
+        },
+        {
+          "id": "21633",
+          "song_name": [
+            "Namibia"
+          ],
+          "artist_name": [
+            "Ziggy Marley"
+          ]
+        },
+        {
+          "id": "7613",
+          "song_name": [
+            "In Freedom"
+          ],
+          "artist_name": [
+            "Hillsong United"
+          ]
+        },
+        {
+          "id": "53198",
+          "song_name": [
+            "Maneater"
+          ],
+          "artist_name": [
+            "W.A.S.P."
+          ]
+        },
+        {
+          "id": "10823",
+          "song_name": [
+            "Brother"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ]
+        },
+        {
+          "id": "9901",
+          "song_name": [
+            "Reality"
+          ],
+          "artist_name": [
+            "Kenny Chesney"
+          ]
+        },
+        {
+          "id": "16674",
+          "song_name": [
+            "Save This Lady"
+          ],
+          "artist_name": [
+            "Red Hot Chili Peppers"
+          ]
+        },
+        {
+          "id": "49208",
+          "song_name": [
+            "Praise"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "46520",
+          "song_name": [
+            "There's Freedom"
+          ],
+          "artist_name": [
+            "Planetshakers"
+          ]
+        },
+        {
+          "id": "18534",
+          "song_name": [
+            "Two Lanes Of Freedom"
+          ],
+          "artist_name": [
+            "Tim McGraw"
+          ]
+        },
+        {
+          "id": "16167",
+          "song_name": [
+            "Memory Of The Dead"
+          ],
+          "artist_name": [
+            "Rage Against The Machine"
+          ]
+        },
+        {
+          "id": "9505",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Judds"
+          ]
+        },
+        {
+          "id": "11870",
+          "song_name": [
+            "Bells Of Freedom"
+          ],
+          "artist_name": [
+            "Marianne Faithfull"
+          ]
+        },
+        {
+          "id": "38559",
+          "song_name": [
+            "I Am"
+          ],
+          "artist_name": [
+            "King Diamond"
+          ]
+        },
+        {
+          "id": "10905",
+          "song_name": [
+            "Running To My Freedom"
+          ],
+          "artist_name": [
+            "Leo Sayer"
+          ]
+        },
+        {
+          "id": "54012",
+          "song_name": [
+            "Join Together"
+          ],
+          "artist_name": [
+            "Who"
+          ]
+        },
+        {
+          "id": "40705",
+          "song_name": [
+            "Fight For Freedom"
+          ],
+          "artist_name": [
+            "Manowar"
+          ]
+        },
+        {
+          "id": "4008",
+          "song_name": [
+            "Travelling Band"
+          ],
+          "artist_name": [
+            "Def Leppard"
+          ]
+        },
+        {
+          "id": "35106",
+          "song_name": [
+            "Cold Beer And Remote Control"
+          ],
+          "artist_name": [
+            "Indigo Girls"
+          ]
+        },
+        {
+          "id": "24718",
+          "song_name": [
+            "The Thrill Of It All"
+          ],
+          "artist_name": [
+            "Black Sabbath"
           ]
         }
       ]
@@ -3193,6 +9061,456 @@
           "artist_name": [
             "Santana"
           ]
+        },
+        {
+          "id": "49163",
+          "song_name": [
+            "Before We Go"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "49173",
+          "song_name": [
+            "Deeper, Dig Deeper"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "49208",
+          "song_name": [
+            "Praise"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "49212",
+          "song_name": [
+            "She Can't Let Go"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "49216",
+          "song_name": [
+            "Songs Of Freedom"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "3916",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Deep Purple"
+          ]
+        },
+        {
+          "id": "51242",
+          "song_name": [
+            "Running Wild"
+          ],
+          "artist_name": [
+            "Tom T. Hall"
+          ]
+        },
+        {
+          "id": "34975",
+          "song_name": [
+            "Wild America"
+          ],
+          "artist_name": [
+            "Iggy Pop"
+          ]
+        },
+        {
+          "id": "20873",
+          "song_name": [
+            "I Must Not Think Bad Thoughts"
+          ],
+          "artist_name": [
+            "X"
+          ]
+        },
+        {
+          "id": "45527",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Paul McCartney"
+          ]
+        },
+        {
+          "id": "15770",
+          "song_name": [
+            "American Dream"
+          ],
+          "artist_name": [
+            "Puff Daddy"
+          ]
+        },
+        {
+          "id": "42005",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Michael W. Smith"
+          ]
+        },
+        {
+          "id": "50210",
+          "song_name": [
+            "High Time"
+          ],
+          "artist_name": [
+            "Styx"
+          ]
+        },
+        {
+          "id": "22467",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Alice Cooper"
+          ]
+        },
+        {
+          "id": "15424",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Pitbull"
+          ]
+        },
+        {
+          "id": "36057",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ]
+        },
+        {
+          "id": "38142",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Kenny Chesney"
+          ]
+        },
+        {
+          "id": "45069",
+          "song_name": [
+            "In Union We Stand"
+          ],
+          "artist_name": [
+            "Overkill"
+          ]
+        },
+        {
+          "id": "19558",
+          "song_name": [
+            "Freedom Fighters"
+          ],
+          "artist_name": [
+            "Utopia"
+          ]
+        },
+        {
+          "id": "35998",
+          "song_name": [
+            "Railroads And Riverboats"
+          ],
+          "artist_name": [
+            "Jim Croce"
+          ]
+        },
+        {
+          "id": "16180",
+          "song_name": [
+            "Freedom Fighter"
+          ],
+          "artist_name": [
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "7613",
+          "song_name": [
+            "In Freedom"
+          ],
+          "artist_name": [
+            "Hillsong United"
+          ]
+        },
+        {
+          "id": "1935",
+          "song_name": [
+            "Mother Freedom"
+          ],
+          "artist_name": [
+            "Bread"
+          ]
+        },
+        {
+          "id": "46937",
+          "song_name": [
+            "Avalanche"
+          ],
+          "artist_name": [
+            "Prince"
+          ]
+        },
+        {
+          "id": "46520",
+          "song_name": [
+            "There's Freedom"
+          ],
+          "artist_name": [
+            "Planetshakers"
+          ]
+        },
+        {
+          "id": "53431",
+          "song_name": [
+            "Freedom Of '76"
+          ],
+          "artist_name": [
+            "Ween"
+          ]
+        },
+        {
+          "id": "19398",
+          "song_name": [
+            "Cry Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "52294",
+          "song_name": [
+            "Sweet Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "28526",
+          "song_name": [
+            "Freedom Of Choice"
+          ],
+          "artist_name": [
+            "Devo"
+          ]
+        },
+        {
+          "id": "22224",
+          "song_name": [
+            "American Pride"
+          ],
+          "artist_name": [
+            "Alabama"
+          ]
+        },
+        {
+          "id": "50790",
+          "song_name": [
+            "Freedom Song"
+          ],
+          "artist_name": [
+            "Thin Lizzy"
+          ]
+        },
+        {
+          "id": "18029",
+          "song_name": [
+            "I Want To Make The World Turn Around"
+          ],
+          "artist_name": [
+            "Steve Miller Band"
+          ]
+        },
+        {
+          "id": "40705",
+          "song_name": [
+            "Fight For Freedom"
+          ],
+          "artist_name": [
+            "Manowar"
+          ]
+        },
+        {
+          "id": "8400",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Isley Brothers"
+          ]
+        },
+        {
+          "id": "9505",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Judds"
+          ]
+        },
+        {
+          "id": "16989",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Robbie Williams"
+          ]
+        },
+        {
+          "id": "35054",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Indiana Bible College"
+          ]
+        },
+        {
+          "id": "44090",
+          "song_name": [
+            "American Dream"
+          ],
+          "artist_name": [
+            "Nitty Gritty Dirt Band"
+          ]
+        },
+        {
+          "id": "50206",
+          "song_name": [
+            "Half-Penny, Two-Penny"
+          ],
+          "artist_name": [
+            "Styx"
+          ]
+        },
+        {
+          "id": "38082",
+          "song_name": [
+            "Rock 'n' Roll Stole My Soul"
+          ],
+          "artist_name": [
+            "Kelly Family"
+          ]
+        },
+        {
+          "id": "13278",
+          "song_name": [
+            "Don't Cry"
+          ],
+          "artist_name": [
+            "Neil Young"
+          ]
+        },
+        {
+          "id": "13305",
+          "song_name": [
+            "Hangin' On A Limb"
+          ],
+          "artist_name": [
+            "Neil Young"
+          ]
+        },
+        {
+          "id": "52870",
+          "song_name": [
+            "American Music"
+          ],
+          "artist_name": [
+            "Violent Femmes"
+          ]
+        },
+        {
+          "id": "9250",
+          "song_name": [
+            "Big Foot"
+          ],
+          "artist_name": [
+            "Johnny Cash"
+          ]
+        },
+        {
+          "id": "10662",
+          "song_name": [
+            "Freedom Time"
+          ],
+          "artist_name": [
+            "Lauryn Hill"
+          ]
+        },
+        {
+          "id": "13140",
+          "song_name": [
+            "Freedom Song"
+          ],
+          "artist_name": [
+            "Neil Diamond"
+          ]
+        },
+        {
+          "id": "51552",
+          "song_name": [
+            "Freedom Now"
+          ],
+          "artist_name": [
+            "Tracy Chapman"
+          ]
+        },
+        {
+          "id": "35848",
+          "song_name": [
+            "Freedom Song"
+          ],
+          "artist_name": [
+            "Jason Mraz"
+          ]
+        },
+        {
+          "id": "32992",
+          "song_name": [
+            "Freedom Is For Children"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
+        },
+        {
+          "id": "6943",
+          "song_name": [
+            "Black Licorice"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
         }
       ]
     }
@@ -3423,6 +9741,456 @@
           ],
           "artist_name": [
             "Everclear"
+          ]
+        },
+        {
+          "id": "30417",
+          "song_name": [
+            "Freedom 90"
+          ],
+          "artist_name": [
+            "Enrique Iglesias"
+          ]
+        },
+        {
+          "id": "38082",
+          "song_name": [
+            "Rock 'n' Roll Stole My Soul"
+          ],
+          "artist_name": [
+            "Kelly Family"
+          ]
+        },
+        {
+          "id": "13786",
+          "song_name": [
+            "American Anthem"
+          ],
+          "artist_name": [
+            "Norah Jones"
+          ]
+        },
+        {
+          "id": "10812",
+          "song_name": [
+            "American Woman"
+          ],
+          "artist_name": [
+            "Lenny Kravitz"
+          ]
+        },
+        {
+          "id": "12618",
+          "song_name": [
+            "American Nightmare"
+          ],
+          "artist_name": [
+            "Misfits"
+          ]
+        },
+        {
+          "id": "16674",
+          "song_name": [
+            "Save This Lady"
+          ],
+          "artist_name": [
+            "Red Hot Chili Peppers"
+          ]
+        },
+        {
+          "id": "1727",
+          "song_name": [
+            "American Dreams"
+          ],
+          "artist_name": [
+            "Bon Jovi"
+          ]
+        },
+        {
+          "id": "9901",
+          "song_name": [
+            "Reality"
+          ],
+          "artist_name": [
+            "Kenny Chesney"
+          ]
+        },
+        {
+          "id": "42223",
+          "song_name": [
+            "American Psycho"
+          ],
+          "artist_name": [
+            "Misfits"
+          ]
+        },
+        {
+          "id": "43455",
+          "song_name": [
+            "American Dream"
+          ],
+          "artist_name": [
+            "Neil Young"
+          ]
+        },
+        {
+          "id": "22958",
+          "song_name": [
+            "My American Dream"
+          ],
+          "artist_name": [
+            "America"
+          ]
+        },
+        {
+          "id": "16604",
+          "song_name": [
+            "Fight Like A Brave"
+          ],
+          "artist_name": [
+            "Red Hot Chili Peppers"
+          ]
+        },
+        {
+          "id": "38728",
+          "song_name": [
+            "All American Man"
+          ],
+          "artist_name": [
+            "Kiss"
+          ]
+        },
+        {
+          "id": "38448",
+          "song_name": [
+            "Son Of Detroit"
+          ],
+          "artist_name": [
+            "Kid Rock"
+          ]
+        },
+        {
+          "id": "15237",
+          "song_name": [
+            "Freedom!"
+          ],
+          "artist_name": [
+            "Pharrell Williams"
+          ]
+        },
+        {
+          "id": "46881",
+          "song_name": [
+            "American Life"
+          ],
+          "artist_name": [
+            "Primus"
+          ]
+        },
+        {
+          "id": "39728",
+          "song_name": [
+            "American Star"
+          ],
+          "artist_name": [
+            "Lil Wayne"
+          ]
+        },
+        {
+          "id": "32992",
+          "song_name": [
+            "Freedom Is For Children"
+          ],
+          "artist_name": [
+            "Grand Funk Railroad"
+          ]
+        },
+        {
+          "id": "33332",
+          "song_name": [
+            "Last Of The American Girls"
+          ],
+          "artist_name": [
+            "Green Day"
+          ]
+        },
+        {
+          "id": "28526",
+          "song_name": [
+            "Freedom Of Choice"
+          ],
+          "artist_name": [
+            "Devo"
+          ]
+        },
+        {
+          "id": "25593",
+          "song_name": [
+            "American Beauty"
+          ],
+          "artist_name": [
+            "Bruce Springsteen"
+          ]
+        },
+        {
+          "id": "44176",
+          "song_name": [
+            "Franco Un-American"
+          ],
+          "artist_name": [
+            "NOFX"
+          ]
+        },
+        {
+          "id": "7781",
+          "song_name": [
+            "American Music"
+          ],
+          "artist_name": [
+            "Ian Hunter"
+          ]
+        },
+        {
+          "id": "42005",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Michael W. Smith"
+          ]
+        },
+        {
+          "id": "53431",
+          "song_name": [
+            "Freedom Of '76"
+          ],
+          "artist_name": [
+            "Ween"
+          ]
+        },
+        {
+          "id": "5942",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Fleetwood Mac"
+          ]
+        },
+        {
+          "id": "34782",
+          "song_name": [
+            "All American Alien Boy"
+          ],
+          "artist_name": [
+            "Ian Hunter"
+          ]
+        },
+        {
+          "id": "45527",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Paul McCartney"
+          ]
+        },
+        {
+          "id": "22467",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Alice Cooper"
+          ]
+        },
+        {
+          "id": "47787",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Rage Against The Machine"
+          ]
+        },
+        {
+          "id": "16180",
+          "song_name": [
+            "Freedom Fighter"
+          ],
+          "artist_name": [
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "1935",
+          "song_name": [
+            "Mother Freedom"
+          ],
+          "artist_name": [
+            "Bread"
+          ]
+        },
+        {
+          "id": "49216",
+          "song_name": [
+            "Songs Of Freedom"
+          ],
+          "artist_name": [
+            "Santana"
+          ]
+        },
+        {
+          "id": "19398",
+          "song_name": [
+            "Cry Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "35680",
+          "song_name": [
+            "Ready Or Not"
+          ],
+          "artist_name": [
+            "Jackson Browne"
+          ]
+        },
+        {
+          "id": "54592",
+          "song_name": [
+            "Fight The Power"
+          ],
+          "artist_name": [
+            "Xzibit"
+          ]
+        },
+        {
+          "id": "54363",
+          "song_name": [
+            "Sounds Of Freedom"
+          ],
+          "artist_name": [
+            "Within Temptation"
+          ]
+        },
+        {
+          "id": "13140",
+          "song_name": [
+            "Freedom Song"
+          ],
+          "artist_name": [
+            "Neil Diamond"
+          ]
+        },
+        {
+          "id": "46282",
+          "song_name": [
+            "Marijuana"
+          ],
+          "artist_name": [
+            "Phish"
+          ]
+        },
+        {
+          "id": "5465",
+          "song_name": [
+            "Blackjack"
+          ],
+          "artist_name": [
+            "Everclear"
+          ]
+        },
+        {
+          "id": "18534",
+          "song_name": [
+            "Two Lanes Of Freedom"
+          ],
+          "artist_name": [
+            "Tim McGraw"
+          ]
+        },
+        {
+          "id": "36057",
+          "song_name": [
+            "Freedom"
+          ],
+          "artist_name": [
+            "Jimi Hendrix"
+          ]
+        },
+        {
+          "id": "52294",
+          "song_name": [
+            "Sweet Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "10662",
+          "song_name": [
+            "Freedom Time"
+          ],
+          "artist_name": [
+            "Lauryn Hill"
+          ]
+        },
+        {
+          "id": "18926",
+          "song_name": [
+            "All American Girl"
+          ],
+          "artist_name": [
+            "Train"
+          ]
+        },
+        {
+          "id": "50386",
+          "song_name": [
+            "Holy Mountains"
+          ],
+          "artist_name": [
+            "System Of A Down"
+          ]
+        },
+        {
+          "id": "50790",
+          "song_name": [
+            "Freedom Song"
+          ],
+          "artist_name": [
+            "Thin Lizzy"
+          ]
+        },
+        {
+          "id": "15770",
+          "song_name": [
+            "American Dream"
+          ],
+          "artist_name": [
+            "Puff Daddy"
+          ]
+        },
+        {
+          "id": "52235",
+          "song_name": [
+            "Kiss Of Freedom"
+          ],
+          "artist_name": [
+            "Uriah Heep"
+          ]
+        },
+        {
+          "id": "33368",
+          "song_name": [
+            "Reject"
+          ],
+          "artist_name": [
+            "Green Day"
           ]
         }
       ]
