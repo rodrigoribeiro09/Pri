@@ -1,6 +1,7 @@
 {
-  "q": "fear anxiety",
-  "core": "simple",
-  "queryConfig": "simple",
+  "q": "broken heart",
+  "core": "boosted",
+  "queryConfig": "enhanced",
   "rows": 75
 }
+

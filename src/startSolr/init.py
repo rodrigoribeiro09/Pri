@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
 import subprocess
 from pathlib import Path
 
 
 SOLR_CONTAINER = "song_solr"
-CORES = ["simple", "songs"]
+CORES = ["simple", "songs", "boosted"]  
 
 SYNONYMS_FILE = Path.cwd() / "solr" / "synonyms_hand.txt"
 STOPWORDS_FILE = Path.cwd() / "solr" / "stopwords.txt"
@@ -22,14 +21,12 @@ def run_command(cmd, check=True):
     return result
 
 
-
 def create_core(core_name):
     cmd = [
         "docker", "exec", "-it", SOLR_CONTAINER,
         "bin/solr", "create_core", "-c", core_name
     ]
     run_command(cmd)
-
 
 
 def copy_conf_files(core_name):

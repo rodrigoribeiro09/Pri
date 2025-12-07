@@ -6,6 +6,7 @@ from pathlib import Path
 cores = [
     {"core": "simple", "schema": "solr/schemaSimple.xml", "url": "http://localhost:8983/solr/simple/schema"},
     {"core": "songs", "schema": "solr/schema2.xml", "url": "http://localhost:8983/solr/songs/schema"},
+    {"core": "boosted", "schema": "solr/Boosted.xml", "url": "http://localhost:8983/solr/boosted/schema"}
 ]
 
 

@@ -1,10 +1,12 @@
-#!/usr/bin/env python3
 import subprocess
 
-# Configurações
 SOLR_CONTAINER = "song_solr"
-CORES = ["simple", "songs"] 
-DATASET_FILE = "/data/dataset.csv"  
+
+CORES = {
+    "simple": "/dataset/dataset.csv",
+    "songs": "/dataset/dataset.csv",
+    "boosted": "/dataset/boosted.json",   
+}
 
 def run_command(cmd):
     print(f"> {' '.join(cmd)}")
@@ -16,11 +18,11 @@ def run_command(cmd):
         raise RuntimeError(f"Command failed: {' '.join(cmd)}")
 
 def post_docs():
-    for core in CORES:
-        print(f"🚀 Adicionar docs'{core}'...")
+    for core, path in CORES.items():
+        print(f"🚀 Adicionar docs '{core}'...")
         cmd = [
             "docker", "exec", "-it", SOLR_CONTAINER,
-            "sh", "-c", f"bin/solr post -c {core} {DATASET_FILE}"
+            "sh", "-c", f"bin/solr post -c {core} {path}"
         ]
         run_command(cmd)
         print(f"✅ Docs enviados '{core}'\n")

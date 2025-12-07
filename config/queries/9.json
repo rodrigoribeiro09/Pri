@@ -1,7 +1,7 @@
 {
     "q": "freedom american band",
-    "core": "songs",
-    "queryConfig": "enhanced",
+    "core": "simple",
+    "queryConfig": "simple",
     "rows": 75
 }
 
