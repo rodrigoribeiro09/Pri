@@ -1,11 +1,12 @@
+#!/usr/bin/env python3
 import subprocess
 
 SOLR_CONTAINER = "song_solr"
 
 CORES = {
-    "simple": "/dataset/dataset.csv",
-    "songs": "/dataset/dataset.csv",
-    "boosted": "/dataset/boosted.json",   
+    "simple": "/data/dataset.csv",
+    "songs": "/data/dataset.csv",
+    "boosted": "/data/boosted.json",  
 }
 
 def run_command(cmd):

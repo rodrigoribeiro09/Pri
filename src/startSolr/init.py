@@ -1,16 +1,14 @@
 import subprocess
 from pathlib import Path
 
-
 SOLR_CONTAINER = "song_solr"
-CORES = ["simple", "songs", "boosted"]  
+CORES = ["simple", "songs", "boosted"]
 
 SYNONYMS_FILE = Path.cwd() / "solr" / "synonyms_hand.txt"
 STOPWORDS_FILE = Path.cwd() / "solr" / "stopwords.txt"
 
 
 def run_command(cmd, check=True):
-    """Executa um comando shell e imprime saída."""
     print(f"> {' '.join(cmd)}")
     result = subprocess.run(cmd, capture_output=True, text=True)
     print(result.stdout)
@@ -41,11 +39,49 @@ def copy_conf_files(core_name):
         run_command(cmd)
 
 
+def configure_vector_field(core_name):
+    # fieldType songVector
+    cmd_type = [
+        "docker", "exec", "-it", SOLR_CONTAINER,
+        "curl", "-s", "-X", "POST",
+        f"http://localhost:8983/solr/{core_name}/schema",
+        "-H", "Content-Type: application/json",
+        "--data-binary",
+        '{"add-field-type": {'
+        '  "name": "songVector",'
+        '  "class": "solr.DenseVectorField",'
+        '  "vectorDimension": 384,'
+        '  "similarityFunction": "cosine",'
+        '  "knnAlgorithm": "hnsw"'
+        '}}',
+    ]
+    run_command(cmd_type)
+
+    # field vector
+    cmd_field = [
+        "docker", "exec", "-it", SOLR_CONTAINER,
+        "curl", "-s", "-X", "POST",
+        f"http://localhost:8983/solr/{core_name}/schema",
+        "-H", "Content-Type: application/json",
+        "--data-binary",
+        '{"add-field": {'
+        '  "name": "vector",'
+        '  "type": "songVector",'
+        '  "indexed": true,'
+        '  "stored": true'
+        '}}',
+    ]
+    run_command(cmd_field)
+
+
 def main():
     for core in CORES:
         print(f"🚀 Criar core '{core}'...")
         create_core(core)
         copy_conf_files(core)
+        if core == "boosted":
+            print("⚙️  Configurar DenseVectorField no core 'boosted'...")
+            configure_vector_field(core)
         print(f"✅ Core '{core}' configurado!\n")
 
 

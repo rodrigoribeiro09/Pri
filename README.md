@@ -19,3 +19,12 @@
 ## MIle 3
 - Adicionar os embeeding as lyrics das musicas
 - Adicionar o vector dense ao schema do solr
+
+
+- Mantém a criação dos 3 cores (simple, songs, boosted) com bin/solr create_core e a cópia de synonyms_hand.txt e stopwords.txt para cada conf.​
+
+- Para o core boosted, chama configure_vector_field, que usa a Schema API para:
+
+    - criar o fieldType songVector como solr.DenseVectorField com vectorDimension=384, similarityFunction=cosine e knnAlgorithm=hnsw, alinhado com a doc de DenseVectorField;​
+
+    - criar o campo vector deste tipo, indexed e stored, para guardar os embeddings no índice e permitir queries knn.​
