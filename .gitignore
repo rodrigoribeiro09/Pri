@@ -210,6 +210,16 @@ marimo/_lsp/
 __marimo__/
 _dataset/
 dataset/
+dataset/artists.csv
+dataset/albums.csv
+dataset/songs.csv
+dataset/songV2.csv
+dataset/booted.json
+dataset/dataset_with_embeddings.json
+dataset/dataset
+dataset/senatic_dataset.json
+results/semantic_output_format.json
+
 results/solr_output_format.json
 results/solr_output.json
 results/solr_output_format.json
