@@ -23,7 +23,7 @@ try:
     print(f"Sucesso: O ficheiro '{output_filename}' foi criado no formato Solr/WordNet.")
 
 except FileNotFoundError:
-    print(f"ERRO: O ficheiro '{json_filename}' não foi encontrado. Verifique se está na pasta correta.")
+    print(f"ERRO: O ficheiro '{json_filename}' não foi encontrado.")
 except json.JSONDecodeError:
     print(f"ERRO: O ficheiro '{json_filename}' está corrompido ou mal formatado em JSON.")
 except Exception as e:

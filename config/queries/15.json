@@ -1,6 +1,7 @@
 {
-  "q": "rock love",
-  "core": "songs",
-  "queryConfig": "enhanced",
-  "rows": 150
+    "q": "freedom liberty american band",
+    "core": "boosted",
+    "queryConfig": "enhanced",
+    "rows": 25
 }
+

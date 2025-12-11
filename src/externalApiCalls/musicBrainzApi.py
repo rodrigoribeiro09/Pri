@@ -26,7 +26,7 @@ def mb_search_artist(name, retries=3):
 
 
 def enrich_artists_with_country(input_csv, output_csv, sleep=1.0):
-    """Enriquece um CSV de artistas com país (ISO code e nome)."""
+
     df = pd.read_csv(input_csv, dtype=str)
     countries = []
     country_codes = []
@@ -51,7 +51,7 @@ def enrich_artists_with_country(input_csv, output_csv, sleep=1.0):
     df["artist_country"] = countries
     df["artist_country_code"] = country_codes
     df.to_csv(output_csv, index=False, encoding="utf-8")
-    print(f"✅ Saved enriched artists to {output_csv}")
+    print(f"Saved enriched artists to {output_csv}")
 
 
 if __name__ == "__main__":

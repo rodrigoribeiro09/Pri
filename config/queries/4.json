@@ -1,7 +1,7 @@
 {
-  "q": "broken heart",
-  "core": "boosted",
-  "queryConfig": "enhanced",
-  "rows": 75
+  "q": "broken heart ",
+  "core": "semantic",
+  "queryConfig": "simple",
+  "rows":25
 }
 

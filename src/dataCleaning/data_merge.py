@@ -75,6 +75,40 @@ def build_boosted_json():
 
     print(f"Saved {len(docs)} docs to {OUT_JSON}")
 
+
+def build_semantic_json():
+    df = pd.read_csv(DATASET_FILE, dtype=str)
+
+    with open(EMB_JSON, "r", encoding="utf-8") as f:
+        embs = json.load(f)
+
+    emb_df = pd.DataFrame(embs)
+
+    df["id"] = df["id"].astype(str)
+    emb_df["song_id"] = emb_df["song_id"].astype(str)
+
+    emb_df = emb_df[["song_id", "vector"]]
+
+    merged = df.merge(emb_df, left_on="id", right_on="song_id", how="inner")
+    merged = merged.drop(columns=["song_id"])
+
+    docs = merged.to_dict(orient="records")
+
+    for d in docs:
+        if isinstance(d.get("vector"), str):
+            d["vector"] = json.loads(d["vector"])
+
+        d.pop("song_genre", None)
+        d.pop("artist_nationality", None)
+
+    semantic_json = "semantic_dataset.json"  
+
+    with open(semantic_json, "w", encoding="utf-8") as f:
+        json.dump(docs, f, ensure_ascii=False)
+
+    print(f"Saved {len(docs)} docs to {semantic_json}")
+
+
 if __name__ == "__main__":
 
-    build_boosted_json()
+    build_semantic_json()

@@ -40,3 +40,4 @@ heart,warmness,mettle,middle,warmheartedness,affection,affectionateness
 metal,metallic,alloy,metallic element
 punk,goon,toughie,thug,spunk,sleazy,crummy,kindling,punk rock,tinny,bum,touchwood,chintzy,tough,hoodlum,punk,cheesy,cheap,hood,rocker
 rock,rock-and-roll,rock 'n' roll,rock'n'roll,rock music
+america, united states, united states of america, usa, u.s.a., us, u.s., american

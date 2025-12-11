@@ -1,7 +1,6 @@
 {
-    "q": "freedom american band",
-    "core": "boosted",
-    "queryConfig": "enhanced",
-    "rows": 75
+    "q": "freedom liberty american band",
+  "core": "songs",
+  "queryConfig": "simple",
+  "rows": 25
 }
-

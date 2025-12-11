@@ -185,7 +185,7 @@ def _load_progress(progress_file: str) -> Tuple[int, Dict[str, Any]]:
 			return data.get("last_index", 0), data.get("cache", {})
 	return 0, {}
 
-
+# Le code gg 
 def augment_csv_with_lastfm(
     csv_path: str,
     out_csv_path: Optional[str] = None,

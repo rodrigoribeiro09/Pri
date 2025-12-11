@@ -1,6 +1,6 @@
 {
-  "q": "rock love",
-  "core": "boosted",
-  "queryConfig": "enhanced",
-  "rows": 150
+  "q": "rock songs about romantic love",
+  "core": "simple",
+  "queryConfig": "simple",
+  "rows": 25
 }

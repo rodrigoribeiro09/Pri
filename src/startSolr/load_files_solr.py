@@ -3,8 +3,9 @@ import subprocess
 SOLR_CONTAINER = "song_solr"
 
 CORES = {
-    "simple": "/data/dataset.csv",
-    "songs": "/data/dataset.csv",
+    "simple": "/data/dataset_simple.csv",
+    "songs": "/data/dataset_simple.csv",
+    "semantic": "/data/semantic_dataset.json",
     "boosted": "/data/boosted.json",  
 }
 

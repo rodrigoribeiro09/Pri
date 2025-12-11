@@ -1,6 +1,6 @@
 {
-  "q": "freedom american band",
-  "core": "songs",
-  "queryConfig": "simple",
-  "rows": 150
+  "q": "fear anxiety",
+  "core": "boosted",
+  "queryConfig": "enhanced",
+  "rows": 25
 }

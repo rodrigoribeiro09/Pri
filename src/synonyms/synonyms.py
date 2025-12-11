@@ -56,7 +56,7 @@ def generate_synonyms_from_txt(input_filename, output_filename):
                     line = word + "," + ",".join(syns)
                     f.write(line + "\n")
 
-        print(f"✅ Dicionário de sinónimos guardado em '{output_filename}'")
+        print(f" Dicionário de sinónimos guardado em '{output_filename}'")
 
     except FileNotFoundError:
         print(f"ERRO: Não foi possível encontrar o ficheiro '{input_filename}'")
@@ -82,23 +82,19 @@ def generate_wordnet_synonyms(input_csv, output_file, columns=None, pos_tags=[wo
     if columns is None:
         columns = ['song_name', 'album_name', 'song_lyrics', 'artist_bio']
 
-    # Check file exists
     if not os.path.exists(input_csv):
         raise FileNotFoundError(f"{input_csv} not found!")
 
-    # Download NLTK resources
     nltk_data_path = os.path.expanduser('~/nltk_data')
     nltk.data.path.append(nltk_data_path)
 
-    # Baixar recursos necessários
-    nltk.download('punkt', download_dir=nltk_data_path, quiet=True)   # tokenizador
-    nltk.download('punkt_tab', download_dir=nltk_data_path, quiet=True)  # evita erro punkt_tab
+    nltk.download('punkt', download_dir=nltk_data_path, quiet=True)   
+    nltk.download('punkt_tab', download_dir=nltk_data_path, quiet=True)  
     nltk.download('wordnet', download_dir=nltk_data_path, quiet=True)
     nltk.download('omw-1.4', download_dir=nltk_data_path, quiet=True)
     nltk.download('stopwords', download_dir=nltk_data_path, quiet=True)
     stop_words = set(stopwords.words('english'))
     translator = str.maketrans('', '', string.punctuation)
-    print("✅ NLTK resources downloaded.")
     df = pd.read_csv(input_csv)
     all_words = set()
 
@@ -123,18 +119,15 @@ def generate_wordnet_synonyms(input_csv, output_file, columns=None, pos_tags=[wo
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(synonyms_mapping, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ Saved {len(synonyms_mapping)} words with synonyms to '{output_file}'")
 
 
 
 
 def json_to_txt(json_file_path, output_file_path):
    
-    # Open and load the JSON file
     with open(json_file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # Write to TXT file
     with open(output_file_path, 'w', encoding='utf-8') as f:
         for key, values in data.items():
             line = ', '.join([key] + values)

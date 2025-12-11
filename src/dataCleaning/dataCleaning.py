@@ -63,11 +63,15 @@ def split_broken_rows(csv_file):
     print(f"Linhas OK: {len(clean)}")
     print(f"Linhas com erro: {len(broken)} (guardadas em broken_rows.csv)")
 
+import pandas as pd
 
+def get_default_dataset():
+  
+    df = pd.read_csv("dataset/dataset.csv")
+    cols_to_drop = [c for c in ["artist_nationality", "song_genre"] if c in df.columns]
+    df=df.drop(columns=cols_to_drop)
+    df.to_csv("dataset/dataset_simple.csv", index=False)
+    return 
 
 if __name__ == "__main__":
-    #missing_artists = get_artists_missing_country("dataset/artists_enriched.csv")
-    bugged_artists = get_bugged_bio_artists("dataset/artists_enriched.csv")
-    print(f"Found {(bugged_artists)} artists with bugged bios:\n")
-    #print(f"Found {len(missing_artists)} artists with missing country info:\n")
-    #print(missing_artists)
+    get_default_dataset()

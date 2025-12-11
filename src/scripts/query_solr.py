@@ -5,7 +5,13 @@ from pathlib import Path
 import glob
 import requests
 
+# Add src directory to Python path to enable imports from sibling modules
+src_path = Path(__file__).parent.parent
+if str(src_path) not in sys.path:
+    sys.path.insert(0, str(src_path))
+
 from semanticSearch.query_embedding import text_to_embedding
+
 
 
 def build_semantic_only_params(base_query: str, rows: int) -> dict:
@@ -19,7 +25,8 @@ def build_semantic_only_params(base_query: str, rows: int) -> dict:
 
         "rows": rows,
         "wt": "json",
-        "fl": "id,song_name,artist_name,score",
+        "fl": "id,song_name,artist_name,song_lyrics,artist_bio,artist_nationality,song_genre,album_name,score",
+
     }
 
     return params
@@ -42,24 +49,26 @@ def build_hybrid_params(base_query: str, rows: int) -> dict:
 
         "rows": rows,
         "wt": "json",
-        "fl": "id,song_name,artist_name,score",
+        "fl": "id,song_name,artist_name,song_lyrics,artist_bio,artist_nationality,song_genre,album_name,score",
+
 
         "lexicalQuery": "{!edismax}" + base_query,
-        "qf": (
-            "song_lyrics^5 "
-            "song_name^4 "
-            "song_genre^4 "
-            "artist_name^2 "
-            "artist_bio^1 "
-            "album_name^1 "
-            "artist_nationality^1"
+       "qf": (
+        "song_lyrics^6 "         
+        "song_name^4 "           
+        "artist_name^1 "        
+        "artist_bio^2 "        
+        "album_name^1 "          
+        "artist_nationality^7 "   
+        "song_genre^3"           
         ),
-        "pf": "song_lyrics^10 song_name^5",
-        "pf2": "song_lyrics^7 song_name^3 artist_bio^1",
-        "pf1": "song_lyrics^2 song_name^1 artist_bio^1",
+
+        "pf":  "song_lyrics^9 song_name^6",
+        "pf2": "song_lyrics^8 song_name^3 artist_bio^1",
+        "pf1": "song_lyrics^3 song_name^1",
         "ps": 3,
         "ps2": 2,
-        "mm": "75%",
+        "mm": "70%",
         "tie": 0.1,
 
         "vectorQuery": f"{{!knn f=vector topK={topK}}}{embedding_str}",
@@ -90,12 +99,12 @@ def edismax_query_from_config(config_path, solr_uri):
     core = config.get("core", "music")  # default core if not specified
     rows = config.get("rows", 10)
 
-    if core == "boosted":
+    if core == "boosted" :
         if query_config_type == "enhanced":
             # Hybrid SEARCH
             params = build_hybrid_params(base_query, rows)
-        else:
-            # Just for test cases
+    elif core == "semantic":
+            #semantic
             params = build_semantic_only_params(base_query, rows)
 
     else:
@@ -127,7 +136,7 @@ def edismax_query_from_config(config_path, solr_uri):
     uri = f"{solr_uri.rstrip('/')}/{core}/select"
 
     try:
-        response = requests.get(uri, params=params)
+        response = requests.post(uri,data=params,timeout=10)
         response.raise_for_status()
     except requests.RequestException as e:
         print(f"Error querying Solr core '{core}': {e}")
@@ -185,7 +194,10 @@ def main():
                 simple_doc = {
                     "id": doc.get("id"),
                     "song_name": doc.get("song_name", []),
-                    "artist_name": doc.get("artist_name", [])
+                    "artist_name": doc.get("artist_name", []),
+                    "song_lyrics": doc.get("song_lyrics", []),
+                    "artist_bio": doc.get("artist_bio", []),
+                    "artist_nationality": doc.get("artist_nationality", []),
                 }
                 simple_docs.append(simple_doc)
 

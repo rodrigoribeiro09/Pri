@@ -26,6 +26,9 @@
 - Para o core boosted, chama configure_vector_field, que usa a Schema API para:
 
     - criar o fieldType songVector como solr.DenseVectorField com vectorDimension=384, similarityFunction=cosine e knnAlgorithm=hnsw, alinhado com a doc de DenseVectorField;​
-
     - criar o campo vector deste tipo, indexed e stored, para guardar os embeddings no índice e permitir queries knn.​
-    - Q
+    - Hybrid search:
+        - Os resultados é intreceção do semantic search com o lexical search:
+        - Refrencias-https://sease.io/2023/12/hybrid-search-with-apache-solr.html
+        - Vetorial (KNN) encontra os topK resultados semanticamente relevantes.
+        - Lexical (eDisMax) é executado apenas dentro desse conjunto, e o score textual define a ordenação final que o utilizador vê.

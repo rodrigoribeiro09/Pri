@@ -2,7 +2,7 @@ import subprocess
 from pathlib import Path
 
 SOLR_CONTAINER = "song_solr"
-CORES = ["simple", "songs", "boosted"]
+CORES = ["simple", "songs","semantic", "boosted"]
 
 SYNONYMS_FILE = Path.cwd() / "solr" / "synonyms_hand.txt"
 STOPWORDS_FILE = Path.cwd() / "solr" / "stopwords.txt"
@@ -79,8 +79,8 @@ def main():
         print(f"🚀 Criar core '{core}'...")
         create_core(core)
         copy_conf_files(core)
-        if core == "boosted":
-            print("⚙️  Configurar DenseVectorField no core 'boosted'...")
+        if core == "boosted" or core == "semantic":
+            print("⚙️  Configurar DenseVectorField no core 'boosted' ou 'semantic'...")
             configure_vector_field(core)
         print(f"✅ Core '{core}' configurado!\n")
 
