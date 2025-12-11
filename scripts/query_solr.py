@@ -5,11 +5,73 @@ from pathlib import Path
 import glob
 import requests
 
+from semanticSearch.query_embedding import text_to_embedding
+
+
+def build_semantic_only_params(base_query: str, rows: int) -> dict:
+
+    embedding_str = text_to_embedding(base_query)
+
+    topK = rows if rows > 0 else 10
+
+    params = {
+        "q": f"{{!knn f=vector topK={topK}}}{embedding_str}",
+
+        "rows": rows,
+        "wt": "json",
+        "fl": "id,song_name,artist_name,score",
+    }
+
+    return params
+
+
+def build_hybrid_params(base_query: str, rows: int) -> dict:
+    """
+    Constrói parâmetros de uma query híbrida em 2 etapas:
+    - vectorQuery: KNN em 'vector' (embeddings de song_lyrics) traz topK candidatos
+    - lexicalQuery: eDisMax filtra e ordena dentro desses candidatos
+    """
+    embedding_str = text_to_embedding(base_query)
+
+    #  K maior do que rows para ter bom conjunto de candidatos
+    topK = rows * 5 if rows > 0 else 50
+
+    params = {
+        # Interseção: só docs que estão no topK vetorial E casam com a query lexical
+        "q": "{!bool must=$lexicalQuery must=$vectorQuery}",
+
+        "rows": rows,
+        "wt": "json",
+        "fl": "id,song_name,artist_name,score",
+
+        "lexicalQuery": "{!edismax}" + base_query,
+        "qf": (
+            "song_lyrics^5 "
+            "song_name^4 "
+            "song_genre^4 "
+            "artist_name^2 "
+            "artist_bio^1 "
+            "album_name^1 "
+            "artist_nationality^1"
+        ),
+        "pf": "song_lyrics^10 song_name^5",
+        "pf2": "song_lyrics^7 song_name^3 artist_bio^1",
+        "pf1": "song_lyrics^2 song_name^1 artist_bio^1",
+        "ps": 3,
+        "ps2": 2,
+        "mm": "75%",
+        "tie": 0.1,
+
+        "vectorQuery": f"{{!knn f=vector topK={topK}}}{embedding_str}",
+    }
+
+    return params
+
+
 def edismax_query_from_config(config_path, solr_uri):
     """
     Execute an EDisMax query in Solr based on a JSON configuration.
     Supports simple queries or enhanced queries with qf/pf/pf2/pf1/ps/mm/tie.
-    The core is taken from the 'core' attribute in the config.
     """
     # === 1. Read JSON config ===
     try:
@@ -22,34 +84,44 @@ def edismax_query_from_config(config_path, solr_uri):
         print(f"Invalid JSON format in config file: {config_path}")
         sys.exit(1)
 
-    # === 2. Base query ===
     base_query = config.get("q", "").strip()
-    query_config_type = config.get("queryConfig", "simple")  # 'simple' or 'enhanced'
+    query_config_type = config.get(
+        "queryConfig", "simple")  # 'simple' or 'enhanced'
     core = config.get("core", "music")  # default core if not specified
     rows = config.get("rows", 10)
 
-    # === 3. Build query parameters ===
-    params = {
-        "q": base_query,
-        "qf": "song_lyrics song_name artist_name artist_bio album_name",
-        "defType": "edismax",
-        "rows": rows,
-        "wt": "json",
-        "fl": "*,score"
-    }
+    if core == "boosted":
+        if query_config_type == "enhanced":
+            # Hybrid SEARCH
+            params = build_hybrid_params(base_query, rows)
+        else:
+            # Just for test cases
+            params = build_semantic_only_params(base_query, rows)
 
-    if query_config_type == "enhanced":
-        # Apply the enhanced EDisMax configuration
-        params.update({
-            "qf": "song_lyrics^5 song_name^3 artist_name^2 artist_bio^2 album_name^1",
-            "pf": "song_lyrics^10 song_name^5",
-            "pf2": "song_lyrics^7 song_name^3 artist_bio^1",
-            "pf1": "song_lyrics^2 song_name^1 artist_bio^1",
-            "ps": 3,
-            "ps2": 2,
-            "mm": "75%",
-            "tie": 0.1
-        })
+    else:
+        # Semantic SEARCH
+        # === 3. Build query parameters ===
+        params = {
+            "q": base_query,
+            "qf": "song_lyrics song_name artist_name artist_bio album_name",
+            "defType": "edismax",
+            "rows": rows,
+            "wt": "json",
+            "fl": "*,score"
+        }
+
+        if query_config_type == "enhanced":
+            # Apply the enhanced EDisMax configuration
+            params.update({
+                "qf": "song_lyrics^5 song_name^3 artist_name^2 artist_bio^2 album_name^1",
+                "pf": "song_lyrics^10 song_name^5",
+                "pf2": "song_lyrics^7 song_name^3 artist_bio^1",
+                "pf1": "song_lyrics^2 song_name^1 artist_bio^1",
+                "ps": 3,
+                "ps2": 2,
+                "mm": "75%",
+                "tie": 0.1
+            })
 
     # === 4. Execute query against the specified core ===
     uri = f"{solr_uri.rstrip('/')}/{core}/select"
@@ -61,7 +133,7 @@ def edismax_query_from_config(config_path, solr_uri):
         print(f"Error querying Solr core '{core}': {e}")
         sys.exit(1)
     print(f"Query executed on core '{core}': {params}")
-    print(f"🔍 Core: {core} | Final Solr query: {base_query}")
+    print(f" Core: {core} | Final Solr query: {base_query}")
     return response.json()
 
 
@@ -83,7 +155,8 @@ def main():
 
     results_full = {}
     results_simple = {}
-    fields_to_list = ["song_name", "song_lyrics", "album_name", "artist_name", "artist_bio"]
+    fields_to_list = ["song_name", "song_lyrics",
+                      "album_name", "artist_name", "artist_bio"]
 
     for idx, query_file in enumerate(query_files):
         filename = Path(query_file).stem
@@ -92,7 +165,6 @@ def main():
         try:
             solr_result = edismax_query_from_config(query_file, solr_uri)
 
-            # Normalize certain fields to always be lists
             for doc in solr_result.get("response", {}).get("docs", []):
                 for f in fields_to_list:
                     if f in doc and not isinstance(doc[f], list):
@@ -107,6 +179,7 @@ def main():
             results_full[key] = solr_result
 
             # Extract simplified docs
+            # Just for test  porposes
             simple_docs = []
             for doc in solr_result.get("response", {}).get("docs", []):
                 simple_doc = {
@@ -122,7 +195,6 @@ def main():
             print(f"Error running query {filename}: {e}")
             continue
 
-    # Save results
     output_path_full = Path("results/solr_output.json")
     output_path_full.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path_full, "w", encoding="utf-8") as f:

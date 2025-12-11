@@ -28,3 +28,4 @@
     - criar o fieldType songVector como solr.DenseVectorField com vectorDimension=384, similarityFunction=cosine e knnAlgorithm=hnsw, alinhado com a doc de DenseVectorField;​
 
     - criar o campo vector deste tipo, indexed e stored, para guardar os embeddings no índice e permitir queries knn.​
+    - Q
