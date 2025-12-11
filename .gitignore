@@ -214,3 +214,6 @@ results/solr_output_format.json
 results/solr_output.json
 results/solr_output_format.json
 results/solr_output.json
+synonyms_output_wordnet2.json
+synonyms_output_wordnet.json
+trec_eval/
