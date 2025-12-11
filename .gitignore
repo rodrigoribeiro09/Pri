@@ -212,6 +212,9 @@ __marimo__/
 dataset/boosted.json
 dataset/dataset.csv
 dataset/dataset_with_embeddings.json
+dataset/dataset_with_embeddings.json
+dataset/semantic_dataset.json
+
 
 results/solr_output_format.json
 results/solr_output.json
