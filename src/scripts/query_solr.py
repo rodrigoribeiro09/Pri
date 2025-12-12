@@ -33,48 +33,46 @@ def build_semantic_only_params(base_query: str, rows: int) -> dict:
 
 
 def build_hybrid_params(base_query: str, rows: int) -> dict:
-    """
-    Constrói parâmetros de uma query híbrida em 2 etapas:
-    - vectorQuery: KNN em 'vector' (embeddings de song_lyrics) traz topK candidatos
-    - lexicalQuery: eDisMax filtra e ordena dentro desses candidatos
-    """
     embedding_str = text_to_embedding(base_query)
 
-    #  K maior do que rows para ter bom conjunto de candidatos
-    topK = rows * 5 if rows > 0 else 50
+    topK = rows * 10 if rows > 0 else 200  # mais candidatos semânticos
 
     params = {
-        # Interseção: só docs que estão no topK vetorial E casam com a query lexical
         "q": "{!bool must=$lexicalQuery must=$vectorQuery}",
 
         "rows": rows,
         "wt": "json",
-        "fl": "id,song_name,artist_name,song_lyrics,artist_bio,artist_nationality,song_genre,album_name,score",
-
-
-        "lexicalQuery": "{!edismax}" + base_query,
-       "qf": (
-        "song_lyrics^6 "         
-        "song_name^3 "           
-        "artist_name^1 "        
-        "artist_bio^2 "        
-        "album_name^1 "          
-        "artist_nationality^4 "   
-        "song_genre^3"           
+        "fl": (
+            "id,song_name,artist_name,song_lyrics,artist_bio,"
+            "artist_nationality,song_genre,album_name,score"
         ),
 
-        "pf":  "song_lyrics^9 song_name^2",
-        "pf2": "song_lyrics^8 song_name^3 artist_bio^1",
-        "pf1": "song_lyrics^3 song_name^1",
+        "lexicalQuery": "{!edismax}" + base_query,
+        "qf": (
+            "song_lyrics^4 "
+            "song_name^2 "
+            "artist_name^1 "
+            "artist_bio^2 "
+            "album_name^1 "
+            "artist_nationality^20 "
+            "song_genre^20 "
+        ),
+
+
+        "pf":  "song_lyrics^2 song_name^1 artist_bio^2",
+        "pf2": "song_lyrics^2 song_name^1 artist_bio^2",
+
+        "pf1": "artist_bio^3 artist_nationality^10 song_genre^10",
+
         "ps": 3,
         "ps2": 2,
-        "mm": "70%",
+        "mm": "75%",
         "tie": 0.1,
 
         "vectorQuery": f"{{!knn f=vector topK={topK}}}{embedding_str}",
     }
-
     return params
+
 
 
 def edismax_query_from_config(config_path, solr_uri):

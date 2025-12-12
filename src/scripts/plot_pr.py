@@ -1,74 +1,69 @@
-#!/usr/bin/env python3
-
 import sys
-
 import matplotlib.pyplot as plt
 import numpy as np
 
+CHUNK_SIZE = 5  # número de queries por gráfico
 
-def main(trec_eval_stdout: str):
+def chunks(lst, n):
+    """Yield listas de tamanho n a partir de lst."""
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
 
-    # preprocessing - obtain results for each query
+def main(trec_eval_stdout: list[str]):
     results = {x: {} for x in set([x.split()[1] for x in trec_eval_stdout])}
 
     for metric in trec_eval_stdout:
         (name, query_id, value) = metric.split()
         results[query_id][name] = value
 
-    del results["all"]  # discard aggregated results
+    if "all" in results:
+        del results["all"]
 
-    for query_id, metrics in results.items():
+    query_ids = sorted(results.keys(), key=lambda x: int(x))
 
-        # Obtain interpolated precision and recall
-        recall = np.arange(0, 1.1, 0.1)
+    for group_idx, group_qids in enumerate(chunks(query_ids, CHUNK_SIZE), start=1):
+        plt.figure()
 
-        pr_keys = [f"iprec_at_recall_{k:.2f}" for k in recall]
-        iprecision = np.array([float(metrics[k]) for k in pr_keys])
+        for query_id in group_qids:
+            metrics = results[query_id]
 
-        # Obtain Average Precision (AP)
-        ap_score = float(metrics["map"])
-        p_10 = float(metrics["P_10"])
+            recall = np.arange(0, 1.1, 0.1)
+            pr_keys = [f"iprec_at_recall_{k:.2f}" for k in recall]
+            iprecision = np.array([float(metrics[k]) for k in pr_keys])
 
-        # Obtain the Area Under Curve (AUC) estimate
-        auc_score = float(metrics["11pt_avg"])
+            ap_score = float(metrics["map"])
+            p_20 = float(metrics["P_20"])
+            auc_score = float(metrics["11pt_avg"])
 
-        line_kwargs = {
-            "drawstyle": "steps-post",
-            "label": f"Q{query_id}: AP={ap_score:.3f}, AUC={auc_score:.3f}, P@10={p_10:.3f}",
-            "linewidth": 2,
-            "markersize": 10,
+            line_kwargs = {
+                "drawstyle": "steps-post",
+                "label": f"Q{query_id}: AP={ap_score:.3f}, AUC={auc_score:.3f}, P@20={p_20:.3f}",
+                "linewidth": 2,
+                "markersize": 10,
+            }
+
+            plt.plot(recall, iprecision, **line_kwargs)
+
+        plt.title(f"Precision-Recall Curve (Q{group_qids[0]}–Q{group_qids[-1]})")
+
+        axis_kwargs = {
+            "fontsize": 9,
+            "verticalalignment": "baseline",
+            "style": "italic",
         }
 
-        # Plot the 11-point interpolated precision-recall curve
-        plt.plot(recall, iprecision, **line_kwargs)
+        plt.xlabel("Recall", fontdict=axis_kwargs)
+        plt.ylabel("Precision", fontdict=axis_kwargs)
+        plt.xlim(-0.005, 1.005)
+        plt.ylim(-0.005, 1.005)
+        plt.legend(loc="upper right", prop={"size": 10})
+        plt.grid(True, linestyle="--", linewidth=0.5)
+        plt.tight_layout()
 
-    # Keep the title as "Precision-Recall Curve"
-    plt.title("Precision-Recall Curve")
-
-    # Customize plot appearance
-    axis_kwargs = {
-        "fontsize": 9,
-        "verticalalignment": "baseline",
-        "style": "italic",
-    }
-
-    plt.xlabel("Recall", fontdict=axis_kwargs)
-    plt.ylabel("Precision", fontdict=axis_kwargs)
-    plt.xlim(-0.005, 1.005)
-    plt.ylim(-0.005, 1.005)
-    plt.legend(loc="lower left", prop={"size": 10}, )
-    plt.grid(True)
-    plt.grid(linestyle='--', linewidth=0.5)
-    plt.tight_layout()
-
-    # Show the PR curve
-    output_file = "results/pr_curve.png" 
-    plt.savefig(output_file)
-    print(f"✅ PR curve saved to {output_file}")
-
+        output_file = f"results/pr_curve_q{group_qids[0]}-q{group_qids[-1]}.png"
+        plt.savefig(output_file)
+        print(f"✅ PR curve saved to {output_file}")
 
 if __name__ == "__main__":
-    # Run the main function with trec_eval's output
     trec_eval_stdout = sys.stdin.readlines()
-
     main(trec_eval_stdout)
