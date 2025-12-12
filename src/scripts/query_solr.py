@@ -55,15 +55,15 @@ def build_hybrid_params(base_query: str, rows: int) -> dict:
         "lexicalQuery": "{!edismax}" + base_query,
        "qf": (
         "song_lyrics^6 "         
-        "song_name^4 "           
+        "song_name^3 "           
         "artist_name^1 "        
         "artist_bio^2 "        
         "album_name^1 "          
-        "artist_nationality^7 "   
+        "artist_nationality^4 "   
         "song_genre^3"           
         ),
 
-        "pf":  "song_lyrics^9 song_name^6",
+        "pf":  "song_lyrics^9 song_name^2",
         "pf2": "song_lyrics^8 song_name^3 artist_bio^1",
         "pf1": "song_lyrics^3 song_name^1",
         "ps": 3,
