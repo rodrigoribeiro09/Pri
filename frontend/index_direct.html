@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Search - Direct Solr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 Music Search System (Direct)</h1>
+            <p class="subtitle">Direct connection to Solr - Requires CORS enabled</p>
+        </header>
+
+        <div class="search-container">
+            <div class="system-selector">
+                <label for="searchSystem">Search System:</label>
+                <select id="searchSystem">
+                    <option value="simple-simple">Simple Core + Simple Query</option>
+                    <option value="songs-simple">Songs Core + Simple Query</option>
+                    <option value="songs-enhanced">Songs Core + Enhanced Query</option>
+                    <option value="semantic-simple">Semantic Core + Simple Query</option>
+                    <option value="boosted-enhanced">Boosted Core + Enhanced Query</option>
+                </select>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search for songs... (e.g., fear anxiety)">
+                <button onclick="searchSongs()" class="search-button">Search</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Searching...</p>
+        </div>
+
+        <div id="results" class="results"></div>
+    </div>
+
+    <script>
+        // Use direct Solr connection
+        const USE_PROXY = false;
+        const SOLR_BASE_URL = 'http://localhost:8983/solr';
+        const API_BASE_URL = '/api';
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
