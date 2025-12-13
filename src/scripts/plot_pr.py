@@ -2,12 +2,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
-CHUNK_SIZE = 5  # número de queries por gráfico
-
-def chunks(lst, n):
-    """Yield listas de tamanho n a partir de lst."""
-    for i in range(0, len(lst), n):
-        yield lst[i:i + n]
+GROUP_RANGES = [(1, 5), (6, 10), (11, 15), (16, 20)]
 
 def main(trec_eval_stdout: list[str]):
     results = {x: {} for x in set([x.split()[1] for x in trec_eval_stdout])}
@@ -19,9 +14,15 @@ def main(trec_eval_stdout: list[str]):
     if "all" in results:
         del results["all"]
 
-    query_ids = sorted(results.keys(), key=lambda x: int(x))
+    # IDs presentes no trec_eval (como strings)
+    available_qids = set(results.keys())
 
-    for group_idx, group_qids in enumerate(chunks(query_ids, CHUNK_SIZE), start=1):
+    for qmin, qmax in GROUP_RANGES:
+        # constroi a lista de qids deste intervalo que existem de facto
+        group_qids = [str(q) for q in range(qmin, qmax + 1) if str(q) in available_qids]
+        if not group_qids:
+            continue  # nada para este grupo
+
         plt.figure()
 
         for query_id in group_qids:
@@ -44,7 +45,7 @@ def main(trec_eval_stdout: list[str]):
 
             plt.plot(recall, iprecision, **line_kwargs)
 
-        plt.title(f"Precision-Recall Curve (Q{group_qids[0]}–Q{group_qids[-1]})")
+        plt.title(f"Precision-Recall Curve (Q{qmin}–Q{qmax})")
 
         axis_kwargs = {
             "fontsize": 9,
@@ -60,7 +61,7 @@ def main(trec_eval_stdout: list[str]):
         plt.grid(True, linestyle="--", linewidth=0.5)
         plt.tight_layout()
 
-        output_file = f"results/pr_curve_q{group_qids[0]}-q{group_qids[-1]}.png"
+        output_file = f"results/pr_curve_q{qmin}-q{qmax}.png"
         plt.savefig(output_file)
         print(f"✅ PR curve saved to {output_file}")
 

@@ -63,7 +63,10 @@ def split_broken_rows(csv_file):
     print(f"Linhas OK: {len(clean)}")
     print(f"Linhas com erro: {len(broken)} (guardadas em broken_rows.csv)")
 
+
+
 import pandas as pd
+
 
 def get_default_dataset():
   
@@ -74,4 +77,5 @@ def get_default_dataset():
     return 
 
 if __name__ == "__main__":
-    get_default_dataset()
+
+   get_default_dataset()
