@@ -38,39 +38,40 @@ def build_hybrid_params(base_query: str, rows: int) -> dict:
     topK = rows * 10 if rows > 0 else 200  # mais candidatos semânticos
 
     params = {
-        "q": "{!bool must=$lexicalQuery must=$vectorQuery}",
+    "q": "{!bool must=$lexicalQuery must=$vectorQuery}",
 
-        "rows": rows,
-        "wt": "json",
-        "fl": (
-            "id,song_name,artist_name,song_lyrics,artist_bio,"
-            "artist_nationality,song_genre,album_name,score"
-        ),
+    "rows": rows,
+    "wt": "json",
+    "fl": (
+        "id,song_name,artist_name,song_lyrics,artist_bio,"
+        "artist_nationality,song_genre,album_name,score"
+    ),
 
-        "lexicalQuery": "{!edismax}" + base_query,
-        "qf": (
-            "song_lyrics^4 "
-            "song_name^2 "
-            "artist_name^1 "
-            "artist_bio^2 "
-            "album_name^1 "
-            "artist_nationality^20 "
-            "song_genre^20 "
-        ),
+    "lexicalQuery": "{!edismax}" + base_query,
 
+    "qf": (
+        "song_lyrics^4 "
+        "song_name^2 "         
+        "artist_name^2 "        
+        "artist_bio^2 "
+        "album_name^1 "
+        "artist_nationality^15 "
+        "song_genre^15 "
+    ),
 
-        "pf":  "song_lyrics^2 song_name^1 artist_bio^2",
-        "pf2": "song_lyrics^2 song_name^1 artist_bio^2",
+    "pf":  "song_lyrics^3 song_name^1 artist_bio^2",
+    "pf2": "song_lyrics^3 song_name^1 artist_bio^2",
 
-        "pf1": "artist_bio^3 artist_nationality^10 song_genre^10",
+    "pf1": "artist_bio^3 artist_nationality^12 song_genre^12",
 
-        "ps": 3,
-        "ps2": 2,
-        "mm": "75%",
-        "tie": 0.1,
+    "ps": 3,
+    "ps2": 2,
+    "mm": "75%",
+    "tie": 0.1,
 
-        "vectorQuery": f"{{!knn f=vector topK={topK}}}{embedding_str}",
+    "vectorQuery": f"{{!knn f=vector topK={topK}}}{embedding_str}",
     }
+
     return params
 
 

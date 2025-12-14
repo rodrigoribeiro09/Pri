@@ -26,11 +26,15 @@ python3 ./src/startSolr/load_files_solr.py
 ## resultados para terc:
 
 python3 .\src\scripts\solr2trec.py --run-id run1 --input results/solr_output.json > results/trec_run.txt
+python3 ./src/scripts/solr2trec.py --run-id run1 --input results/solr_output.json > results/trec_run.txt
+
 ## Transformar os qrels em terec:
 - aqui tem avaliar os results das voças queries a mão e adicionam os id relevantes ao qrel de cada query
 - Depois:
 
 python3 .\src\scripts/qrels2trec.py --qrels config/qrels > results/qrels.trec
+python3 ./src/scripts/qrels2trec.py --qrels config/qrels > results/qrels.trec
+
 ## Avalie com trec_eval
 - Run this in PRI not in trec_eval
 - If you dont have the trec_eval run makefile

@@ -110,5 +110,6 @@ def build_semantic_json():
 
 
 if __name__ == "__main__":
+    #build_boosted_json()
 
     build_semantic_json()
